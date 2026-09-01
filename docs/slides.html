@@ -1,0 +1,684 @@
+<title>DL 문의 라우터</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<style>
+  /* ── 팔레트: 계측기(instrument) 계열. 중성색은 accent 쪽으로 살짝 편향시켰다 ── */
+  :root {
+    --paper:   #F1F5F5;
+    --surface: #FFFFFF;
+    --sunken:  #E7EDED;
+    --ink:     #131A1C;
+    --muted:   #5C6B6D;
+    --faint:   #8A9799;
+    --line:    #D3DCDC;
+    --hair:    #E3EAEA;
+    --accent:  #0E7C86;
+    --accent-soft: #0E7C8618;
+    --good:    #2E7D52;
+    --warn:    #A96D0C;
+    --risk:    #BE443B;
+
+    --slide-w: 1180px;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper:   #0B1113;
+      --surface: #121A1C;
+      --sunken:  #0E1618;
+      --ink:     #E2EAEA;
+      --muted:   #98A6A8;
+      --faint:   #6C7B7D;
+      --line:    #223032;
+      --hair:    #1A2426;
+      --accent:  #4FBCC4;
+      --accent-soft: #4FBCC422;
+      --good:    #56B583;
+      --warn:    #D69C3C;
+      --risk:    #E0736A;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper:   #0B1113;
+    --surface: #121A1C;
+    --sunken:  #0E1618;
+    --ink:     #E2EAEA;
+    --muted:   #98A6A8;
+    --faint:   #6C7B7D;
+    --line:    #223032;
+    --hair:    #1A2426;
+    --accent:  #4FBCC4;
+    --accent-soft: #4FBCC422;
+    --good:    #56B583;
+    --warn:    #D69C3C;
+    --risk:    #E0736A;
+    color-scheme: dark;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "IBM Plex Sans KR", -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", sans-serif;
+    font-size: 15px;
+    line-height: 1.62;
+    -webkit-font-smoothing: antialiased;
+  }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+  /* ── 페이지 머리 ── */
+  .masthead {
+    max-width: var(--slide-w);
+    margin: 0 auto;
+    padding: 40px 28px 22px;
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .masthead h1 {
+    font-family: "Gowun Batang", "Apple SD Gothic Neo", serif;
+    font-weight: 700;
+    font-size: 27px;
+    letter-spacing: -0.01em;
+    margin: 0;
+    line-height: 1.25;
+  }
+  .masthead .meta {
+    margin-left: auto;
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 11.5px;
+    color: var(--faint);
+    text-align: right;
+    line-height: 1.75;
+    letter-spacing: 0.02em;
+  }
+
+  /* 시그니처 그래픽: A~J 레이블 확률 스트립 */
+  .strip { display: flex; gap: 3px; align-items: flex-end; height: 26px; }
+  .strip i { width: 7px; background: var(--accent); border-radius: 1px; display: block; }
+
+  /* ── 슬라이드 ── */
+  .deck { max-width: var(--slide-w); margin: 0 auto; padding: 0 28px 72px; }
+
+  .slide {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    display: grid;
+    grid-template-columns: 62px minmax(0, 1fr);
+    margin-bottom: 14px;
+  }
+  .rail {
+    border-right: 1px solid var(--hair);
+    padding: 26px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+  }
+  .rail .num {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--accent);
+    line-height: 1;
+  }
+  .rail .track {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 10.5px;
+    letter-spacing: 0.16em;
+    color: var(--faint);
+    writing-mode: vertical-rl;
+    text-transform: uppercase;
+  }
+  .body { padding: 30px 38px 34px; min-width: 0; }
+
+  .slide h2 {
+    font-family: "Gowun Batang", serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.3;
+    letter-spacing: -0.01em;
+    margin: 0 0 4px;
+    text-wrap: balance;
+  }
+  .slide .deck-sub {
+    color: var(--muted);
+    font-size: 14px;
+    margin: 0 0 24px;
+    max-width: 62ch;
+  }
+
+  h3 {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: var(--faint);
+    margin: 0 0 10px;
+    font-family: "IBM Plex Mono", monospace;
+  }
+
+  p { margin: 0 0 10px; }
+  .slide p, .slide li { max-width: 66ch; }
+  strong { font-weight: 600; }
+  .em { color: var(--accent); font-weight: 600; }
+
+  /* ── 발표 노트 ── */
+  .notes {
+    max-width: var(--slide-w);
+    margin: -8px auto 30px;
+    padding: 0 28px;
+  }
+  .notes-in {
+    border-left: 2px solid var(--accent);
+    background: var(--accent-soft);
+    padding: 12px 18px;
+    border-radius: 0 3px 3px 0;
+    font-size: 13.5px;
+    color: var(--muted);
+  }
+  .notes-in b {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 10.5px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 500;
+  }
+
+  /* ── 공통 조각 ── */
+  .cols { display: grid; gap: 30px; }
+  .cols.two { grid-template-columns: 1fr 1fr; }
+  .cols.side { grid-template-columns: 1.35fr 1fr; }
+
+  .kpis {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: var(--hair);
+    border: 1px solid var(--hair);
+    margin: 0 0 24px;
+  }
+  .kpi { background: var(--surface); padding: 14px 16px; }
+  .kpi .v {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 1.05;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.02em;
+  }
+  .kpi .k { font-size: 12px; color: var(--muted); margin-top: 5px; }
+  .kpi .n { font-size: 11.5px; color: var(--faint); margin-top: 1px; }
+  .kpi.hero .v { color: var(--accent); }
+
+  ul.tight { margin: 0; padding-left: 17px; }
+  ul.tight li { margin-bottom: 7px; }
+  ul.tight li::marker { color: var(--faint); }
+
+  table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+  th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--hair); }
+  th {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 10.5px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--faint);
+    font-weight: 500;
+    border-bottom: 1px solid var(--line);
+  }
+  td.n, th.n { text-align: right; font-family: "IBM Plex Mono", monospace; font-variant-numeric: tabular-nums; }
+  tr.lead td { background: var(--accent-soft); font-weight: 600; }
+  tbody tr:last-child td { border-bottom: none; }
+  .scroll { overflow-x: auto; }
+
+  code, .mono { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 0.9em; }
+  code { background: var(--sunken); padding: 1px 5px; border-radius: 2px; }
+
+  figure { margin: 0; }
+  figure svg { width: 100%; height: auto; display: block; }
+  figcaption {
+    font-size: 12.5px;
+    color: var(--muted);
+    margin-top: 10px;
+    padding-top: 9px;
+    border-top: 1px solid var(--hair);
+  }
+
+  .split-note {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: var(--hair);
+    border: 1px solid var(--hair);
+    font-size: 13px;
+  }
+  .split-note div { background: var(--surface); padding: 11px 14px; }
+  .split-note .t {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 3px;
+  }
+  .split-note .c { color: var(--muted); font-size: 12.5px; }
+
+  .finding { margin-bottom: 17px; }
+  .finding .h {
+    font-weight: 600;
+    font-size: 14.5px;
+    margin-bottom: 3px;
+    display: flex;
+    gap: 9px;
+    align-items: baseline;
+  }
+  .finding .h .mark {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 11px;
+    color: var(--surface);
+    background: var(--ink);
+    padding: 1px 6px;
+    border-radius: 2px;
+    flex: none;
+    font-weight: 500;
+  }
+  .finding .h .mark.up { background: var(--good); }
+  .finding .h .mark.down { background: var(--risk); }
+  .finding .h .mark.flat { background: var(--faint); }
+  .finding p { font-size: 13.5px; color: var(--muted); margin: 0; }
+
+  .spec {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-bottom: 20px;
+  }
+  .spec span {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 11.5px;
+    border: 1px solid var(--line);
+    border-radius: 2px;
+    padding: 4px 9px;
+    color: var(--muted);
+  }
+  .spec span b { color: var(--ink); font-weight: 500; }
+
+  footer {
+    max-width: var(--slide-w);
+    margin: 0 auto;
+    padding: 0 28px 60px;
+    font-size: 12.5px;
+    color: var(--faint);
+    display: flex;
+    gap: 22px;
+    flex-wrap: wrap;
+    border-top: 1px solid var(--hair);
+    padding-top: 18px;
+  }
+  footer .mono { color: var(--muted); }
+
+  @media (max-width: 880px) {
+    .cols.two, .cols.side { grid-template-columns: 1fr; gap: 24px; }
+    .kpis { grid-template-columns: repeat(2, 1fr); }
+    .split-note { grid-template-columns: 1fr; }
+    .slide { grid-template-columns: 44px minmax(0, 1fr); }
+    .body { padding: 24px 20px 28px; }
+    .masthead, .deck, .notes, footer { padding-left: 16px; padding-right: 16px; }
+  }
+</style>
+
+<header class="masthead">
+  <div>
+    <div class="strip" aria-hidden="true">
+      <i style="height:100%"></i><i style="height:34%"></i><i style="height:18%"></i>
+      <i style="height:52%"></i><i style="height:12%"></i><i style="height:26%"></i>
+      <i style="height:16%"></i><i style="height:40%"></i><i style="height:22%"></i>
+      <i style="height:62%"></i>
+    </div>
+    <h1 style="margin-top:14px">사내 메일링그룹(DL) 문의 대응 에이전트</h1>
+  </div>
+  <div class="meta">
+    W7 최종 발표 · 에이전트 트랙<br>
+    LangGraph · Qwen3-4B-Q4_K_M · llama-server<br>
+    2025-09-02
+  </div>
+</header>
+
+<main class="deck">
+
+  <!-- ══════════════ 1 ══════════════ -->
+  <section class="slide">
+    <div class="rail"><span class="num">1</span><span class="track">요약</span></div>
+    <div class="body">
+      <h2>DL 문의를 10개 시나리오로 분류하고, 정해진 액션을 대신 수행한다</h2>
+      <p class="deck-sub">
+        담당자에게 오는 메일링그룹 문의를 읽고 <strong>고정 응답 · 기안 결재 접수 · 담당 채널 메일 전달</strong>
+        중 하나를 실행한다. 도구는 전부 스텁(모의 호출)이라 실제 부작용이 없다.
+      </p>
+
+      <div class="kpis">
+        <div class="kpi hero">
+          <div class="v">0.740</div>
+          <div class="k">테스트셋 분류 정확도</div>
+          <div class="n">macro-F1 0.760 · n=100</div>
+        </div>
+        <div class="kpi hero">
+          <div class="v">0.740</div>
+          <div class="k">End-to-End 성공률</div>
+          <div class="n">분류 ∧ 도구 ∧ 인자 ∧ 응답</div>
+        </div>
+        <div class="kpi">
+          <div class="v">0.000</div>
+          <div class="k">출력 파싱 실패율</div>
+          <div class="n">문법 강제로 구조적 보장</div>
+        </div>
+        <div class="kpi">
+          <div class="v">371<span style="font-size:15px;color:var(--muted)">ms</span></div>
+          <div class="k">분류 지연 p50</div>
+          <div class="n">로컬 4B · Apple Silicon</div>
+        </div>
+      </div>
+
+      <div class="cols side">
+        <div>
+          <h3>설계의 한 문장</h3>
+          <p>
+            경량 LLM에게는 <span class="em">10-way 분류 하나만</span> 시키고,
+            슬롯 추출은 정규식, 도구 선택은 매핑 표, 응답은 가이드 문구 템플릿으로 처리했다.
+            그래서 분류 정확도가 곧 시스템 성능의 상한이 되고
+            <strong>(0.740 = 0.740)</strong>, 4B 모델이 링크·메일주소·정책을 지어낼 경로 자체가 없다.
+          </p>
+          <p style="margin-bottom:0">
+            확신도가 <code>τ=0.7</code> 미만이면 자동 처리를 포기하고 관리자에게 넘긴다.
+            이 기권 정책으로 <strong>틀린 안내를 자동 발송한 비율이 0.270 → 0.180</strong>으로 줄었다.
+          </p>
+        </div>
+        <div>
+          <h3>학습 / 평가 데이터 분리</h3>
+          <div class="split-note">
+            <div>
+              <div class="t">train 60</div>
+              <div class="c">few-shot 예시 풀, 규칙 베이스라인 작성</div>
+            </div>
+            <div>
+              <div class="t">val 40</div>
+              <div class="c">프롬프트·few-shot·임계값 τ 선택</div>
+            </div>
+            <div>
+              <div class="t">test 100</div>
+              <div class="c">최종 측정 1회. 설계 결정에 미사용</div>
+            </div>
+          </div>
+          <p style="font-size:13px;color:var(--muted);margin:11px 0 0">
+            직접 작성한 200문항을 <strong>시나리오(10) × 난이도(3)</strong> 이중 층화로 분할(시드 고정).
+            파라미터 학습은 없으므로 "학습 데이터"는 <em>설계 선택에 쓴 데이터</em>를 뜻한다.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="notes"><div class="notes-in">
+    <b>발표 노트 · 약 2분</b>
+    도입은 “무엇을 하는가”와 “왜 4B로 충분한가” 두 문장이면 된다. 숫자 네 개 중
+    <strong>파싱 실패율 0.000</strong>을 먼저 짚으면 다음 장의 문법 강제 설명이 자연스럽게 이어진다.
+    데이터 분리는 여기서 한 번 못 박고 3장에서 다시 언급하지 않는다.
+  </div></div>
+
+  <!-- ══════════════ 2 ══════════════ -->
+  <section class="slide">
+    <div class="rail"><span class="num">2</span><span class="track">구성</span></div>
+    <div class="body">
+      <h2>LLM은 파이프라인에서 단 한 노드에만 있다</h2>
+      <p class="deck-sub">
+        분류를 자유 생성이 아니라 <strong>단일 토큰 선택</strong> 문제로 바꿨다. GBNF 문법
+        <code>root ::= [A-J]</code>로 출력 어휘를 10글자로 제한하고, 그 한 토큰의
+        <code>logprobs</code>를 받아 시나리오 10개의 확률분포로 재정규화한다.
+      </p>
+
+      <div class="spec">
+        <span>모델 <b>Qwen3-4B</b></span>
+        <span>양자화 <b>Q4_K_M (GGUF, 2.3GB)</b></span>
+        <span>서빙 <b>llama-server</b></span>
+        <span>오케스트레이션 <b>LangGraph</b></span>
+        <span>생성 토큰 <b>1개</b></span>
+        <span>thinking <b>off</b></span>
+      </div>
+
+      <figure>
+        <svg viewBox="0 0 920 268" role="img"
+             aria-label="문의가 ingest에서 슬롯 추출을 거쳐 classify 노드로 가고, classify만 Qwen3-4B를 사용한다. 라우팅 분기가 고정 응답, 기안 결재, 메일 전달 셋 중 하나로 보내며, 확신도가 임계값 미만이면 기권해 메일 전달로 간다. 세 갈래는 compose에서 합쳐져 회신된다.">
+          <defs>
+            <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5"
+                    markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M 0 1 L 9 5 L 0 9 z" fill="currentColor"/>
+            </marker>
+            <marker id="ah-a" viewBox="0 0 10 10" refX="9" refY="5"
+                    markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M 0 1 L 9 5 L 0 9 z" fill="var(--accent)"/>
+            </marker>
+          </defs>
+
+          <g fill="none" stroke="currentColor" stroke-width="1.25" opacity="0.85">
+            <rect x="8"   y="112" width="76"  height="44" rx="3"/>
+            <rect x="112" y="112" width="112" height="44" rx="3"/>
+            <rect x="504" y="26"  width="160" height="44" rx="3"/>
+            <rect x="504" y="112" width="160" height="44" rx="3"/>
+            <rect x="504" y="198" width="160" height="44" rx="3"/>
+            <rect x="700" y="112" width="120" height="44" rx="3"/>
+            <rect x="848" y="112" width="64"  height="44" rx="3"/>
+          </g>
+
+          <!-- classify: 유일한 LLM 노드 -->
+          <rect x="252" y="104" width="146" height="60" rx="3"
+                fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="1.75"/>
+          <!-- 라우팅 게이트 -->
+          <polygon points="460,104 494,134 460,164 426,134"
+                   fill="none" stroke="currentColor" stroke-width="1.25" opacity="0.85"/>
+
+          <g fill="currentColor" font-family="IBM Plex Sans KR, sans-serif" font-size="12.5" text-anchor="middle">
+            <text x="46"  y="139">문의</text>
+            <text x="168" y="132">ingest</text>
+            <text x="584" y="53">고정 응답</text>
+            <text x="584" y="139">기안 결재</text>
+            <text x="584" y="225">메일 전달</text>
+            <text x="760" y="132">compose</text>
+            <text x="880" y="139">회신</text>
+          </g>
+          <g fill="currentColor" font-family="IBM Plex Mono, monospace" font-size="10" text-anchor="middle" opacity="0.62">
+            <text x="168" y="147">슬롯 추출 · 정규식</text>
+            <text x="584" y="66">시나리오 2·3·4·5</text>
+            <text x="584" y="152">시나리오 1·8·9</text>
+            <text x="584" y="238">시나리오 6·7·10</text>
+            <text x="760" y="147">템플릿 + 도구 결과</text>
+          </g>
+
+          <text x="325" y="128" fill="var(--accent)" text-anchor="middle"
+                font-family="IBM Plex Sans KR, sans-serif" font-size="13" font-weight="600">classify</text>
+          <text x="325" y="145" fill="var(--accent)" text-anchor="middle"
+                font-family="IBM Plex Mono, monospace" font-size="10">Qwen3-4B · 문법 강제</text>
+          <text x="460" y="138" fill="currentColor" text-anchor="middle"
+                font-family="IBM Plex Mono, monospace" font-size="10">라우팅</text>
+
+          <!-- 주 흐름 -->
+          <g stroke="currentColor" stroke-width="1.25" fill="none" marker-end="url(#ah)" opacity="0.85">
+            <line x1="84"  y1="134" x2="106" y2="134"/>
+            <line x1="224" y1="134" x2="246" y2="134"/>
+            <line x1="398" y1="134" x2="420" y2="134"/>
+            <path d="M 470 110 L 470 48 L 498 48"/>
+            <line x1="494" y1="134" x2="498" y2="134"/>
+            <path d="M 470 158 L 470 220 L 498 220"/>
+            <path d="M 664 48  L 686 48  L 686 134 L 694 134"/>
+            <line x1="664" y1="134" x2="694" y2="134"/>
+            <path d="M 664 220 L 686 220 L 686 134 L 694 134"/>
+            <line x1="820" y1="134" x2="842" y2="134"/>
+          </g>
+
+          <!-- 기권 경로 -->
+          <path d="M 300 164 L 300 252 L 498 252 L 498 236"
+                fill="none" stroke="var(--accent)" stroke-width="1.5"
+                stroke-dasharray="5 4" marker-end="url(#ah-a)"/>
+          <text x="372" y="248" fill="var(--accent)"
+                font-family="IBM Plex Mono, monospace" font-size="10.5">확신도 &lt; τ=0.7 → 기권</text>
+
+          <g fill="currentColor" font-family="IBM Plex Mono, monospace" font-size="9.5" opacity="0.55">
+            <text x="86"  y="106">문의 원문</text>
+            <text x="232" y="106">DL코드·메일·시각</text>
+            <text x="404" y="106">A~J + 확률</text>
+          </g>
+        </svg>
+        <figcaption>
+          문의 한 건이 지나는 경로. <strong>실선은 결정론적 처리</strong>이고, 색이 들어간 노드 하나만이
+          모델 추론이다. 점선은 확신이 부족할 때 자동 처리를 포기하고 관리자 전달로 빠지는 경로다.
+        </figcaption>
+      </figure>
+
+      <div class="cols two" style="margin-top:26px">
+        <div>
+          <h3>왜 단일 토큰 + 문법 강제인가</h3>
+          <ul class="tight" style="font-size:13.5px">
+            <li><strong>파싱 실패가 구조적으로 0.</strong> JSON을 뱉게 하고 정규식으로 긁는 방식은 소형 모델에서 포맷이 무너지지만, 문법에 맞지 않는 토큰은 샘플링 단계에서 제거된다.</li>
+            <li><strong>진짜 확률분포를 얻는다.</strong> “확신도를 숫자로 말해봐”라는 자기보고가 아니라 실제 디코딩 분포다. 기권 정책이 여기서 나온다.</li>
+            <li><strong>지연이 프롬프트 처리에 수렴한다.</strong> 생성 토큰이 1개이고 시스템 프롬프트 KV는 캐시된다.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>역할 분담</h3>
+          <div class="scroll"><table>
+            <thead><tr><th>일</th><th>담당</th></tr></thead>
+            <tbody>
+              <tr><td>시나리오 분류</td><td class="em">Qwen3-4B</td></tr>
+              <tr><td>DL코드·메일·시각 추출</td><td>정규식</td></tr>
+              <tr><td>도구 선택 · 인자 구성</td><td>매핑 표</td></tr>
+              <tr><td>응답 문장</td><td>가이드 문구 템플릿</td></tr>
+            </tbody>
+          </table></div>
+          <p style="font-size:13px;color:var(--muted);margin-top:10px">
+            LLM의 오류가 파이프라인 뒤쪽으로 번지지 않는다. 디버깅 대상이 한 곳으로 좁혀진다.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="notes"><div class="notes-in">
+    <b>발표 노트 · 약 3분</b>
+    도식은 <strong>“색칠된 노드가 하나뿐”</strong>이라는 점만 짚으면 된다. 이어서 문법 강제를 설명하고,
+    “그래서 확률을 공짜로 얻고, 그 확률로 기권한다”로 3장의 기권 지표에 연결한다.
+    점선 경로를 손으로 짚으면서 넘어가면 흐름이 끊기지 않는다.
+  </div></div>
+
+  <!-- ══════════════ 3 ══════════════ -->
+  <section class="slide">
+    <div class="rail"><span class="num">3</span><span class="track">평가</span></div>
+    <div class="body">
+      <h2>무엇을 재야 하는가 — 분류 정확도 하나로는 에이전트를 평가할 수 없다</h2>
+      <p class="deck-sub">
+        에이전트는 분류만 하는 게 아니라 도구를 부르고 응답을 만든다. 그래서 파이프라인 단계마다
+        지표를 두고, 문항마다 <strong>그래프 전체를 한 번씩 실행</strong>해 채점했다.
+      </p>
+
+      <div class="cols side">
+        <div>
+          <h3>테스트셋 100문항 · 최종 1회</h3>
+          <div class="scroll"><table>
+            <thead>
+              <tr>
+                <th>시스템</th><th class="n">분류 acc</th><th class="n">macro-F1</th>
+                <th class="n">도구 집합</th><th class="n">E2E</th><th class="n">위험 오류율</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="lead">
+                <td>Qwen3-4B · τ=0.7</td><td class="n">0.740</td><td class="n">0.760</td>
+                <td class="n">0.790</td><td class="n">0.740</td><td class="n">0.180</td>
+              </tr>
+              <tr>
+                <td>Qwen3-4B · τ=0</td><td class="n">0.730</td><td class="n">0.740</td>
+                <td class="n">0.790</td><td class="n">0.730</td><td class="n">0.270</td>
+              </tr>
+              <tr>
+                <td>qwen2.5:7b (참조)</td><td class="n">0.730</td><td class="n">0.722</td>
+                <td class="n">0.740</td><td class="n">0.730</td><td class="n">0.270</td>
+              </tr>
+              <tr>
+                <td>규칙 베이스라인</td><td class="n">0.690</td><td class="n">0.724</td>
+                <td class="n">0.750</td><td class="n">0.690</td><td class="n">0.310</td>
+              </tr>
+            </tbody>
+          </table></div>
+          <p style="font-size:12.5px;color:var(--faint);margin-top:9px">
+            95% 신뢰구간(Wilson): 제안 [0.646, 0.816] · 베이스라인 [0.594, 0.772].
+            <strong style="color:var(--muted)">겹친다 — n=100에서 5%p 차이로 우열을 단정할 수 없다.</strong>
+          </p>
+        </div>
+        <div>
+          <h3>지표를 계층으로 나눈 이유</h3>
+          <ul class="tight" style="font-size:13.5px">
+            <li><strong>액션 정확도(3-way)</strong> — 1↔8을 헷갈려도 둘 다 “기안 결재”라 사용자 피해가 작다. 오류의 <em>심각도</em>를 구분한다.</li>
+            <li><strong>도구 집합 · 인자 정확도</strong> — tool call이 몇 번 일어났는지를 정오와 함께 본다. 기대 도구는 문의에 실제로 DL 코드가 있을 때만 조회 도구를 포함한다.</li>
+            <li><strong>위험 오류율</strong> — 기권하지 않고 자동 처리했는데 틀린 비율. 헬프데스크에서 가장 비싼 실패다.</li>
+          </ul>
+        </div>
+      </div>
+
+      <hr style="border:none;border-top:1px solid var(--hair);margin:26px 0 22px">
+
+      <h3>왜 그렇게 나왔나</h3>
+      <div class="cols two">
+        <div>
+          <div class="finding">
+            <div class="h"><span class="mark up">+15%p</span><span>판별 규칙 한 문단이 few-shot보다 컸다</span></div>
+            <p>레이블 정의만 준 v0(0.750) → 헷갈리는 쌍의 경계를 문장으로 써준 v1(0.900). 4B는 지식이 부족한 게 아니라 <strong>판단 기준을 못 받았던</strong> 것이다.</p>
+          </div>
+          <div class="finding">
+            <div class="h"><span class="mark down">−10%p</span><span>few-shot은 늘릴수록 나빠졌다</span></div>
+            <p>k=0 → 10 → 20에서 0.900 → 0.850 → 0.800. 예시가 늘면 모델이 규칙 적용 대신 <strong>표면 유사도 검색</strong>으로 전략을 바꾼다. “동적 메일링그룹 생성 요청드립니다”(정답 8)를 zero-shot은 맞히고 k=10은 틀렸다.</p>
+          </div>
+          <div class="finding">
+            <div class="h"><span class="mark flat">±0%p</span><span>오답을 보고 쓴 프롬프트 처방은 듣지 않았다</span></div>
+            <p>val 오답에서 “업무 문의를 기타로 흘림” 패턴을 보고 금지 문장을 추가했는데, <strong>튜닝한 바로 그 val에서조차 한 문항도 바꾸지 못했다.</strong> 진단이 틀리면 처방은 무효다.</p>
+          </div>
+        </div>
+        <div>
+          <div class="finding">
+            <div class="h"><span class="mark down">44%</span><span>오답의 절반 가까이가 확신도 0.95 이상</span></div>
+            <p>오답 27건 중 12건이 확신도 0.95↑, 다수가 1.00이었다. 문법으로 강제된 분포는 “A~J 중 무엇이냐”의 확률이지 <strong>“애초에 A~J로 답할 문제가 맞느냐”의 확률이 아니다.</strong> 그래서 임계값을 올려도 위험 오류율이 0.180 아래로 안 내려간다.</p>
+          </div>
+          <div class="finding">
+            <div class="h"><span class="mark down">−17%p</span><span>val 0.900 → test 0.730</span></div>
+            <p>val을 test의 난이도 구성으로 재가중하면 0.885 — <strong>구성 차이 기여는 1.5%p뿐</strong>이다. 나머지는 레이블 정의를 val 문항에 맞게 넓힌 과적합과 val의 작은 표본(n=40, 한 문항 = 2.5%p)에서 왔다.</p>
+          </div>
+          <div class="finding">
+            <div class="h"><span class="mark">진단</span><span>가장 큰 오류 덩어리는 레이블 설계 문제</span></div>
+            <p>오분류의 37%가 실제 업무 문의를 10번(기타)으로 흘린 것이고, 시나리오 10의 <strong>정밀도는 0.33</strong>이다. 1~9는 “무엇에 관한 문의인가”로 정의되는데 10만 “나머지”라, 모델에게 10은 내용이 아니라 <em>확신 없음</em>의 표현이 된다. 프롬프트가 아니라 <strong>레이블을 쪼개야</strong> 한다.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="notes"><div class="notes-in">
+    <b>발표 노트 · 약 4분 (핵심 아젠다)</b>
+    앞의 표보다 <strong>“왜 그렇게 나왔나” 여섯 항목</strong>에 시간을 더 쓴다. 특히
+    <em>±0%p 항목</em>과 <em>확신도 44% 항목</em>은 이번 실험에서 가장 값진 결과다 —
+    성능 숫자가 아니라 “프롬프트 수정은 반드시 ablation으로 기여도를 따로 재야 한다”는 방법론적 결론.
+    베이스라인 대비 우위가 신뢰구간 안에 있다는 점을 스스로 먼저 말하는 편이 낫다.
+  </div></div>
+
+</main>
+
+<footer>
+  <span class="mono">벤치마크 200문항 · train 60 / val 40 / test 100 · 시드 고정</span>
+  <span class="mono">도구는 전부 스텁 — 실제 결재·메일 발송 없음</span>
+  <span class="mono">재현: ./scripts/run_eval.sh</span>
+</footer>

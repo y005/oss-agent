@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>DL 문의 대응 에이전트</title>
+<style>
+  :root {
+    --bg: #0f1115;
+    --panel: #161a21;
+    --panel-2: #1c212a;
+    --line: #262c37;
+    --text: #e6e9ef;
+    --muted: #8b94a5;
+    --accent: #5b9dff;
+    --ok: #3fb950;
+    --warn: #d29922;
+    --bad: #f85149;
+    --radius: 10px;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard",
+                 "Malgun Gothic", sans-serif;
+    font-size: 14px; line-height: 1.6;
+  }
+  header {
+    display: flex; align-items: center; gap: 12px;
+    padding: 14px 20px; border-bottom: 1px solid var(--line); background: var(--panel);
+  }
+  header h1 { font-size: 15px; margin: 0; font-weight: 650; letter-spacing: -0.2px; }
+  header .sub { color: var(--muted); font-size: 12px; }
+  #status { margin-left: auto; font-size: 12px; color: var(--muted); display: flex; gap: 8px; align-items: center; }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--muted); }
+  .dot.on { background: var(--ok); } .dot.off { background: var(--bad); }
+
+  main { display: grid; grid-template-columns: minmax(0,1fr) 380px; height: calc(100vh - 57px); }
+  @media (max-width: 900px) { main { grid-template-columns: 1fr; height: auto; } }
+
+  #chat { display: flex; flex-direction: column; min-width: 0; }
+  #log { flex: 1; overflow-y: auto; padding: 20px; display: flex; flex-direction: column; gap: 14px; }
+  .msg { max-width: 720px; padding: 12px 15px; border-radius: var(--radius); white-space: pre-wrap; word-break: break-word; }
+  .msg.user { align-self: flex-end; background: #24406b; }
+  .msg.bot { align-self: flex-start; background: var(--panel); border: 1px solid var(--line); }
+  .msg.bot .tag { display: inline-block; font-size: 11px; color: var(--muted); margin-bottom: 6px; }
+  .msg a { color: var(--accent); word-break: break-all; }
+  .empty { color: var(--muted); font-size: 13px; }
+  .examples { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+  .examples button {
+    background: var(--panel-2); border: 1px solid var(--line); color: var(--text);
+    padding: 7px 11px; border-radius: 999px; font-size: 12px; cursor: pointer; font-family: inherit;
+  }
+  .examples button:hover { border-color: var(--accent); }
+
+  #composer { display: flex; gap: 10px; padding: 14px 20px; border-top: 1px solid var(--line); background: var(--panel); }
+  #input {
+    flex: 1; resize: none; background: var(--panel-2); border: 1px solid var(--line);
+    color: var(--text); border-radius: var(--radius); padding: 11px 13px;
+    font-family: inherit; font-size: 14px; line-height: 1.5; max-height: 140px;
+  }
+  #input:focus { outline: none; border-color: var(--accent); }
+  #send {
+    background: var(--accent); color: #08111f; border: 0; border-radius: var(--radius);
+    padding: 0 20px; font-weight: 650; cursor: pointer; font-family: inherit; font-size: 14px;
+  }
+  #send:disabled { opacity: .5; cursor: default; }
+
+  aside { border-left: 1px solid var(--line); background: var(--panel); overflow-y: auto; padding: 18px; }
+  aside h2 { font-size: 12px; text-transform: uppercase; letter-spacing: .6px; color: var(--muted); margin: 0 0 10px; font-weight: 600; }
+  .card { background: var(--panel-2); border: 1px solid var(--line); border-radius: var(--radius); padding: 13px; margin-bottom: 14px; }
+  .card .k { color: var(--muted); font-size: 12px; }
+  .headline { font-size: 15px; font-weight: 650; margin: 2px 0 8px; }
+  .pill { display: inline-block; font-size: 11px; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); }
+  .pill.draft { color: #d2a8ff; border-color: #493a63; }
+  .pill.fixed { color: #7ee787; border-color: #2f5b38; }
+  .pill.mail  { color: #ffa657; border-color: #6b4526; }
+  .pill.warn  { color: var(--warn); border-color: #6b5320; }
+
+  .bar { display: grid; grid-template-columns: 22px 1fr 46px; gap: 8px; align-items: center; margin: 5px 0; font-size: 12px; }
+  .bar .track { height: 6px; background: #0d1117; border-radius: 3px; overflow: hidden; }
+  .bar .fill { height: 100%; background: var(--accent); }
+  .bar.dim .fill { background: #3d4757; }
+  .bar .val { text-align: right; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .barname { font-size: 11px; color: var(--muted); margin-left: 30px; margin-top: -4px; }
+
+  pre { margin: 6px 0 0; background: #0d1117; border: 1px solid var(--line); border-radius: 8px;
+        padding: 10px; font-size: 11.5px; overflow-x: auto; color: #c9d1d9;
+        font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+  ol.trace { margin: 0; padding-left: 18px; font-size: 12px; color: #b9c1d0; }
+  ol.trace li { margin: 3px 0; }
+  .tool { border-left: 2px solid var(--accent); padding-left: 9px; margin: 9px 0; }
+  .tool .name { font-family: ui-monospace, Menlo, monospace; font-size: 12px; color: var(--accent); }
+</style>
+</head>
+<body>
+<header>
+  <h1>DL 문의 대응 에이전트</h1>
+  <span class="sub">LangGraph · Qwen3-4B-Q4_K_M (llama-server)</span>
+  <div id="status"><span class="dot" id="dot"></span><span id="statustext">확인 중…</span></div>
+</header>
+
+<main>
+  <section id="chat">
+    <div id="log">
+      <div class="empty">
+        사내 메일링그룹(DL) 문의를 입력하세요. 10개 시나리오로 분류한 뒤
+        고정 응답 · 기안 결재 · 메일 전달 중 하나를 수행합니다.
+        <div class="examples" id="examples"></div>
+      </div>
+    </div>
+    <div id="composer">
+      <textarea id="input" rows="1" placeholder="문의 내용을 입력하세요 (Enter 전송 / Shift+Enter 줄바꿈)"></textarea>
+      <button id="send">전송</button>
+    </div>
+  </section>
+
+  <aside>
+    <h2>판단 근거</h2>
+    <div id="panel"><div class="card"><span class="k">아직 처리한 문의가 없습니다.</span></div></div>
+  </aside>
+</main>
+
+<script>
+const EXAMPLES = [
+  "DL 이름에 오타가 있어서 수정 부탁드립니다.",
+  "조직 DL에서 파견직 인원을 제외하고 싶어요.",
+  "실수로 DL을 삭제했는데 복구 가능할까요?",
+  "DL345678 로 외부 메일이 안 들어옵니다.",
+  "DL 주소를 보내는 사람으로 지정하고 싶습니다.",
+  "전체 메일링그룹 조회 메뉴에 권한이 없다고 나옵니다.",
+  "법인 정규직 전체가 자동으로 들어가는 DL을 만들 수 있나요?",
+  "DL open API ACL 신청은 어디서 하나요?",
+  "사내 VPN 접속이 안 되는데 어디에 문의하나요?",
+];
+
+const $ = (id) => document.getElementById(id);
+const log = $("log"), input = $("input"), send = $("send"), panel = $("panel");
+
+const ACTION_LABEL = {
+  fixed_response: ["고정 응답", "fixed"],
+  draft_approval: ["기안 결재", "draft"],
+  forward_mail:   ["메일 전달", "mail"],
+};
+
+function esc(s) {
+  return String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+}
+function linkify(s) {
+  return esc(s).replace(/(https?:\/\/[^\s)]+)/g, '<a href="$1" target="_blank" rel="noopener">$1</a>');
+}
+
+function addMsg(role, text, tag) {
+  log.querySelector(".empty")?.remove();
+  const el = document.createElement("div");
+  el.className = "msg " + role;
+  el.innerHTML = (tag ? `<span class="tag">${esc(tag)}</span>\n` : "") + linkify(text);
+  log.appendChild(el);
+  log.scrollTop = log.scrollHeight;
+  return el;
+}
+
+function renderPanel(d) {
+  const [actName, actCls] = ACTION_LABEL[d.action] || [d.action, ""];
+  const bars = (d.top_probs || []).map((p, i) => `
+    <div class="bar${i ? " dim" : ""}">
+      <span>${esc(p.label)}</span>
+      <span class="track"><span class="fill" style="width:${(p.prob * 100).toFixed(1)}%;${i ? "opacity:.45" : ""}"></span></span>
+      <span class="val">${(p.prob * 100).toFixed(1)}%</span>
+    </div>
+    <div class="barname">${esc(p.scenario)}. ${esc(p.name)}</div>`).join("");
+
+  const tools = (d.tool_calls || []).length
+    ? d.tool_calls.map((t) => `
+        <div class="tool">
+          <div class="name">${esc(t.name)}()</div>
+          <pre>${esc(JSON.stringify(t.args, null, 2))}</pre>
+          <pre>${esc(JSON.stringify(t.result, null, 2))}</pre>
+        </div>`).join("")
+    : '<span class="k">호출된 도구 없음 (고정 응답)</span>';
+
+  const slots = Object.keys(d.slots || {}).length
+    ? `<pre>${esc(JSON.stringify(d.slots, null, 2))}</pre>`
+    : '<span class="k">추출된 슬롯 없음</span>';
+
+  panel.innerHTML = `
+    <div class="card">
+      <span class="k">분류 결과</span>
+      <div class="headline">${d.scenario}. ${esc(d.scenario_name)}</div>
+      <span class="pill ${actCls}">${esc(actName)}</span>
+      ${d.abstained ? '<span class="pill warn">확신 부족 → 기권</span>' : ""}
+      <span class="pill">${d.elapsed_ms.toFixed(0)} ms</span>
+    </div>
+    <div class="card"><span class="k">레이블 확률분포 (상위 4)</span>${bars}</div>
+    <div class="card"><span class="k">추출 슬롯</span>${slots}</div>
+    <div class="card"><span class="k">도구 호출 (전부 스텁)</span>${tools}</div>
+    <div class="card"><span class="k">실행 경로</span>
+      <ol class="trace">${(d.trace || []).map((t) => `<li>${esc(t)}</li>`).join("")}</ol>
+    </div>`;
+}
+
+async function submit() {
+  const text = input.value.trim();
+  if (!text) return;
+  addMsg("user", text);
+  input.value = ""; input.style.height = "auto";
+  send.disabled = true;
+  const pending = addMsg("bot", "분류 중…");
+
+  try {
+    const res = await fetch("/api/chat", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ message: text }),
+    });
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    const d = await res.json();
+    pending.innerHTML =
+      `<span class="tag">${d.scenario}. ${esc(d.scenario_name)} · 확신도 ${(d.confidence * 100).toFixed(0)}% · ${d.elapsed_ms.toFixed(0)}ms</span>\n` +
+      linkify(d.response.replace(/^\[분류\][^\n]*\n\n/, ""));
+    renderPanel(d);
+  } catch (e) {
+    pending.textContent = "오류: " + e.message + "\nllama-server 가 떠 있는지 확인하세요 (./scripts/serve_llm.sh)";
+  } finally {
+    send.disabled = false;
+    input.focus();
+    log.scrollTop = log.scrollHeight;
+  }
+}
+
+send.onclick = submit;
+input.addEventListener("keydown", (e) => {
+  if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); submit(); }
+});
+input.addEventListener("input", () => {
+  input.style.height = "auto";
+  input.style.height = Math.min(input.scrollHeight, 140) + "px";
+});
+
+$("examples").innerHTML = EXAMPLES.map((e, i) => `<button data-i="${i}">${esc(e)}</button>`).join("");
+$("examples").onclick = (e) => {
+  const i = e.target.dataset?.i;
+  if (i !== undefined) { input.value = EXAMPLES[i]; submit(); }
+};
+
+fetch("/api/health").then((r) => r.json()).then((h) => {
+  $("dot").className = "dot " + (h.llm_reachable ? "on" : "off");
+  $("statustext").textContent = h.llm_reachable
+    ? `${h.model} · few-shot k=${h.few_shot_k} · τ=${h.abstain_threshold}`
+    : "llama-server 연결 안 됨";
+}).catch(() => { $("dot").className = "dot off"; $("statustext").textContent = "서버 응답 없음"; });
+
+input.focus();
+</script>
+</body>
+</html>

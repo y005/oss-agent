@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.egg-info/
+.env
+
+# 모델 가중치 (2.3GB) — README 의 curl 명령으로 내려받는다
+models/*.gguf
+
+# 실행 산출물. 실험 결과 JSON은 커밋해도 되지만 로그는 제외
+results/*.log
+results/tool_audit.log

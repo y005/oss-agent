@@ -1,0 +1,60 @@
+{"id": "S01-02", "scenario": 1, "difficulty": "easy", "text": "DL 이름에 오타가 있어서 수정 부탁드립니다. '플랫폼개바팀' -> '플랫폼개발팀'"}
+{"id": "S01-04", "scenario": 1, "difficulty": "easy", "text": "조직 개편으로 팀명이 바뀌었는데 메일링그룹 이름도 같이 변경할 수 있나요?"}
+{"id": "S01-07", "scenario": 1, "difficulty": "easy", "text": "그룹 이름이 예전 조직명으로 남아있어서 최신 조직명으로 고치고 싶어요."}
+{"id": "S01-12", "scenario": 1, "difficulty": "medium", "text": "그룹명에 영문 대소문자가 잘못 들어가 있는데 정정 요청 드립니다. dev-Platform -> dev-platform"}
+{"id": "S01-13", "scenario": 1, "difficulty": "medium", "text": "메일링그룹 리스트에 뜨는 이름이 이상하게 나와서 고쳐주셨으면 합니다."}
+{"id": "S01-19", "scenario": 1, "difficulty": "hard", "text": "리브랜딩 때문에 저희가 관리하는 DL 4개의 이름을 일괄로 바꾸려 합니다. 한 번에 신청 가능한가요?"}
+{"id": "S02-03", "scenario": 2, "difficulty": "easy", "text": "부서 메일링그룹 멤버 편집이 막혀 있어요. 권한 주실 수 있나요?"}
+{"id": "S02-04", "scenario": 2, "difficulty": "easy", "text": "조직 DL 멤버 수정하는 방법 알려주세요."}
+{"id": "S02-05", "scenario": 2, "difficulty": "easy", "text": "우리 팀 조직 DL에 계약직 두 분을 빼고 싶은데 어떻게 하나요?"}
+{"id": "S02-12", "scenario": 2, "difficulty": "medium", "text": "인턴분들이 부서 DL에 자동으로 들어가는데 이걸 막을 수 있나요?"}
+{"id": "S02-13", "scenario": 2, "difficulty": "medium", "text": "조직 DL 멤버가 자동으로 채워지던데 수동으로 관리하도록 바꿀 수 있나요?"}
+{"id": "S02-17", "scenario": 2, "difficulty": "hard", "text": "부서 DL 멤버 관리 주체가 저희 팀이 아니라던데, 그러면 누구한테 요청해야 하나요?"}
+{"id": "S03-01", "scenario": 3, "difficulty": "easy", "text": "실수로 DL을 삭제했어요. 복구 가능할까요?"}
+{"id": "S03-07", "scenario": 3, "difficulty": "easy", "text": "삭제한 DL 복원 절차가 궁금합니다."}
+{"id": "S03-08", "scenario": 3, "difficulty": "easy", "text": "만료된 메일링그룹 메뉴가 어디 있나요? 복구하려고요."}
+{"id": "S03-10", "scenario": 3, "difficulty": "medium", "text": "프로젝트 종료하면서 정리했던 DL을 다시 쓰게 됐습니다. 되살리는 게 나을까요 새로 만드는 게 나을까요?"}
+{"id": "S03-12", "scenario": 3, "difficulty": "medium", "text": "그룹이 자동 만료된 것 같은데 만료 기준이 어떻게 되나요? 복구도 하고 싶습니다."}
+{"id": "S03-16", "scenario": 3, "difficulty": "hard", "text": "메일링그룹 주소로 메일을 보냈더니 존재하지 않는 주소라고 반송됩니다. 확인해보니 그룹이 없어진 것 같아요."}
+{"id": "S04-04", "scenario": 4, "difficulty": "easy", "text": "DL345678 로 외부 메일이 안 들어오는데 설정 확인 부탁드립니다."}
+{"id": "S04-05", "scenario": 4, "difficulty": "easy", "text": "외부메일 수신 설정 관련 문의입니다. 그룹 주소로 사외 메일이 도착하지 않아요."}
+{"id": "S04-07", "scenario": 4, "difficulty": "easy", "text": "DL456789 외부 수신 허용으로 되어 있는지 조회해 주세요."}
+{"id": "S04-14", "scenario": 4, "difficulty": "medium", "text": "외부에서 보낸 메일이 그룹 멤버 일부에게만 가고 나머지는 못 받았다고 합니다."}
+{"id": "S04-15", "scenario": 4, "difficulty": "medium", "text": "그룹 주소로 오던 외부 알림 메일이 어제부터 갑자기 끊겼어요."}
+{"id": "S04-19", "scenario": 4, "difficulty": "hard", "text": "메일링그룹 앞으로 오는 사외 메일만 선택적으로 차단된 것 같은데 로그를 확인해 주실 수 있나요? DL678901 입니다."}
+{"id": "S05-02", "scenario": 5, "difficulty": "easy", "text": "발신자를 팀 DL 이메일로 지정하는 방법 알려주세요."}
+{"id": "S05-03", "scenario": 5, "difficulty": "easy", "text": "메일링그룹 주소를 보내는 사람으로 쓰려면 어떻게 해야 하나요?"}
+{"id": "S05-04", "scenario": 5, "difficulty": "easy", "text": "DL 명의로 메일 발송하는 권한을 받고 싶습니다."}
+{"id": "S05-09", "scenario": 5, "difficulty": "medium", "text": "개인 이름 말고 팀 이름으로 메일이 나가게 하고 싶습니다."}
+{"id": "S05-11", "scenario": 5, "difficulty": "medium", "text": "메일 보낼 때 회신 주소를 그룹 주소로 지정하는 것도 되나요? 발송 권한부터 받아야 할까요?"}
+{"id": "S05-16", "scenario": 5, "difficulty": "hard", "text": "자동화 스크립트에서 팀 그룹 주소를 발신자로 써서 알림 메일을 쏘고 싶습니다."}
+{"id": "S06-01", "scenario": 6, "difficulty": "easy", "text": "DL 전체 메일링 그룹 조회 메뉴에 들어가면 접근 권한이 없다고 나옵니다."}
+{"id": "S06-03", "scenario": 6, "difficulty": "easy", "text": "메일링그룹 전체 목록 보는 메뉴가 권한 오류가 납니다."}
+{"id": "S06-07", "scenario": 6, "difficulty": "easy", "text": "관리 화면에서 전체 그룹 리스트가 안 보입니다. 권한 문제인 것 같아요."}
+{"id": "S06-09", "scenario": 6, "difficulty": "medium", "text": "감사 대응 때문에 사내 전체 메일링그룹 목록을 봐야 하는데 메뉴가 안 열립니다."}
+{"id": "S06-15", "scenario": 6, "difficulty": "medium", "text": "전체 메일링그룹 목록을 엑셀로 뽑아야 하는데 조회 메뉴 자체가 안 열립니다."}
+{"id": "S06-17", "scenario": 6, "difficulty": "hard", "text": "특정 메일주소가 어느 DL에 들어있는지 확인하려는데 조회 화면이 권한 없음으로 막힙니다."}
+{"id": "S07-01", "scenario": 7, "difficulty": "easy", "text": "보낸 메일이 도착을 안 했다고 합니다."}
+{"id": "S07-04", "scenario": 7, "difficulty": "easy", "text": "동료에게 보낸 메일이 반송되었습니다."}
+{"id": "S07-06", "scenario": 7, "difficulty": "easy", "text": "메일함에 특정 발신자 메일만 안 보입니다."}
+{"id": "S07-09", "scenario": 7, "difficulty": "medium", "text": "hong@navercorp.com 이 kim@navercorp.com 에게 8/29 09:15 에 보낸 '주간보고' 메일이 수신되지 않았습니다."}
+{"id": "S07-11", "scenario": 7, "difficulty": "medium", "text": "메일 검색이 안 되고 예전 메일이 사라진 것처럼 보입니다."}
+{"id": "S07-20", "scenario": 7, "difficulty": "hard", "text": "수신확인이 계속 '읽지 않음' 인데 상대는 받았다고 합니다. 기능 오류인지 확인 부탁드려요."}
+{"id": "S08-02", "scenario": 8, "difficulty": "easy", "text": "동적 DL 등록 절차가 궁금합니다."}
+{"id": "S08-03", "scenario": 8, "difficulty": "easy", "text": "조건 기반으로 멤버가 자동 갱신되는 메일링그룹 신청하고 싶습니다."}
+{"id": "S08-08", "scenario": 8, "difficulty": "easy", "text": "재직형태 조건으로 멤버가 관리되는 그룹을 만들고 싶습니다."}
+{"id": "S08-09", "scenario": 8, "difficulty": "medium", "text": "신규 입사자가 들어오면 자동으로 포함되는 그룹이 필요합니다."}
+{"id": "S08-14", "scenario": 8, "difficulty": "medium", "text": "법인별로 자동 분리되는 메일링그룹 세 개를 새로 만들려고 합니다."}
+{"id": "S08-20", "scenario": 8, "difficulty": "hard", "text": "정규직만 포함하고 계약직은 제외되는 그룹을 새로 개설하려고 합니다. 절차 알려주세요."}
+{"id": "S09-01", "scenario": 9, "difficulty": "easy", "text": "DL open API를 쓰고 싶은데 ACL 신청은 어디서 하나요?"}
+{"id": "S09-05", "scenario": 9, "difficulty": "easy", "text": "운영 환경에서 DL API를 호출하려면 ACL 등록이 필요하다고 들었습니다."}
+{"id": "S09-06", "scenario": 9, "difficulty": "easy", "text": "DL API 개발 서버 주소랑 신청 절차 알려주세요."}
+{"id": "S09-09", "scenario": 9, "difficulty": "medium", "text": "저희 서비스에서 사번으로 소속 DL을 조회하는 기능을 붙이려고 합니다. 연동 절차 문의드려요."}
+{"id": "S09-11", "scenario": 9, "difficulty": "medium", "text": "N3R 환경에서 호출할 건데 Egress IP를 어디에 적어야 하나요?"}
+{"id": "S09-16", "scenario": 9, "difficulty": "hard", "text": "사내 포털에 메일링그룹 검색 기능을 붙이려고 하는데 어떤 절차를 밟아야 하는지 정리해 주실 수 있나요?"}
+{"id": "S10-01", "scenario": 10, "difficulty": "easy", "text": "사내 VPN 접속이 안 되는데 어디에 문의해야 하나요?"}
+{"id": "S10-03", "scenario": 10, "difficulty": "easy", "text": "연차 신청 화면이 안 열립니다."}
+{"id": "S10-06", "scenario": 10, "difficulty": "easy", "text": "안녕하세요, 문의드릴 게 있습니다."}
+{"id": "S10-12", "scenario": 10, "difficulty": "medium", "text": "캘린더 일정이 다른 사람에게 공유되지 않습니다."}
+{"id": "S10-13", "scenario": 10, "difficulty": "medium", "text": "지난번에 문의드린 건 진행 상황이 궁금합니다."}
+{"id": "S10-20", "scenario": 10, "difficulty": "hard", "text": "이거 처리해 주세요."}

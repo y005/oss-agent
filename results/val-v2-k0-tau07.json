@@ -1,0 +1,1867 @@
+{
+  "meta": {
+    "split": "val",
+    "n": 40,
+    "system": "llama",
+    "model": "qwen3-4b-q4km",
+    "backend": "http://127.0.0.1:8080/v1",
+    "few_shot_k": 0,
+    "few_shot_style": "inline",
+    "prompt_version": "v2",
+    "abstain_threshold": 0.7,
+    "grammar_constrained": true,
+    "timestamp": "2026-08-31 21:10:09"
+  },
+  "classification": {
+    "n": 40,
+    "accuracy": 0.925,
+    "macro_f1": 0.9251082251082251,
+    "macro_precision": 0.9571428571428572,
+    "macro_recall": 0.925,
+    "per_class": {
+      "1": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 4
+      },
+      "2": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 4
+      },
+      "3": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 4
+      },
+      "4": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 4
+      },
+      "5": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666,
+        "support": 4
+      },
+      "6": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 4
+      },
+      "7": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 4
+      },
+      "8": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 4
+      },
+      "9": {
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.8571428571428571,
+        "support": 4
+      },
+      "10": {
+        "precision": 0.5714285714285714,
+        "recall": 1.0,
+        "f1": 0.7272727272727273,
+        "support": 4
+      }
+    },
+    "confusion": {
+      "1": {
+        "1": 4,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0
+      },
+      "2": {
+        "1": 0,
+        "2": 4,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0
+      },
+      "3": {
+        "1": 0,
+        "2": 0,
+        "3": 4,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0
+      },
+      "4": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 4,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0
+      },
+      "5": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 2
+      },
+      "6": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 4,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0
+      },
+      "7": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 4,
+        "8": 0,
+        "9": 0,
+        "10": 0
+      },
+      "8": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 4,
+        "9": 0,
+        "10": 0
+      },
+      "9": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 3,
+        "10": 1
+      },
+      "10": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 4
+      }
+    }
+  },
+  "action": {
+    "accuracy": 0.925,
+    "by_action": {
+      "draft_approval": {
+        "correct": 11,
+        "total": 12
+      },
+      "fixed_response": {
+        "correct": 14,
+        "total": 16
+      },
+      "forward_mail": {
+        "correct": 12,
+        "total": 12
+      }
+    }
+  },
+  "tools": {
+    "exact_set_match": 0.925,
+    "micro_precision": 0.9032258064516129,
+    "micro_recall": 0.875,
+    "micro_f1": 0.8888888888888888,
+    "arg_accuracy": 0.9583333333333334,
+    "arg_checked": 24
+  },
+  "e2e_success_rate": 0.925,
+  "parse_failure_rate": 0.0,
+  "calibration_ece": 0.05511998698708909,
+  "abstention": {
+    "abstain_rate": 0.075,
+    "auto_accuracy": 0.972972972972973,
+    "harmful_error_rate": 0.025,
+    "wasted_abstention_rate": 0.0
+  },
+  "risk_coverage": [
+    {
+      "threshold": 0.0,
+      "coverage": 1.0,
+      "accuracy_on_covered": 0.925,
+      "n_covered": 40
+    },
+    {
+      "threshold": 0.3,
+      "coverage": 1.0,
+      "accuracy_on_covered": 0.925,
+      "n_covered": 40
+    },
+    {
+      "threshold": 0.4,
+      "coverage": 1.0,
+      "accuracy_on_covered": 0.925,
+      "n_covered": 40
+    },
+    {
+      "threshold": 0.5,
+      "coverage": 0.975,
+      "accuracy_on_covered": 0.9487179487179487,
+      "n_covered": 39
+    },
+    {
+      "threshold": 0.6,
+      "coverage": 0.95,
+      "accuracy_on_covered": 0.9736842105263158,
+      "n_covered": 38
+    },
+    {
+      "threshold": 0.7,
+      "coverage": 0.925,
+      "accuracy_on_covered": 0.972972972972973,
+      "n_covered": 37
+    },
+    {
+      "threshold": 0.8,
+      "coverage": 0.925,
+      "accuracy_on_covered": 0.972972972972973,
+      "n_covered": 37
+    },
+    {
+      "threshold": 0.9,
+      "coverage": 0.925,
+      "accuracy_on_covered": 0.972972972972973,
+      "n_covered": 37
+    },
+    {
+      "threshold": 0.95,
+      "coverage": 0.925,
+      "accuracy_on_covered": 0.972972972972973,
+      "n_covered": 37
+    },
+    {
+      "threshold": 0.99,
+      "coverage": 0.825,
+      "accuracy_on_covered": 0.9696969696969697,
+      "n_covered": 33
+    }
+  ],
+  "latency": {
+    "llm_p50_ms": 371.4870000258088,
+    "llm_p95_ms": 382.83466710709035,
+    "llm_mean_ms": 329.7143490111921,
+    "e2e_p50_ms": 376.71916699036956,
+    "e2e_p95_ms": 387.2033329680562
+  },
+  "by_difficulty": {
+    "easy": {
+      "n": 20,
+      "accuracy": 0.95,
+      "e2e": 0.95
+    },
+    "hard": {
+      "n": 10,
+      "accuracy": 0.8,
+      "e2e": 0.8
+    },
+    "medium": {
+      "n": 10,
+      "accuracy": 1.0,
+      "e2e": 1.0
+    }
+  },
+  "records": [
+    {
+      "id": "S01-01",
+      "difficulty": "easy",
+      "text": "메일링그룹 이름을 변경하고 싶습니다. 어떻게 신청하면 될까요?",
+      "gold": 1,
+      "pred": 1,
+      "raw_pred": 1,
+      "confidence": 0.9999999999831617,
+      "probs": {
+        "A": 0.9999999999831617,
+        "B": 1.6838294019569524e-11
+      },
+      "abstained": false,
+      "latency_ms": 402.02820813283324,
+      "total_ms": 407.74350007995963,
+      "expected_tools": [
+        "open_draft_form"
+      ],
+      "actual_tools": [
+        "open_draft_form"
+      ],
+      "expected_args": {
+        "request_type": "dl_rename"
+      },
+      "actual_args": {
+        "request_type": "dl_rename",
+        "prefill": {}
+      },
+      "response": "[분류] 1. DL 이름 편집/변경 요청 (확신도 100%)\n\nDL 이름 변경은 담당자가 임의로 수정하지 않고 기안(결재)으로 접수받아 처리합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 현재 그룹 이름\n  - 변경할 그룹 이름\n  - DL 메일주소\n  - 변경 사유\n\n▸ 접수번호(가): REQ-A12582DF",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: A(1.00) → 시나리오 1 [402ms]",
+        "tool: open_draft_form(dl_rename) → REQ-A12582DF",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S01-05",
+      "difficulty": "easy",
+      "text": "DL123456 그룹 이름 변경 요청드립니다.",
+      "gold": 1,
+      "pred": 1,
+      "raw_pred": 1,
+      "confidence": 0.9999999999177938,
+      "probs": {
+        "A": 0.9999999999177938,
+        "B": 7.313956452724415e-11,
+        "C": 6.533876585336746e-12,
+        "D": 2.5327112966978214e-12
+      },
+      "abstained": false,
+      "latency_ms": 239.44795783609152,
+      "total_ms": 243.79429197870195,
+      "expected_tools": [
+        "open_draft_form"
+      ],
+      "actual_tools": [
+        "open_draft_form"
+      ],
+      "expected_args": {
+        "request_type": "dl_rename"
+      },
+      "actual_args": {
+        "request_type": "dl_rename",
+        "prefill": {
+          "dl_code": "DL123456"
+        }
+      },
+      "response": "[분류] 1. DL 이름 편집/변경 요청 (확신도 100%)\n\nDL 이름 변경은 담당자가 임의로 수정하지 않고 기안(결재)으로 접수받아 처리합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0&dl_code=DL123456\n\n▸ 서식에 기재해 주실 항목\n  - 현재 그룹 이름\n  - 변경할 그룹 이름\n  - DL 메일주소\n  - 변경 사유\n\n▸ 접수번호(가): REQ-A3B84EC6",
+      "trace": [
+        "ingest: 슬롯 dl_codes=['DL123456']",
+        "classify: A(1.00) → 시나리오 1 [239ms]",
+        "tool: open_draft_form(dl_rename) → REQ-A3B84EC6",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S01-10",
+      "difficulty": "medium",
+      "text": "작년에 만든 메일링그룹인데 이름이 프로젝트 코드명이라 지금 서비스명으로 바꾸려고 합니다.",
+      "gold": 1,
+      "pred": 1,
+      "raw_pred": 1,
+      "confidence": 0.9999999997438598,
+      "probs": {
+        "A": 0.9999999997438598,
+        "B": 2.385485256349452e-10,
+        "C": 1.1192700651936143e-11,
+        "D": 5.054191469616285e-12,
+        "E": 1.3447870242680852e-12
+      },
+      "abstained": false,
+      "latency_ms": 378.0807920265943,
+      "total_ms": 383.4821251221001,
+      "expected_tools": [
+        "open_draft_form"
+      ],
+      "actual_tools": [
+        "open_draft_form"
+      ],
+      "expected_args": {
+        "request_type": "dl_rename"
+      },
+      "actual_args": {
+        "request_type": "dl_rename",
+        "prefill": {}
+      },
+      "response": "[분류] 1. DL 이름 편집/변경 요청 (확신도 100%)\n\nDL 이름 변경은 담당자가 임의로 수정하지 않고 기안(결재)으로 접수받아 처리합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 현재 그룹 이름\n  - 변경할 그룹 이름\n  - DL 메일주소\n  - 변경 사유\n\n▸ 접수번호(가): REQ-A12582DF",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: A(1.00) → 시나리오 1 [378ms]",
+        "tool: open_draft_form(dl_rename) → REQ-A12582DF",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S01-18",
+      "difficulty": "hard",
+      "text": "메일링그룹 표시명에 특수문자가 깨져 보여요. 수정 요청은 어디로 하면 되나요?",
+      "gold": 1,
+      "pred": 1,
+      "raw_pred": 1,
+      "confidence": 0.9999996129773164,
+      "probs": {
+        "A": 0.9999996129773164,
+        "J": 3.390101124563477e-07,
+        "B": 4.589175732237579e-08,
+        "C": 1.3386318310158111e-09,
+        "D": 4.210633612259767e-10,
+        "I": 2.7301355685039345e-10,
+        "E": 8.213379613571628e-11,
+        "H": 5.971125246677793e-12
+      },
+      "abstained": false,
+      "latency_ms": 375.437542097643,
+      "total_ms": 379.32870793156326,
+      "expected_tools": [
+        "open_draft_form"
+      ],
+      "actual_tools": [
+        "open_draft_form"
+      ],
+      "expected_args": {
+        "request_type": "dl_rename"
+      },
+      "actual_args": {
+        "request_type": "dl_rename",
+        "prefill": {}
+      },
+      "response": "[분류] 1. DL 이름 편집/변경 요청 (확신도 100%)\n\nDL 이름 변경은 담당자가 임의로 수정하지 않고 기안(결재)으로 접수받아 처리합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 현재 그룹 이름\n  - 변경할 그룹 이름\n  - DL 메일주소\n  - 변경 사유\n\n▸ 접수번호(가): REQ-A12582DF",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: A(1.00) → 시나리오 1 [375ms]",
+        "tool: open_draft_form(dl_rename) → REQ-A12582DF",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S02-02",
+      "difficulty": "easy",
+      "text": "조직 DL에서 파견직 인원을 제외하고 싶습니다.",
+      "gold": 2,
+      "pred": 2,
+      "raw_pred": 2,
+      "confidence": 0.9999653902012837,
+      "probs": {
+        "B": 0.9999653902012837,
+        "H": 3.460332756754878e-05,
+        "D": 2.6071230526606754e-09,
+        "C": 1.4634233665379892e-09,
+        "J": 1.190063434551311e-09,
+        "E": 5.336238944777322e-10,
+        "A": 4.0700010165939e-10,
+        "G": 2.1292673508661175e-10,
+        "F": 5.698798948425179e-11
+      },
+      "abstained": false,
+      "latency_ms": 241.19829200208187,
+      "total_ms": 245.46508421190083,
+      "expected_tools": [],
+      "actual_tools": [],
+      "expected_args": {},
+      "actual_args": {},
+      "response": "[분류] 2. 조직 DL 편집 문의 (확신도 100%)\n\n조직(부서) DL은 **인사정보를 기준으로 자동 생성·관리**되는 그룹이라, 관리자가 멤버를 직접 추가하거나 제외할 수 없습니다.\n\n파견직·계약직 제외 등 편집이 꼭 필요하시면 **소속 법인의 인사부서 담당자**에게 제외 요청을 해주셔야 합니다.\n\n⚠️ 조직 DL에서 제외되면 해당 DL과 연결된 WORKS 기능(드라이브 등) 접근이 불가해질 수 있어, 대상자에게 사전 고지한 뒤 진행됩니다.",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: B(1.00) → 시나리오 2 [241ms]",
+        "act: 도구 호출 없이 고정 응답",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S02-06",
+      "difficulty": "easy",
+      "text": "조직 메일링그룹에서 특정 인원만 제외 처리하고 싶습니다.",
+      "gold": 2,
+      "pred": 2,
+      "raw_pred": 2,
+      "confidence": 0.9999999984472299,
+      "probs": {
+        "B": 0.9999999984472299,
+        "H": 1.3465986036369474e-09,
+        "D": 7.937543929105552e-11,
+        "C": 6.540163963205325e-11,
+        "E": 2.1062184826183453e-11,
+        "J": 2.0949960496087403e-11,
+        "A": 1.9382347184621882e-11
+      },
+      "abstained": false,
+      "latency_ms": 242.57354205474257,
+      "total_ms": 246.8558750115335,
+      "expected_tools": [],
+      "actual_tools": [],
+      "expected_args": {},
+      "actual_args": {},
+      "response": "[분류] 2. 조직 DL 편집 문의 (확신도 100%)\n\n조직(부서) DL은 **인사정보를 기준으로 자동 생성·관리**되는 그룹이라, 관리자가 멤버를 직접 추가하거나 제외할 수 없습니다.\n\n파견직·계약직 제외 등 편집이 꼭 필요하시면 **소속 법인의 인사부서 담당자**에게 제외 요청을 해주셔야 합니다.\n\n⚠️ 조직 DL에서 제외되면 해당 DL과 연결된 WORKS 기능(드라이브 등) 접근이 불가해질 수 있어, 대상자에게 사전 고지한 뒤 진행됩니다.",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: B(1.00) → 시나리오 2 [243ms]",
+        "act: 도구 호출 없이 고정 응답",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S02-10",
+      "difficulty": "medium",
+      "text": "휴직 중인 팀원이 계속 부서 메일을 받고 있어서 목록에서 빼려는데 방법이 없네요.",
+      "gold": 2,
+      "pred": 2,
+      "raw_pred": 2,
+      "confidence": 0.9999978646487835,
+      "probs": {
+        "B": 0.9999978646487835,
+        "H": 2.130332043604863e-06,
+        "J": 2.1170145714494345e-09,
+        "D": 1.1742419567555467e-09,
+        "C": 5.447645214811358e-10,
+        "E": 5.001415010209506e-10,
+        "I": 2.8621564704837435e-10,
+        "G": 2.383134116008619e-10,
+        "A": 1.2052352334570529e-10,
+        "F": 3.79577703840609e-11
+      },
+      "abstained": false,
+      "latency_ms": 377.65858392231166,
+      "total_ms": 380.87012502364814,
+      "expected_tools": [],
+      "actual_tools": [],
+      "expected_args": {},
+      "actual_args": {},
+      "response": "[분류] 2. 조직 DL 편집 문의 (확신도 100%)\n\n조직(부서) DL은 **인사정보를 기준으로 자동 생성·관리**되는 그룹이라, 관리자가 멤버를 직접 추가하거나 제외할 수 없습니다.\n\n파견직·계약직 제외 등 편집이 꼭 필요하시면 **소속 법인의 인사부서 담당자**에게 제외 요청을 해주셔야 합니다.\n\n⚠️ 조직 DL에서 제외되면 해당 DL과 연결된 WORKS 기능(드라이브 등) 접근이 불가해질 수 있어, 대상자에게 사전 고지한 뒤 진행됩니다.",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: B(1.00) → 시나리오 2 [378ms]",
+        "act: 도구 호출 없이 고정 응답",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S02-18",
+      "difficulty": "hard",
+      "text": "메일링그룹 관리자로 지정돼 있는데도 멤버 추가 삭제가 안 되는 그룹이 있습니다.",
+      "gold": 2,
+      "pred": 2,
+      "raw_pred": 2,
+      "confidence": 0.9993246154977545,
+      "probs": {
+        "B": 0.9993246154977545,
+        "J": 0.0006752583346794597,
+        "H": 5.0140748878912135e-08,
+        "F": 3.749664159564454e-08,
+        "G": 1.4659661521247188e-08,
+        "I": 1.3052780858456099e-08,
+        "E": 4.582979642051013e-09,
+        "C": 3.745916521336074e-09,
+        "D": 1.8022570722293656e-09,
+        "A": 6.865797967686068e-10
+      },
+      "abstained": false,
+      "latency_ms": 376.6905420925468,
+      "total_ms": 380.50829200074077,
+      "expected_tools": [],
+      "actual_tools": [],
+      "expected_args": {},
+      "actual_args": {},
+      "response": "[분류] 2. 조직 DL 편집 문의 (확신도 100%)\n\n조직(부서) DL은 **인사정보를 기준으로 자동 생성·관리**되는 그룹이라, 관리자가 멤버를 직접 추가하거나 제외할 수 없습니다.\n\n파견직·계약직 제외 등 편집이 꼭 필요하시면 **소속 법인의 인사부서 담당자**에게 제외 요청을 해주셔야 합니다.\n\n⚠️ 조직 DL에서 제외되면 해당 DL과 연결된 WORKS 기능(드라이브 등) 접근이 불가해질 수 있어, 대상자에게 사전 고지한 뒤 진행됩니다.",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: B(1.00) → 시나리오 2 [377ms]",
+        "act: 도구 호출 없이 고정 응답",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S03-03",
+      "difficulty": "easy",
+      "text": "지워진 메일링그룹을 다시 살릴 수 있나요?",
+      "gold": 3,
+      "pred": 3,
+      "raw_pred": 3,
+      "confidence": 0.9999999633727095,
+      "probs": {
+        "C": 0.9999999633727095,
+        "D": 2.6718843667189945e-08,
+        "J": 9.30265740742994e-09,
+        "E": 5.070833669625925e-10,
+        "A": 3.82228729292332e-11,
+        "G": 3.398471656783244e-11,
+        "B": 2.6498388776406466e-11
+      },
+      "abstained": false,
+      "latency_ms": 242.68987495452166,
+      "total_ms": 246.48045818321407,
+      "expected_tools": [],
+      "actual_tools": [],
+      "expected_args": {},
+      "actual_args": {},
+      "response": "[분류] 3. 만료/삭제된 DL 복구 요청 (확신도 100%)\n\n삭제·만료된 메일링그룹은 **직접 복구하실 수 있습니다.**\n\n▸ DL 관리 화면 > [만료된 메일링그룹] 메뉴에서 대상 그룹을 찾아 복구\n▸ 단, **삭제 후 1개월 이내**의 그룹만 조회·복구가 가능합니다.\n\n1개월이 지난 경우에는\n  - 메일링그룹만 사용하셨다면 → 새로 생성해 주시면 됩니다.\n  - WORKS 드라이브 등 데이터 복구가 필요하다면 → DL_SystemManager@navercorp.com 로 문의해 주세요.",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: C(1.00) → 시나리오 3 [243ms]",
+        "act: 도구 호출 없이 고정 응답",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S03-04",
+      "difficulty": "easy",
+      "text": "DL이 목록에서 없어졌는데 복구 방법 알려주세요.",
+      "gold": 3,
+      "pred": 3,
+      "raw_pred": 3,
+      "confidence": 0.9999999909252312,
+      "probs": {
+        "C": 0.9999999909252312,
+        "J": 7.395959422802985e-09,
+        "D": 1.6077130247154616e-09,
+        "E": 5.645204743002376e-11,
+        "G": 7.449208210385105e-12,
+        "H": 7.195082566687779e-12
+      },
+      "abstained": false,
+      "latency_ms": 243.89479192905128,
+      "total_ms": 248.28212498687208,
+      "expected_tools": [],
+      "actual_tools": [],
+      "expected_args": {},
+      "actual_args": {},
+      "response": "[분류] 3. 만료/삭제된 DL 복구 요청 (확신도 100%)\n\n삭제·만료된 메일링그룹은 **직접 복구하실 수 있습니다.**\n\n▸ DL 관리 화면 > [만료된 메일링그룹] 메뉴에서 대상 그룹을 찾아 복구\n▸ 단, **삭제 후 1개월 이내**의 그룹만 조회·복구가 가능합니다.\n\n1개월이 지난 경우에는\n  - 메일링그룹만 사용하셨다면 → 새로 생성해 주시면 됩니다.\n  - WORKS 드라이브 등 데이터 복구가 필요하다면 → DL_SystemManager@navercorp.com 로 문의해 주세요.",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: C(1.00) → 시나리오 3 [244ms]",
+        "act: 도구 호출 없이 고정 응답",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S03-13",
+      "difficulty": "medium",
+      "text": "전임자가 삭제하고 퇴사했는데 그 그룹 복구 부탁드립니다.",
+      "gold": 3,
+      "pred": 3,
+      "raw_pred": 3,
+      "confidence": 0.9761314868400047,
+      "probs": {
+        "C": 0.9761314868400047,
+        "J": 0.02151846719440926,
+        "D": 0.002333909184759373,
+        "H": 7.427609406140649e-06,
+        "E": 5.030547965993449e-06,
+        "G": 1.2302754097701545e-06,
+        "I": 1.0558004629911657e-06,
+        "B": 9.289688544340608e-07,
+        "F": 2.9093302335504787e-07,
+        "A": 1.726457039932779e-07
+      },
+      "abstained": false,
+      "latency_ms": 373.6367921810597,
+      "total_ms": 376.92016595974565,
+      "expected_tools": [],
+      "actual_tools": [],
+      "expected_args": {},
+      "actual_args": {},
+      "response": "[분류] 3. 만료/삭제된 DL 복구 요청 (확신도 98%)\n\n삭제·만료된 메일링그룹은 **직접 복구하실 수 있습니다.**\n\n▸ DL 관리 화면 > [만료된 메일링그룹] 메뉴에서 대상 그룹을 찾아 복구\n▸ 단, **삭제 후 1개월 이내**의 그룹만 조회·복구가 가능합니다.\n\n1개월이 지난 경우에는\n  - 메일링그룹만 사용하셨다면 → 새로 생성해 주시면 됩니다.\n  - WORKS 드라이브 등 데이터 복구가 필요하다면 → DL_SystemManager@navercorp.com 로 문의해 주세요.",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: C(0.98) → 시나리오 3 [374ms]",
+        "act: 도구 호출 없이 고정 응답",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S03-20",
+      "difficulty": "hard",
+      "text": "DL을 지우면 그 안의 데이터는 얼마나 보관되나요? 복구 기한이 지나면 방법이 없나요?",
+      "gold": 3,
+      "pred": 3,
+      "raw_pred": 3,
+      "confidence": 0.9991054346586346,
+      "probs": {
+        "C": 0.9991054346586346,
+        "J": 0.0007917895461094295,
+        "D": 0.00010159528824583934,
+        "H": 4.7615796595061854e-07,
+        "G": 3.4468977238471873e-07,
+        "E": 2.5235123601292153e-07,
+        "F": 4.272420498530331e-08,
+        "B": 3.031530424382096e-08,
+        "I": 2.1064023217556495e-08,
+        "A": 1.3204503342679322e-08
+      },
+      "abstained": false,
+      "latency_ms": 382.593791000545,
+      "total_ms": 387.2033329680562,
+      "expected_tools": [],
+      "actual_tools": [],
+      "expected_args": {},
+      "actual_args": {},
+      "response": "[분류] 3. 만료/삭제된 DL 복구 요청 (확신도 100%)\n\n삭제·만료된 메일링그룹은 **직접 복구하실 수 있습니다.**\n\n▸ DL 관리 화면 > [만료된 메일링그룹] 메뉴에서 대상 그룹을 찾아 복구\n▸ 단, **삭제 후 1개월 이내**의 그룹만 조회·복구가 가능합니다.\n\n1개월이 지난 경우에는\n  - 메일링그룹만 사용하셨다면 → 새로 생성해 주시면 됩니다.\n  - WORKS 드라이브 등 데이터 복구가 필요하다면 → DL_SystemManager@navercorp.com 로 문의해 주세요.",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: C(1.00) → 시나리오 3 [383ms]",
+        "act: 도구 호출 없이 고정 응답",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S04-02",
+      "difficulty": "easy",
+      "text": "사외에서 저희 메일링그룹 주소로 보내면 반송된다고 하네요.",
+      "gold": 4,
+      "pred": 4,
+      "raw_pred": 4,
+      "confidence": 0.9999999999761156,
+      "probs": {
+        "D": 0.9999999999761156,
+        "E": 1.3287073010261961e-11,
+        "J": 5.635111159752389e-12,
+        "C": 4.962185711026949e-12
+      },
+      "abstained": false,
+      "latency_ms": 370.6843750551343,
+      "total_ms": 374.4722078554332,
+      "expected_tools": [],
+      "actual_tools": [],
+      "expected_args": {},
+      "actual_args": {},
+      "response": "[분류] 4. 외부(사외) 메일이 DL로 수신되지 않는 이슈 (확신도 100%)\n\n먼저 메일링그룹 상세 설정에서 **[외부메일 수신]** 값이 `허용`인지 확인해 주세요.\n\n`허용` 상태인데도 수신되지 않는다면 발신제한 설정 가능성이 있어 관리자 확인이 필요합니다.\n아래 정보를 담아 DL_SystemManager@navercorp.com 로 문의해 주세요.\n  - 발송자 메일주소\n  - 수신자(DL) 메일주소\n  - 발송 시간\n  - 메일 제목\n\n(현재 문의에서 확인되지 않은 항목: 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목)",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: D(1.00) → 시나리오 4 [371ms]",
+        "act: 도구 호출 없이 고정 응답",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S04-06",
+      "difficulty": "easy",
+      "text": "협력사 담당자가 우리 팀 메일링그룹에 메일을 못 보낸다고 합니다.",
+      "gold": 4,
+      "pred": 4,
+      "raw_pred": 4,
+      "confidence": 0.9897788123926093,
+      "probs": {
+        "D": 0.9897788123926093,
+        "J": 0.010170445765509623,
+        "G": 4.479929897297806e-05,
+        "H": 5.112033766053901e-06,
+        "E": 4.6840270941350806e-07,
+        "I": 1.8235471655546292e-07,
+        "C": 8.928350041193926e-08,
+        "F": 5.0295927600109286e-08,
+        "B": 4.017228811345029e-08
+      },
+      "abstained": false,
+      "latency_ms": 375.7385411299765,
+      "total_ms": 380.1496250089258,
+      "expected_tools": [],
+      "actual_tools": [],
+      "expected_args": {},
+      "actual_args": {},
+      "response": "[분류] 4. 외부(사외) 메일이 DL로 수신되지 않는 이슈 (확신도 99%)\n\n먼저 메일링그룹 상세 설정에서 **[외부메일 수신]** 값이 `허용`인지 확인해 주세요.\n\n`허용` 상태인데도 수신되지 않는다면 발신제한 설정 가능성이 있어 관리자 확인이 필요합니다.\n아래 정보를 담아 DL_SystemManager@navercorp.com 로 문의해 주세요.\n  - 발송자 메일주소\n  - 수신자(DL) 메일주소\n  - 발송 시간\n  - 메일 제목\n\n(현재 문의에서 확인되지 않은 항목: 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목)",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: D(0.99) → 시나리오 4 [376ms]",
+        "act: 도구 호출 없이 고정 응답",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S04-13",
+      "difficulty": "medium",
+      "text": "메일링그룹으로 뉴스레터 구독을 걸어놨는데 발송사에서 오는 메일이 하나도 안 들어옵니다.",
+      "gold": 4,
+      "pred": 4,
+      "raw_pred": 4,
+      "confidence": 0.9999999936120989,
+      "probs": {
+        "D": 0.9999999936120989,
+        "J": 5.742132021016861e-09,
+        "E": 4.693674188921394e-10,
+        "H": 6.22435827586272e-11,
+        "G": 5.983429832728085e-11,
+        "C": 3.9829129144207095e-11,
+        "B": 1.4494601017862815e-11
+      },
+      "abstained": false,
+      "latency_ms": 382.83466710709035,
+      "total_ms": 386.932292021811,
+      "expected_tools": [],
+      "actual_tools": [],
+      "expected_args": {},
+      "actual_args": {},
+      "response": "[분류] 4. 외부(사외) 메일이 DL로 수신되지 않는 이슈 (확신도 100%)\n\n먼저 메일링그룹 상세 설정에서 **[외부메일 수신]** 값이 `허용`인지 확인해 주세요.\n\n`허용` 상태인데도 수신되지 않는다면 발신제한 설정 가능성이 있어 관리자 확인이 필요합니다.\n아래 정보를 담아 DL_SystemManager@navercorp.com 로 문의해 주세요.\n  - 발송자 메일주소\n  - 수신자(DL) 메일주소\n  - 발송 시간\n  - 메일 제목\n\n(현재 문의에서 확인되지 않은 항목: 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목)",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: D(1.00) → 시나리오 4 [383ms]",
+        "act: 도구 호출 없이 고정 응답",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S04-18",
+      "difficulty": "hard",
+      "text": "채용 지원자들이 recruit-dl 주소로 지원서를 보내는데 최근 며칠 접수가 하나도 안 됩니다.",
+      "gold": 4,
+      "pred": 4,
+      "raw_pred": 4,
+      "confidence": 0.9999999901798905,
+      "probs": {
+        "D": 0.9999999901798905,
+        "J": 7.029116509914262e-09,
+        "H": 1.1743920017280328e-09,
+        "E": 9.705440734607973e-10,
+        "G": 5.787220347154831e-10,
+        "C": 5.0488369327990077e-11,
+        "B": 1.684645342103572e-11
+      },
+      "abstained": false,
+      "latency_ms": 377.2652498446405,
+      "total_ms": 381.98666693642735,
+      "expected_tools": [],
+      "actual_tools": [],
+      "expected_args": {},
+      "actual_args": {},
+      "response": "[분류] 4. 외부(사외) 메일이 DL로 수신되지 않는 이슈 (확신도 100%)\n\n먼저 메일링그룹 상세 설정에서 **[외부메일 수신]** 값이 `허용`인지 확인해 주세요.\n\n`허용` 상태인데도 수신되지 않는다면 발신제한 설정 가능성이 있어 관리자 확인이 필요합니다.\n아래 정보를 담아 DL_SystemManager@navercorp.com 로 문의해 주세요.\n  - 발송자 메일주소\n  - 수신자(DL) 메일주소\n  - 발송 시간\n  - 메일 제목\n\n(현재 문의에서 확인되지 않은 항목: 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목)",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: D(1.00) → 시나리오 4 [377ms]",
+        "act: 도구 호출 없이 고정 응답",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S05-01",
+      "difficulty": "easy",
+      "text": "DL 주소로 메일을 발송하고 싶습니다.",
+      "gold": 5,
+      "pred": 5,
+      "raw_pred": 5,
+      "confidence": 0.9997378227712204,
+      "probs": {
+        "E": 0.9997378227712204,
+        "J": 0.00025738209626306974,
+        "D": 3.1618014747571704e-06,
+        "A": 7.576883279811011e-07,
+        "I": 4.998204179890984e-07,
+        "H": 2.0443766688156624e-07,
+        "G": 6.545140803881247e-08,
+        "F": 4.7157179826062586e-08,
+        "C": 3.1270341146881225e-08,
+        "B": 2.7505700007021455e-08
+      },
+      "abstained": false,
+      "latency_ms": 241.60916614346206,
+      "total_ms": 245.78033410944045,
+      "expected_tools": [
+        "get_wiki_link"
+      ],
+      "actual_tools": [
+        "get_wiki_link"
+      ],
+      "expected_args": {},
+      "actual_args": {
+        "topic": "sender_permission"
+      },
+      "response": "[분류] 5. DL 주소를 발신자로 지정하는 방법 (확신도 100%)\n\nDL 주소를 발신자(보내는 사람)로 지정하려면 해당 DL에 대한 **발송 권한**을 먼저 부여받아야 합니다.\n\n▸ 가이드: DL 명의로 메일 발송 권한 추가 방법\n  https://wiki.navercorp.com/spaces/Global/pages/361216242/DL%EB%AA%85%EC%9C%BC%EB%A1%9C+%EB%A9%94%EC%9D%BC+%EB%B0%9C%EC%86%A1+%EA%B6%8C%ED%95%9C+%EC%B6%94%EA%B0%80+%EB%B0%A9%EB%B2%95\n\n위키 문서의 절차대로 권한을 추가하시면 메일 작성 화면의 보내는사람에서 DL 주소를 선택하실 수 있습니다.",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: E(1.00) → 시나리오 5 [242ms]",
+        "tool: get_wiki_link(sender_permission)",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S05-07",
+      "difficulty": "easy",
+      "text": "DL 이메일을 From 주소로 설정하는 가이드가 있을까요?",
+      "gold": 5,
+      "pred": 10,
+      "raw_pred": 10,
+      "confidence": 0.5498984641269083,
+      "probs": {
+        "J": 0.5498984641269083,
+        "E": 0.2537301637720012,
+        "D": 0.1963713721010905
+      },
+      "abstained": true,
+      "latency_ms": 241.90370785072446,
+      "total_ms": 245.87416695430875,
+      "expected_tools": [
+        "get_wiki_link"
+      ],
+      "actual_tools": [
+        "send_mail"
+      ],
+      "expected_args": {},
+      "actual_args": {
+        "to": "DL_SystemManager@navercorp.com",
+        "scenario_name": "분류 불가 / 기타"
+      },
+      "response": "[분류] 10. 분류 불가 / 기타 (확신도 55%)\n\n문의 내용만으로는 처리 유형을 확신하기 어려워 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: J(0.55) → 확신 부족으로 기권, 시나리오 10 [242ms]",
+        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": false
+    },
+    {
+      "id": "S05-14",
+      "difficulty": "medium",
+      "text": "DL 주소로 발송을 시도했더니 권한이 없다고 나옵니다.",
+      "gold": 5,
+      "pred": 5,
+      "raw_pred": 5,
+      "confidence": 0.9949675314497682,
+      "probs": {
+        "E": 0.9949675314497682,
+        "J": 0.0030094377577816727,
+        "F": 0.001994252922417755,
+        "I": 2.7163524261427362e-05,
+        "H": 9.46826963185117e-07,
+        "G": 6.533270973062359e-07,
+        "C": 5.93327342849556e-09,
+        "D": 5.239642029521885e-09,
+        "B": 3.0187950592376136e-09
+      },
+      "abstained": false,
+      "latency_ms": 370.2608752064407,
+      "total_ms": 375.7075830362737,
+      "expected_tools": [
+        "get_wiki_link"
+      ],
+      "actual_tools": [
+        "get_wiki_link"
+      ],
+      "expected_args": {},
+      "actual_args": {
+        "topic": "sender_permission"
+      },
+      "response": "[분류] 5. DL 주소를 발신자로 지정하는 방법 (확신도 99%)\n\nDL 주소를 발신자(보내는 사람)로 지정하려면 해당 DL에 대한 **발송 권한**을 먼저 부여받아야 합니다.\n\n▸ 가이드: DL 명의로 메일 발송 권한 추가 방법\n  https://wiki.navercorp.com/spaces/Global/pages/361216242/DL%EB%AA%85%EC%9C%BC%EB%A1%9C+%EB%A9%94%EC%9D%BC+%EB%B0%9C%EC%86%A1+%EA%B6%8C%ED%95%9C+%EC%B6%94%EA%B0%80+%EB%B0%A9%EB%B2%95\n\n위키 문서의 절차대로 권한을 추가하시면 메일 작성 화면의 보내는사람에서 DL 주소를 선택하실 수 있습니다.",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: E(0.99) → 시나리오 5 [370ms]",
+        "tool: get_wiki_link(sender_permission)",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S05-20",
+      "difficulty": "hard",
+      "text": "공지 메일을 팀 계정으로 보내야 하는데 지금은 제 이름으로만 나갑니다.",
+      "gold": 5,
+      "pred": 10,
+      "raw_pred": 10,
+      "confidence": 0.4488157433153841,
+      "probs": {
+        "J": 0.4488157433153841,
+        "E": 0.32309602173839375,
+        "D": 0.2280882349462222
+      },
+      "abstained": true,
+      "latency_ms": 372.0211249310523,
+      "total_ms": 377.63091712258756,
+      "expected_tools": [
+        "get_wiki_link"
+      ],
+      "actual_tools": [
+        "send_mail"
+      ],
+      "expected_args": {},
+      "actual_args": {
+        "to": "DL_SystemManager@navercorp.com",
+        "scenario_name": "분류 불가 / 기타"
+      },
+      "response": "[분류] 10. 분류 불가 / 기타 (확신도 45%)\n\n문의 내용만으로는 처리 유형을 확신하기 어려워 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: J(0.45) → 확신 부족으로 기권, 시나리오 10 [372ms]",
+        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": false
+    },
+    {
+      "id": "S06-04",
+      "difficulty": "easy",
+      "text": "DL 전체 조회 메뉴 접근이 막혀 있는데 열어주실 수 있나요?",
+      "gold": 6,
+      "pred": 6,
+      "raw_pred": 6,
+      "confidence": 0.9770611514430211,
+      "probs": {
+        "F": 0.9770611514430211,
+        "J": 0.02293877688244781,
+        "G": 4.368194024532075e-08,
+        "H": 1.4928597486161662e-08,
+        "I": 1.0013624556302047e-08,
+        "E": 2.7603859177471424e-09,
+        "C": 2.14764618143737e-10,
+        "D": 7.521826367564651e-11
+      },
+      "abstained": false,
+      "latency_ms": 370.2577920630574,
+      "total_ms": 374.9541249126196,
+      "expected_tools": [
+        "send_mail"
+      ],
+      "actual_tools": [
+        "send_mail"
+      ],
+      "expected_args": {
+        "to": "DL_SystemManager@navercorp.com"
+      },
+      "actual_args": {
+        "to": "DL_SystemManager@navercorp.com",
+        "scenario_name": "'DL 전체 메일링그룹 조회' 메뉴 접근 권한 문의"
+      },
+      "response": "[분류] 6. 'DL 전체 메일링그룹 조회' 메뉴 접근 권한 문의 (확신도 98%)\n\n'DL 전체 메일링그룹 조회' 메뉴는 별도 권한이 필요한 메뉴입니다.\n문의 내용을 **DL 시스템 관리자**에게 전달했으며, 권한 처리 결과를 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-BE61B80E@dl-agent.local>)",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: F(0.98) → 시나리오 6 [370ms]",
+        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S06-05",
+      "difficulty": "easy",
+      "text": "전체 DL 조회 권한을 신청하려면 어디로 문의해야 하나요?",
+      "gold": 6,
+      "pred": 6,
+      "raw_pred": 6,
+      "confidence": 0.9986852073889559,
+      "probs": {
+        "F": 0.9986852073889559,
+        "J": 0.0013143483478988565,
+        "I": 1.6800199422989433e-07,
+        "G": 1.3990156183527677e-07,
+        "H": 1.3103238523674687e-07,
+        "E": 5.21151405516646e-09,
+        "C": 1.1568987773372618e-10
+      },
+      "abstained": false,
+      "latency_ms": 370.63970789313316,
+      "total_ms": 374.53508307226,
+      "expected_tools": [
+        "send_mail"
+      ],
+      "actual_tools": [
+        "send_mail"
+      ],
+      "expected_args": {
+        "to": "DL_SystemManager@navercorp.com"
+      },
+      "actual_args": {
+        "to": "DL_SystemManager@navercorp.com",
+        "scenario_name": "'DL 전체 메일링그룹 조회' 메뉴 접근 권한 문의"
+      },
+      "response": "[분류] 6. 'DL 전체 메일링그룹 조회' 메뉴 접근 권한 문의 (확신도 100%)\n\n'DL 전체 메일링그룹 조회' 메뉴는 별도 권한이 필요한 메뉴입니다.\n문의 내용을 **DL 시스템 관리자**에게 전달했으며, 권한 처리 결과를 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-BE61B80E@dl-agent.local>)",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: F(1.00) → 시나리오 6 [371ms]",
+        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S06-14",
+      "difficulty": "medium",
+      "text": "DL 시스템 전체 조회 화면 접근 권한 요청합니다. 사번 20231234 입니다.",
+      "gold": 6,
+      "pred": 6,
+      "raw_pred": 6,
+      "confidence": 0.9999964814519929,
+      "probs": {
+        "F": 0.9999964814519929,
+        "J": 3.5180161707951535e-06,
+        "G": 4.056245541276094e-10,
+        "H": 6.612072368855742e-11,
+        "I": 3.4317245771040365e-11,
+        "E": 2.5773710258607573e-11
+      },
+      "abstained": false,
+      "latency_ms": 373.3000420033932,
+      "total_ms": 377.06662504933774,
+      "expected_tools": [
+        "send_mail"
+      ],
+      "actual_tools": [
+        "send_mail"
+      ],
+      "expected_args": {
+        "to": "DL_SystemManager@navercorp.com"
+      },
+      "actual_args": {
+        "to": "DL_SystemManager@navercorp.com",
+        "scenario_name": "'DL 전체 메일링그룹 조회' 메뉴 접근 권한 문의"
+      },
+      "response": "[분류] 6. 'DL 전체 메일링그룹 조회' 메뉴 접근 권한 문의 (확신도 100%)\n\n'DL 전체 메일링그룹 조회' 메뉴는 별도 권한이 필요한 메뉴입니다.\n문의 내용을 **DL 시스템 관리자**에게 전달했으며, 권한 처리 결과를 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-BE61B80E@dl-agent.local>)",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: F(1.00) → 시나리오 6 [373ms]",
+        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S06-18",
+      "difficulty": "hard",
+      "text": "보안팀 요청으로 그룹 현황을 파악해야 하는데 조회 메뉴에 못 들어갑니다.",
+      "gold": 6,
+      "pred": 6,
+      "raw_pred": 6,
+      "confidence": 0.9999875416929156,
+      "probs": {
+        "F": 0.9999875416929156,
+        "J": 1.2458220618704307e-05,
+        "G": 5.6437517170305117e-11,
+        "H": 1.383076667109132e-11,
+        "E": 1.1246264070557298e-11,
+        "I": 4.951143632215181e-12
+      },
+      "abstained": false,
+      "latency_ms": 372.9507091920823,
+      "total_ms": 378.0357919167727,
+      "expected_tools": [
+        "send_mail"
+      ],
+      "actual_tools": [
+        "send_mail"
+      ],
+      "expected_args": {
+        "to": "DL_SystemManager@navercorp.com"
+      },
+      "actual_args": {
+        "to": "DL_SystemManager@navercorp.com",
+        "scenario_name": "'DL 전체 메일링그룹 조회' 메뉴 접근 권한 문의"
+      },
+      "response": "[분류] 6. 'DL 전체 메일링그룹 조회' 메뉴 접근 권한 문의 (확신도 100%)\n\n'DL 전체 메일링그룹 조회' 메뉴는 별도 권한이 필요한 메뉴입니다.\n문의 내용을 **DL 시스템 관리자**에게 전달했으며, 권한 처리 결과를 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-BE61B80E@dl-agent.local>)",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: F(1.00) → 시나리오 6 [373ms]",
+        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S07-03",
+      "difficulty": "easy",
+      "text": "메일 발송이 실패하는데 확인 부탁드립니다.",
+      "gold": 7,
+      "pred": 7,
+      "raw_pred": 7,
+      "confidence": 0.9999999999612448,
+      "probs": {
+        "G": 0.9999999999612448,
+        "J": 3.8755324019990454e-11
+      },
+      "abstained": false,
+      "latency_ms": 241.726583102718,
+      "total_ms": 245.7506249193102,
+      "expected_tools": [
+        "send_mail"
+      ],
+      "actual_tools": [
+        "send_mail"
+      ],
+      "expected_args": {
+        "to": "works_cs@navercorp.com"
+      },
+      "actual_args": {
+        "to": "works_cs@navercorp.com",
+        "missing": [
+          "발송자 메일주소",
+          "수신자 메일주소",
+          "발송 시간",
+          "메일 제목"
+        ]
+      },
+      "response": "[분류] 7. 일반 메일 송수신 문제 (DL 설정과 무관) (확신도 100%)\n\n말씀하신 증상은 DL 설정과는 무관한 사내 메일 송수신 문제로 보입니다.\n**WORKS 메일 담당(CS)** 으로 문의를 전달했습니다. (works_cs@navercorp.com)\n\n▸ 전달 완료: works_cs@navercorp.com (메시지 ID <REQ-607BEE97@dl-agent.local>)\n\n빠른 확인을 위해 아래 정보를 회신해 주세요.\n  - 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: G(1.00) → 시나리오 7 [242ms]",
+        "tool: send_mail → works_cs@navercorp.com",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S07-07",
+      "difficulty": "easy",
+      "text": "첨부파일이 큰 메일을 보내면 전송이 안 됩니다.",
+      "gold": 7,
+      "pred": 7,
+      "raw_pred": 7,
+      "confidence": 0.9999999998327962,
+      "probs": {
+        "G": 0.9999999998327962,
+        "J": 1.360956986036053e-10,
+        "H": 3.110800818201068e-11
+      },
+      "abstained": false,
+      "latency_ms": 244.21675014309585,
+      "total_ms": 248.10908385552466,
+      "expected_tools": [
+        "send_mail"
+      ],
+      "actual_tools": [
+        "send_mail"
+      ],
+      "expected_args": {
+        "to": "works_cs@navercorp.com"
+      },
+      "actual_args": {
+        "to": "works_cs@navercorp.com",
+        "missing": [
+          "발송자 메일주소",
+          "수신자 메일주소",
+          "발송 시간",
+          "메일 제목"
+        ]
+      },
+      "response": "[분류] 7. 일반 메일 송수신 문제 (DL 설정과 무관) (확신도 100%)\n\n말씀하신 증상은 DL 설정과는 무관한 사내 메일 송수신 문제로 보입니다.\n**WORKS 메일 담당(CS)** 으로 문의를 전달했습니다. (works_cs@navercorp.com)\n\n▸ 전달 완료: works_cs@navercorp.com (메시지 ID <REQ-607BEE97@dl-agent.local>)\n\n빠른 확인을 위해 아래 정보를 회신해 주세요.\n  - 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: G(1.00) → 시나리오 7 [244ms]",
+        "tool: send_mail → works_cs@navercorp.com",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S07-13",
+      "difficulty": "medium",
+      "text": "메일 용량이 꽉 찼다는 알림이 오는데 어떻게 해야 하나요?",
+      "gold": 7,
+      "pred": 7,
+      "raw_pred": 7,
+      "confidence": 0.9634235061091143,
+      "probs": {
+        "G": 0.9634235061091143,
+        "J": 0.03657647912364094,
+        "H": 7.171527464658775e-09,
+        "I": 4.836383600309847e-09,
+        "F": 1.765191854643599e-09,
+        "C": 9.941417839912018e-10
+      },
+      "abstained": false,
+      "latency_ms": 375.35029207356274,
+      "total_ms": 380.18233398906887,
+      "expected_tools": [
+        "send_mail"
+      ],
+      "actual_tools": [
+        "send_mail"
+      ],
+      "expected_args": {
+        "to": "works_cs@navercorp.com"
+      },
+      "actual_args": {
+        "to": "works_cs@navercorp.com",
+        "missing": [
+          "발송자 메일주소",
+          "수신자 메일주소",
+          "발송 시간",
+          "메일 제목"
+        ]
+      },
+      "response": "[분류] 7. 일반 메일 송수신 문제 (DL 설정과 무관) (확신도 96%)\n\n말씀하신 증상은 DL 설정과는 무관한 사내 메일 송수신 문제로 보입니다.\n**WORKS 메일 담당(CS)** 으로 문의를 전달했습니다. (works_cs@navercorp.com)\n\n▸ 전달 완료: works_cs@navercorp.com (메시지 ID <REQ-607BEE97@dl-agent.local>)\n\n빠른 확인을 위해 아래 정보를 회신해 주세요.\n  - 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: G(0.96) → 시나리오 7 [375ms]",
+        "tool: send_mail → works_cs@navercorp.com",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S07-16",
+      "difficulty": "hard",
+      "text": "메일링그룹이랑은 상관없는 것 같은데 개인 메일 수신이 안 됩니다. 어디에 문의해야 하나요?",
+      "gold": 7,
+      "pred": 7,
+      "raw_pred": 7,
+      "confidence": 0.9999999687601865,
+      "probs": {
+        "G": 0.9999999687601865,
+        "J": 3.0997948290236005e-08,
+        "H": 1.913153284780797e-10,
+        "I": 5.0549940771063135e-11
+      },
+      "abstained": false,
+      "latency_ms": 376.1447079014033,
+      "total_ms": 381.69120787642896,
+      "expected_tools": [
+        "send_mail"
+      ],
+      "actual_tools": [
+        "send_mail"
+      ],
+      "expected_args": {
+        "to": "works_cs@navercorp.com"
+      },
+      "actual_args": {
+        "to": "works_cs@navercorp.com",
+        "missing": [
+          "발송자 메일주소",
+          "수신자 메일주소",
+          "발송 시간",
+          "메일 제목"
+        ]
+      },
+      "response": "[분류] 7. 일반 메일 송수신 문제 (DL 설정과 무관) (확신도 100%)\n\n말씀하신 증상은 DL 설정과는 무관한 사내 메일 송수신 문제로 보입니다.\n**WORKS 메일 담당(CS)** 으로 문의를 전달했습니다. (works_cs@navercorp.com)\n\n▸ 전달 완료: works_cs@navercorp.com (메시지 ID <REQ-607BEE97@dl-agent.local>)\n\n빠른 확인을 위해 아래 정보를 회신해 주세요.\n  - 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: G(1.00) → 시나리오 7 [376ms]",
+        "tool: send_mail → works_cs@navercorp.com",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S08-04",
+      "difficulty": "easy",
+      "text": "동적 메일링그룹 생성 요청드립니다.",
+      "gold": 8,
+      "pred": 8,
+      "raw_pred": 8,
+      "confidence": 0.9999999999836207,
+      "probs": {
+        "H": 0.9999999999836207,
+        "I": 1.637926669968185e-11
+      },
+      "abstained": false,
+      "latency_ms": 241.69145780615509,
+      "total_ms": 247.06208310090005,
+      "expected_tools": [
+        "open_draft_form"
+      ],
+      "actual_tools": [
+        "open_draft_form"
+      ],
+      "expected_args": {
+        "request_type": "dynamic_dl"
+      },
+      "actual_args": {
+        "request_type": "dynamic_dl",
+        "prefill": {}
+      },
+      "response": "[분류] 8. 동적 DL 문의 (확신도 100%)\n\n법인·직급·재직형태 등 조건으로 멤버가 자동 관리되는 **동적 DL**은 기안(결재)으로 접수받아 등록해 드립니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 그룹 이름\n  - 메일주소\n  - 소속 법인\n  - 상세 연동 조건(법인/정규직 여부/겸직 여부/직급 등)\n\n▸ 접수번호(가): REQ-D2F59235",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: H(1.00) → 시나리오 8 [242ms]",
+        "tool: open_draft_form(dynamic_dl) → REQ-D2F59235",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S08-05",
+      "difficulty": "easy",
+      "text": "직급 기준으로 자동 구성되는 DL을 만들려면 어떻게 하나요?",
+      "gold": 8,
+      "pred": 8,
+      "raw_pred": 8,
+      "confidence": 1.0,
+      "probs": {
+        "H": 1.0
+      },
+      "abstained": false,
+      "latency_ms": 241.62012501619756,
+      "total_ms": 246.1514580063522,
+      "expected_tools": [
+        "open_draft_form"
+      ],
+      "actual_tools": [
+        "open_draft_form"
+      ],
+      "expected_args": {
+        "request_type": "dynamic_dl"
+      },
+      "actual_args": {
+        "request_type": "dynamic_dl",
+        "prefill": {}
+      },
+      "response": "[분류] 8. 동적 DL 문의 (확신도 100%)\n\n법인·직급·재직형태 등 조건으로 멤버가 자동 관리되는 **동적 DL**은 기안(결재)으로 접수받아 등록해 드립니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 그룹 이름\n  - 메일주소\n  - 소속 법인\n  - 상세 연동 조건(법인/정규직 여부/겸직 여부/직급 등)\n\n▸ 접수번호(가): REQ-D2F59235",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: H(1.00) → 시나리오 8 [242ms]",
+        "tool: open_draft_form(dynamic_dl) → REQ-D2F59235",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S08-11",
+      "difficulty": "medium",
+      "text": "한국 법인 책임급 이상 전원에게 공지를 보내야 하는데 그런 그룹을 만들 수 있을까요?",
+      "gold": 8,
+      "pred": 8,
+      "raw_pred": 8,
+      "confidence": 0.9999999938738628,
+      "probs": {
+        "H": 0.9999999938738628,
+        "I": 4.605465715324355e-09,
+        "J": 1.3680601339041979e-09,
+        "B": 4.343843936318351e-11,
+        "G": 4.249374266501555e-11,
+        "E": 3.4288717085497816e-11,
+        "D": 3.239030362708712e-11
+      },
+      "abstained": false,
+      "latency_ms": 377.48687504790723,
+      "total_ms": 380.1243749912828,
+      "expected_tools": [
+        "open_draft_form"
+      ],
+      "actual_tools": [
+        "open_draft_form"
+      ],
+      "expected_args": {
+        "request_type": "dynamic_dl"
+      },
+      "actual_args": {
+        "request_type": "dynamic_dl",
+        "prefill": {}
+      },
+      "response": "[분류] 8. 동적 DL 문의 (확신도 100%)\n\n법인·직급·재직형태 등 조건으로 멤버가 자동 관리되는 **동적 DL**은 기안(결재)으로 접수받아 등록해 드립니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 그룹 이름\n  - 메일주소\n  - 소속 법인\n  - 상세 연동 조건(법인/정규직 여부/겸직 여부/직급 등)\n\n▸ 접수번호(가): REQ-D2F59235",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: H(1.00) → 시나리오 8 [377ms]",
+        "tool: open_draft_form(dynamic_dl) → REQ-D2F59235",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S08-19",
+      "difficulty": "hard",
+      "text": "기존에 수동으로 관리하던 DL을 조건 기반 자동 관리로 전환할 수 있나요?",
+      "gold": 8,
+      "pred": 8,
+      "raw_pred": 8,
+      "confidence": 0.9999999998569169,
+      "probs": {
+        "H": 0.9999999998569169,
+        "I": 8.976985418262858e-11,
+        "J": 4.150256811785608e-11,
+        "B": 7.844630837740535e-12,
+        "G": 3.965945510456033e-12
+      },
+      "abstained": false,
+      "latency_ms": 390.34458389505744,
+      "total_ms": 393.2298328727484,
+      "expected_tools": [
+        "open_draft_form"
+      ],
+      "actual_tools": [
+        "open_draft_form"
+      ],
+      "expected_args": {
+        "request_type": "dynamic_dl"
+      },
+      "actual_args": {
+        "request_type": "dynamic_dl",
+        "prefill": {}
+      },
+      "response": "[분류] 8. 동적 DL 문의 (확신도 100%)\n\n법인·직급·재직형태 등 조건으로 멤버가 자동 관리되는 **동적 DL**은 기안(결재)으로 접수받아 등록해 드립니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 그룹 이름\n  - 메일주소\n  - 소속 법인\n  - 상세 연동 조건(법인/정규직 여부/겸직 여부/직급 등)\n\n▸ 접수번호(가): REQ-D2F59235",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: H(1.00) → 시나리오 8 [390ms]",
+        "tool: open_draft_form(dynamic_dl) → REQ-D2F59235",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S09-03",
+      "difficulty": "easy",
+      "text": "메일링그룹 REST API 스펙 문서 링크 주실 수 있나요?",
+      "gold": 9,
+      "pred": 9,
+      "raw_pred": 9,
+      "confidence": 0.9999999999159184,
+      "probs": {
+        "I": 0.9999999999159184,
+        "J": 8.067187587197135e-11,
+        "H": 3.409845629691362e-12
+      },
+      "abstained": false,
+      "latency_ms": 371.4870000258088,
+      "total_ms": 376.71916699036956,
+      "expected_tools": [
+        "get_wiki_link",
+        "open_draft_form"
+      ],
+      "actual_tools": [
+        "get_wiki_link",
+        "open_draft_form"
+      ],
+      "expected_args": {
+        "request_type": "dl_api_acl"
+      },
+      "actual_args": {
+        "topic": "rest_api",
+        "request_type": "dl_api_acl",
+        "prefill": {}
+      },
+      "response": "[분류] 9. DL API 사용 문의 (open API 연동, ACL 신청) (확신도 100%)\n\nDL open API는 아래 위키에 스펙과 신청 방법이 정리되어 있습니다.\n\n▸ 위키: https://wiki.navercorp.com/spaces/oapi/pages/552115497/%EB%A9%94%EC%9D%BC%EB%A7%81%EA%B7%B8%EB%A3%B9+REST+API\n\n▸ API URL\n  - 개발: http://dldev.navercorp.com/api/\n  - 운영: https://dl.navercorp.com/api/\n\n▸ 제공 기능: 메일링그룹 생성/수정/삭제, 정보 조회, 멤버 등록/조회/삭제, 특정 사번 소속 DL 조회, 메일주소·이름 중복 확인, Groups 연동\n\n**운영 적용을 위한 ACL 등록**은 기안(결재)으로 신청해 주셔야 합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 사용 서비스 명\n  - 사용 서비스 도메인\n  - API 사용 목적\n  - 호출 서버 IP (N3R Egress IP 포함)\n  - 사용하려는 API 명\n  - 대략적인 호출 빈도\n\n▸ 접수번호(가): REQ-E94BF014",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: I(1.00) → 시나리오 9 [371ms]",
+        "tool: get_wiki_link(rest_api)",
+        "tool: open_draft_form(dl_api_acl) → REQ-E94BF014",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S09-08",
+      "difficulty": "easy",
+      "text": "DL open API ACL 등록 기안 어떻게 올리나요?",
+      "gold": 9,
+      "pred": 9,
+      "raw_pred": 9,
+      "confidence": 0.999999999685254,
+      "probs": {
+        "I": 0.999999999685254,
+        "J": 2.9793296527659617e-10,
+        "H": 1.6813101429096206e-11
+      },
+      "abstained": false,
+      "latency_ms": 244.43629197776318,
+      "total_ms": 247.25241702981293,
+      "expected_tools": [
+        "get_wiki_link",
+        "open_draft_form"
+      ],
+      "actual_tools": [
+        "get_wiki_link",
+        "open_draft_form"
+      ],
+      "expected_args": {
+        "request_type": "dl_api_acl"
+      },
+      "actual_args": {
+        "topic": "rest_api",
+        "request_type": "dl_api_acl",
+        "prefill": {}
+      },
+      "response": "[분류] 9. DL API 사용 문의 (open API 연동, ACL 신청) (확신도 100%)\n\nDL open API는 아래 위키에 스펙과 신청 방법이 정리되어 있습니다.\n\n▸ 위키: https://wiki.navercorp.com/spaces/oapi/pages/552115497/%EB%A9%94%EC%9D%BC%EB%A7%81%EA%B7%B8%EB%A3%B9+REST+API\n\n▸ API URL\n  - 개발: http://dldev.navercorp.com/api/\n  - 운영: https://dl.navercorp.com/api/\n\n▸ 제공 기능: 메일링그룹 생성/수정/삭제, 정보 조회, 멤버 등록/조회/삭제, 특정 사번 소속 DL 조회, 메일주소·이름 중복 확인, Groups 연동\n\n**운영 적용을 위한 ACL 등록**은 기안(결재)으로 신청해 주셔야 합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 사용 서비스 명\n  - 사용 서비스 도메인\n  - API 사용 목적\n  - 호출 서버 IP (N3R Egress IP 포함)\n  - 사용하려는 API 명\n  - 대략적인 호출 빈도\n\n▸ 접수번호(가): REQ-E94BF014",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: I(1.00) → 시나리오 9 [244ms]",
+        "tool: get_wiki_link(rest_api)",
+        "tool: open_draft_form(dl_api_acl) → REQ-E94BF014",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S09-12",
+      "difficulty": "medium",
+      "text": "메일주소 중복 확인을 API로 하고 싶습니다. 스펙 확인할 수 있는 문서가 있을까요?",
+      "gold": 9,
+      "pred": 9,
+      "raw_pred": 9,
+      "confidence": 0.9999999998816747,
+      "probs": {
+        "I": 0.9999999998816747,
+        "J": 1.1466638346167645e-10,
+        "H": 3.6590607721092655e-12
+      },
+      "abstained": false,
+      "latency_ms": 365.39666703902185,
+      "total_ms": 368.769041961059,
+      "expected_tools": [
+        "get_wiki_link",
+        "open_draft_form"
+      ],
+      "actual_tools": [
+        "get_wiki_link",
+        "open_draft_form"
+      ],
+      "expected_args": {
+        "request_type": "dl_api_acl"
+      },
+      "actual_args": {
+        "topic": "rest_api",
+        "request_type": "dl_api_acl",
+        "prefill": {}
+      },
+      "response": "[분류] 9. DL API 사용 문의 (open API 연동, ACL 신청) (확신도 100%)\n\nDL open API는 아래 위키에 스펙과 신청 방법이 정리되어 있습니다.\n\n▸ 위키: https://wiki.navercorp.com/spaces/oapi/pages/552115497/%EB%A9%94%EC%9D%BC%EB%A7%81%EA%B7%B8%EB%A3%B9+REST+API\n\n▸ API URL\n  - 개발: http://dldev.navercorp.com/api/\n  - 운영: https://dl.navercorp.com/api/\n\n▸ 제공 기능: 메일링그룹 생성/수정/삭제, 정보 조회, 멤버 등록/조회/삭제, 특정 사번 소속 DL 조회, 메일주소·이름 중복 확인, Groups 연동\n\n**운영 적용을 위한 ACL 등록**은 기안(결재)으로 신청해 주셔야 합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 사용 서비스 명\n  - 사용 서비스 도메인\n  - API 사용 목적\n  - 호출 서버 IP (N3R Egress IP 포함)\n  - 사용하려는 API 명\n  - 대략적인 호출 빈도\n\n▸ 접수번호(가): REQ-E94BF014",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: I(1.00) → 시나리오 9 [365ms]",
+        "tool: get_wiki_link(rest_api)",
+        "tool: open_draft_form(dl_api_acl) → REQ-E94BF014",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S09-18",
+      "difficulty": "hard",
+      "text": "테스트는 끝났고 이제 프로덕션에 반영하려는데 추가로 해야 할 게 있나요?",
+      "gold": 9,
+      "pred": 10,
+      "raw_pred": 10,
+      "confidence": 0.9999443265398704,
+      "probs": {
+        "J": 0.9999443265398704,
+        "G": 3.065562232614731e-05,
+        "I": 1.9398383526128942e-05,
+        "H": 5.489942918446267e-06,
+        "F": 1.0522154024679951e-07,
+        "C": 9.147923485942839e-09,
+        "E": 7.83668679570474e-09,
+        "D": 7.305208345874991e-09
+      },
+      "abstained": false,
+      "latency_ms": 375.1601248513907,
+      "total_ms": 380.664125084877,
+      "expected_tools": [
+        "get_wiki_link",
+        "open_draft_form"
+      ],
+      "actual_tools": [
+        "send_mail"
+      ],
+      "expected_args": {
+        "request_type": "dl_api_acl"
+      },
+      "actual_args": {
+        "to": "DL_SystemManager@navercorp.com",
+        "scenario_name": "분류 불가 / 기타"
+      },
+      "response": "[분류] 10. 분류 불가 / 기타 (확신도 100%)\n\n자동 분류 대상에 해당하지 않아 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: J(1.00) → 시나리오 10 [375ms]",
+        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": false
+    },
+    {
+      "id": "S10-05",
+      "difficulty": "easy",
+      "text": "회의실 예약 시스템 오류 문의입니다.",
+      "gold": 10,
+      "pred": 10,
+      "raw_pred": 10,
+      "confidence": 1.0,
+      "probs": {
+        "J": 1.0
+      },
+      "abstained": false,
+      "latency_ms": 240.0330000091344,
+      "total_ms": 245.73879083618522,
+      "expected_tools": [
+        "send_mail"
+      ],
+      "actual_tools": [
+        "send_mail"
+      ],
+      "expected_args": {
+        "to": "DL_SystemManager@navercorp.com"
+      },
+      "actual_args": {
+        "to": "DL_SystemManager@navercorp.com",
+        "scenario_name": "분류 불가 / 기타"
+      },
+      "response": "[분류] 10. 분류 불가 / 기타 (확신도 100%)\n\n자동 분류 대상에 해당하지 않아 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: J(1.00) → 시나리오 10 [240ms]",
+        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S10-07",
+      "difficulty": "easy",
+      "text": "테스트입니다.",
+      "gold": 10,
+      "pred": 10,
+      "raw_pred": 10,
+      "confidence": 1.0,
+      "probs": {
+        "J": 1.0
+      },
+      "abstained": false,
+      "latency_ms": 263.3788329549134,
+      "total_ms": 267.45995809324086,
+      "expected_tools": [
+        "send_mail"
+      ],
+      "actual_tools": [
+        "send_mail"
+      ],
+      "expected_args": {
+        "to": "DL_SystemManager@navercorp.com"
+      },
+      "actual_args": {
+        "to": "DL_SystemManager@navercorp.com",
+        "scenario_name": "분류 불가 / 기타"
+      },
+      "response": "[분류] 10. 분류 불가 / 기타 (확신도 100%)\n\n자동 분류 대상에 해당하지 않아 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: J(1.00) → 시나리오 10 [263ms]",
+        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S10-09",
+      "difficulty": "medium",
+      "text": "슬랙 채널 생성 권한이 필요한데 담당자가 누구신가요?",
+      "gold": 10,
+      "pred": 10,
+      "raw_pred": 7,
+      "confidence": 0.69202141193154,
+      "probs": {
+        "G": 0.69202141193154,
+        "I": 0.2544760733630836,
+        "H": 0.02803520719857476,
+        "J": 0.018423077581206673,
+        "F": 0.0070442299255949635
+      },
+      "abstained": true,
+      "latency_ms": 373.5133330337703,
+      "total_ms": 378.4165419638157,
+      "expected_tools": [
+        "send_mail"
+      ],
+      "actual_tools": [
+        "send_mail"
+      ],
+      "expected_args": {
+        "to": "DL_SystemManager@navercorp.com"
+      },
+      "actual_args": {
+        "to": "DL_SystemManager@navercorp.com",
+        "scenario_name": "분류 불가 / 기타"
+      },
+      "response": "[분류] 10. 분류 불가 / 기타 (확신도 69%)\n\n문의 내용만으로는 처리 유형을 확신하기 어려워 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: G(0.69) → 확신 부족으로 기권, 시나리오 10 [374ms]",
+        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    },
+    {
+      "id": "S10-18",
+      "difficulty": "hard",
+      "text": "저희 조직에서 쓰는 협업 도구 전반에 대해 상담받고 싶습니다.",
+      "gold": 10,
+      "pred": 10,
+      "raw_pred": 10,
+      "confidence": 1.0,
+      "probs": {
+        "J": 1.0
+      },
+      "abstained": false,
+      "latency_ms": 371.19066691957414,
+      "total_ms": 375.52087497897446,
+      "expected_tools": [
+        "send_mail"
+      ],
+      "actual_tools": [
+        "send_mail"
+      ],
+      "expected_args": {
+        "to": "DL_SystemManager@navercorp.com"
+      },
+      "actual_args": {
+        "to": "DL_SystemManager@navercorp.com",
+        "scenario_name": "분류 불가 / 기타"
+      },
+      "response": "[분류] 10. 분류 불가 / 기타 (확신도 100%)\n\n자동 분류 대상에 해당하지 않아 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
+      "trace": [
+        "ingest: 슬롯 없음",
+        "classify: J(1.00) → 시나리오 10 [371ms]",
+        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "compose: 응답 조립 완료"
+      ],
+      "e2e_ok": true
+    }
+  ]
+}
