@@ -32,7 +32,7 @@
 {"id": "S04-03", "scenario": 4, "difficulty": "easy", "text": "고객사에서 DL 주소로 메일을 보냈는데 아무도 못 받았습니다."}
 {"id": "S04-08", "scenario": 4, "difficulty": "easy", "text": "메일링그룹으로 오는 외부 메일만 유독 안 옵니다."}
 {"id": "S04-09", "scenario": 4, "difficulty": "medium", "text": "사내에서 그룹 주소로 보내면 잘 오는데 사외에서 보내면 안 옵니다. 뭐가 문제일까요?"}
-{"id": "S04-10", "scenario": 4, "difficulty": "medium", "text": "vendor@partner.co.kr 에서 platform-dl@navercorp.com 으로 8/28 14:20 에 보낸 메일이 수신되지 않았습니다. 제목은 '견적서 회신' 입니다."}
+{"id": "S04-10", "scenario": 4, "difficulty": "medium", "text": "vendor@partner.co.kr 에서 platform-dl@example.com 으로 8/28 14:20 에 보낸 메일이 수신되지 않았습니다. 제목은 '견적서 회신' 입니다."}
 {"id": "S04-11", "scenario": 4, "difficulty": "medium", "text": "외부 발신자가 우리 DL에 메일 보내면 550 에러가 난다고 하는데 확인 가능할까요?"}
 {"id": "S04-12", "scenario": 4, "difficulty": "medium", "text": "DL 상세 설정에 외부메일 수신 항목이 있던데 이게 꺼져 있으면 사외 메일이 다 막히나요? 저희 그룹은 DL567890 입니다."}
 {"id": "S04-16", "scenario": 4, "difficulty": "hard", "text": "외부메일 수신은 허용으로 되어 있는데도 사외 메일이 안 들어옵니다. 발신제한 같은 게 걸려 있을까요?"}

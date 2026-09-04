@@ -23,7 +23,7 @@ from .schema import (
     DRAFT_FORM_URL,
     WIKI_REST_API,
     WIKI_SENDER_GUIDE,
-    WORKS_CS_MAIL,
+    _CS_MAIL,
 )
 
 KST = timezone(timedelta(hours=9))
@@ -60,7 +60,7 @@ DRAFT_FIELDS: dict[str, list[str]] = {
         "사용 서비스 명",
         "사용 서비스 도메인",
         "API 사용 목적",
-        "호출 서버 IP (N3R Egress IP 포함)",
+        "호출 서버 IP (pod Egress IP 포함)",
         "사용하려는 API 명",
         "대략적인 호출 빈도",
     ],
@@ -110,11 +110,11 @@ def forward_to_admin(inquiry: str, scenario_name: str) -> dict[str, Any]:
     )
 
 
-def forward_to_works_cs(inquiry: str, missing: list[str] | None = None) -> dict[str, Any]:
+def forward_to__cs(inquiry: str, missing: list[str] | None = None) -> dict[str, Any]:
     body = inquiry
     if missing:
         body += "\n\n[미확보 정보] " + ", ".join(missing)
-    return send_mail(to=WORKS_CS_MAIL, subject="[메일 송수신 문의 전달]", body=body)
+    return send_mail(to=_CS_MAIL, subject="[메일 송수신 문의 전달]", body=body)
 
 
 # --- 3. DL REST API 조회 -----------------------------------------------------
@@ -136,9 +136,9 @@ def dl_api_get(dl_code: str) -> dict[str, Any]:
 
     result = {
         "ok": True,
-        "endpoint": "https://dl.navercorp.com/api/dl",
+        "endpoint": "https://dl.example.com/api/dl",
         "dl_code": code,
-        "mail_address": f"{code.lower()}@navercorp.com",
+        "mail_address": f"{code.lower()}@example.com",
         "external_mail_receive": external,  # ALLOW | DENY
         "member_count": 12 + (int(code[2:]) % 40 if code[2:].isdigit() else 7),
         "status": "ACTIVE",

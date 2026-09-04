@@ -9,7 +9,7 @@
 |---|---|---|
 | 고정 응답 | 2, 3, 4, 5 | 가이드에 적힌 안내문을 회신. 필요하면 DL API로 설정을 조회해 안내에 반영 |
 | 기안 결재 | 1, 8, 9 | 사내정보시스템 기안 서식을 열고, 기재해야 할 항목을 채워 안내 |
-| 메일 전달 | 6, 7, 10 | DL 시스템 관리자 또는 WORKS 메일 CS에게 문의를 전달 |
+| 메일 전달 | 6, 7, 10 | DL 시스템 관리자 또는  메일 CS에게 문의를 전달 |
 
 도구는 **전부 스텁(모의 호출)** 이라 실제 부작용이 없다. 호출 사실과 인자는
 `results/tool_audit.log` 에 JSON Lines로 남는다.
@@ -117,7 +117,7 @@ benchmark/
 | 도구 | 인자 | 반환 | 호출 시나리오 |
 |---|---|---|---|
 | `open_draft_form` | `request_type`, `prefill` | 기안 URL, 필수 기재 항목, 접수번호 | 1 → `dl_rename`, 8 → `dynamic_dl`, 9 → `dl_api_acl` |
-| `send_mail` | `to`, `subject`, `body` | 메시지 ID, 큐 시각 | 6·10 → 관리자, 7 → WORKS CS |
+| `send_mail` | `to`, `subject`, `body` | 메시지 ID, 큐 시각 | 6·10 → 관리자, 7 →  CS |
 | `dl_api_get` | `dl_code` | 외부메일 수신 설정, 멤버 수, 상태 | 4 (문의에 DL 코드가 있을 때만) |
 | `get_wiki_link` | `topic` | 위키 제목·URL | 5 → 발송권한 가이드, 9 → REST API |
 

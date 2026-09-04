@@ -13,7 +13,7 @@ from .extract import missing_for_mail_triage
 from .schema import (
     ADMIN_MAIL,
     BY_ID,
-    WORKS_CS_MAIL,
+    _CS_MAIL,
     Slots,
     ToolCall,
 )
@@ -73,7 +73,7 @@ def _body(
             "관리자가 멤버를 직접 추가하거나 제외할 수 없습니다.\n\n"
             "파견직·계약직 제외 등 편집이 꼭 필요하시면 **소속 법인의 인사부서 담당자**에게 "
             "제외 요청을 해주셔야 합니다.\n\n"
-            "⚠️ 조직 DL에서 제외되면 해당 DL과 연결된 WORKS 기능(드라이브 등) 접근이 "
+            "⚠️ 조직 DL에서 제외되면 해당 DL과 연결된 기능(드라이브 등) 접근이 "
             "불가해질 수 있어, 대상자에게 사전 고지한 뒤 진행됩니다."
         )
 
@@ -84,7 +84,7 @@ def _body(
             "▸ 단, **삭제 후 1개월 이내**의 그룹만 조회·복구가 가능합니다.\n\n"
             "1개월이 지난 경우에는\n"
             "  - 메일링그룹만 사용하셨다면 → 새로 생성해 주시면 됩니다.\n"
-            f"  - WORKS 드라이브 등 데이터 복구가 필요하다면 → {ADMIN_MAIL} 로 문의해 주세요."
+            f"  -  드라이브 등 데이터 복구가 필요하다면 → {ADMIN_MAIL} 로 문의해 주세요."
         )
 
     if scenario_id == 4:
@@ -146,7 +146,7 @@ def _body(
         )
         return (
             "말씀하신 증상은 DL 설정과는 무관한 사내 메일 송수신 문제로 보입니다.\n"
-            f"**WORKS 메일 담당(CS)** 으로 문의를 전달했습니다. ({WORKS_CS_MAIL})" + sent + ask
+            f"** 메일 담당(CS)** 으로 문의를 전달했습니다. ({_CS_MAIL})" + sent + ask
         )
 
     if scenario_id == 8:
@@ -163,7 +163,7 @@ def _body(
         parts = [
             "DL open API는 아래 위키에 스펙과 신청 방법이 정리되어 있습니다.",
             f"\n▸ 위키: {wiki['url'] if wiki else ''}",
-            "\n▸ API URL\n  - 개발: http://dldev.navercorp.com/api/\n  - 운영: https://dl.navercorp.com/api/",
+            "\n▸ API URL\n  - 개발: http://dev.example.com/api/\n  - 운영: https://example.com/api/",
             "\n▸ 제공 기능: 메일링그룹 생성/수정/삭제, 정보 조회, 멤버 등록/조회/삭제, "
             "특정 사번 소속 DL 조회, 메일주소·이름 중복 확인, Groups 연동",
             "\n**운영 적용을 위한 ACL 등록**은 기안(결재)으로 신청해 주셔야 합니다.\n",

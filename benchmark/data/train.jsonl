@@ -37,7 +37,7 @@
 {"id": "S07-01", "scenario": 7, "difficulty": "easy", "text": "보낸 메일이 도착을 안 했다고 합니다."}
 {"id": "S07-04", "scenario": 7, "difficulty": "easy", "text": "동료에게 보낸 메일이 반송되었습니다."}
 {"id": "S07-06", "scenario": 7, "difficulty": "easy", "text": "메일함에 특정 발신자 메일만 안 보입니다."}
-{"id": "S07-09", "scenario": 7, "difficulty": "medium", "text": "hong@navercorp.com 이 kim@navercorp.com 에게 8/29 09:15 에 보낸 '주간보고' 메일이 수신되지 않았습니다."}
+{"id": "S07-09", "scenario": 7, "difficulty": "medium", "text": "hong@example.com 이 kim@example.com 에게 8/29 09:15 에 보낸 '주간보고' 메일이 수신되지 않았습니다."}
 {"id": "S07-11", "scenario": 7, "difficulty": "medium", "text": "메일 검색이 안 되고 예전 메일이 사라진 것처럼 보입니다."}
 {"id": "S07-20", "scenario": 7, "difficulty": "hard", "text": "수신확인이 계속 '읽지 않음' 인데 상대는 받았다고 합니다. 기능 오류인지 확인 부탁드려요."}
 {"id": "S08-02", "scenario": 8, "difficulty": "easy", "text": "동적 DL 등록 절차가 궁금합니다."}
@@ -50,7 +50,7 @@
 {"id": "S09-05", "scenario": 9, "difficulty": "easy", "text": "운영 환경에서 DL API를 호출하려면 ACL 등록이 필요하다고 들었습니다."}
 {"id": "S09-06", "scenario": 9, "difficulty": "easy", "text": "DL API 개발 서버 주소랑 신청 절차 알려주세요."}
 {"id": "S09-09", "scenario": 9, "difficulty": "medium", "text": "저희 서비스에서 사번으로 소속 DL을 조회하는 기능을 붙이려고 합니다. 연동 절차 문의드려요."}
-{"id": "S09-11", "scenario": 9, "difficulty": "medium", "text": "N3R 환경에서 호출할 건데 Egress IP를 어디에 적어야 하나요?"}
+{"id": "S09-11", "scenario": 9, "difficulty": "medium", "text": "pod 환경에서 호출할 건데 Egress IP를 어디에 적어야 하나요?"}
 {"id": "S09-16", "scenario": 9, "difficulty": "hard", "text": "사내 포털에 메일링그룹 검색 기능을 붙이려고 하는데 어떤 절차를 밟아야 하는지 정리해 주실 수 있나요?"}
 {"id": "S10-01", "scenario": 10, "difficulty": "easy", "text": "사내 VPN 접속이 안 되는데 어디에 문의해야 하나요?"}
 {"id": "S10-03", "scenario": 10, "difficulty": "easy", "text": "연차 신청 화면이 안 열립니다."}

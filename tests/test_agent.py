@@ -76,8 +76,8 @@ def test_forward_targets() -> None:
     admin = GRAPH.invoke({"inquiry": "전체 메일링그룹 조회 메뉴에 접근 권한이 없다고 나옵니다."})
     cs = GRAPH.invoke({"inquiry": "보낸 메일이 도착하지 않았다고 합니다."})
 
-    assert admin["tool_calls"][0]["result"]["to"] == "DL_SystemManager@navercorp.com"
-    assert cs["tool_calls"][0]["result"]["to"] == "works_cs@navercorp.com"
+    assert admin["tool_calls"][0]["result"]["to"] == "DL_SystemManager@example.com"
+    assert cs["tool_calls"][0]["result"]["to"] == "_cs@example.com"
 
 
 def test_responses_never_invent_links() -> None:
@@ -88,8 +88,8 @@ def test_responses_never_invent_links() -> None:
 
     allowed = {DRAFT_FORM_URL, WIKI_REST_API, WIKI_SENDER_GUIDE}
     prefixes = tuple(u.split("?")[0] for u in allowed) + (
-        "http://dldev.navercorp.com/api/",
-        "https://dl.navercorp.com/api/",
+        "http://dldev.example.com/api/",
+        "https://dl.example.com/api/",
     )
 
     for scenario in SCENARIOS:

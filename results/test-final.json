@@ -358,7 +358,7 @@
         "request_type": "dl_rename",
         "prefill": {}
       },
-      "response": "[분류] 1. DL 이름 편집/변경 요청 (확신도 100%)\n\nDL 이름 변경은 담당자가 임의로 수정하지 않고 기안(결재)으로 접수받아 처리합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 현재 그룹 이름\n  - 변경할 그룹 이름\n  - DL 메일주소\n  - 변경 사유\n\n▸ 접수번호(가): REQ-A12582DF",
+      "response": "[분류] 1. DL 이름 편집/변경 요청 (확신도 100%)\n\nDL 이름 변경은 담당자가 임의로 수정하지 않고 기안(결재)으로 접수받아 처리합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.example.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 현재 그룹 이름\n  - 변경할 그룹 이름\n  - DL 메일주소\n  - 변경 사유\n\n▸ 접수번호(가): REQ-A12582DF",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: A(1.00) → 시나리오 1 [232ms]",
@@ -399,7 +399,7 @@
         "request_type": "dl_rename",
         "prefill": {}
       },
-      "response": "[분류] 1. DL 이름 편집/변경 요청 (확신도 100%)\n\nDL 이름 변경은 담당자가 임의로 수정하지 않고 기안(결재)으로 접수받아 처리합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 현재 그룹 이름\n  - 변경할 그룹 이름\n  - DL 메일주소\n  - 변경 사유\n\n▸ 접수번호(가): REQ-A12582DF",
+      "response": "[분류] 1. DL 이름 편집/변경 요청 (확신도 100%)\n\nDL 이름 변경은 담당자가 임의로 수정하지 않고 기안(결재)으로 접수받아 처리합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.example.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 현재 그룹 이름\n  - 변경할 그룹 이름\n  - DL 메일주소\n  - 변경 사유\n\n▸ 접수번호(가): REQ-A12582DF",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: A(1.00) → 시나리오 1 [239ms]",
@@ -437,7 +437,7 @@
         "request_type": "dl_rename",
         "prefill": {}
       },
-      "response": "[분류] 1. DL 이름 편집/변경 요청 (확신도 100%)\n\nDL 이름 변경은 담당자가 임의로 수정하지 않고 기안(결재)으로 접수받아 처리합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 현재 그룹 이름\n  - 변경할 그룹 이름\n  - DL 메일주소\n  - 변경 사유\n\n▸ 접수번호(가): REQ-A12582DF",
+      "response": "[분류] 1. DL 이름 편집/변경 요청 (확신도 100%)\n\nDL 이름 변경은 담당자가 임의로 수정하지 않고 기안(결재)으로 접수받아 처리합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.example.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 현재 그룹 이름\n  - 변경할 그룹 이름\n  - DL 메일주소\n  - 변경 사유\n\n▸ 접수번호(가): REQ-A12582DF",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: A(1.00) → 시나리오 1 [241ms]",
@@ -480,7 +480,7 @@
         "request_type": "dl_rename",
         "prefill": {}
       },
-      "response": "[분류] 1. DL 이름 편집/변경 요청 (확신도 100%)\n\nDL 이름 변경은 담당자가 임의로 수정하지 않고 기안(결재)으로 접수받아 처리합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 현재 그룹 이름\n  - 변경할 그룹 이름\n  - DL 메일주소\n  - 변경 사유\n\n▸ 접수번호(가): REQ-A12582DF",
+      "response": "[분류] 1. DL 이름 편집/변경 요청 (확신도 100%)\n\nDL 이름 변경은 담당자가 임의로 수정하지 않고 기안(결재)으로 접수받아 처리합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.example.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 현재 그룹 이름\n  - 변경할 그룹 이름\n  - DL 메일주소\n  - 변경 사유\n\n▸ 접수번호(가): REQ-A12582DF",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: A(1.00) → 시나리오 1 [377ms]",
@@ -520,7 +520,7 @@
         "request_type": "dl_rename",
         "prefill": {}
       },
-      "response": "[분류] 1. DL 이름 편집/변경 요청 (확신도 100%)\n\nDL 이름 변경은 담당자가 임의로 수정하지 않고 기안(결재)으로 접수받아 처리합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 현재 그룹 이름\n  - 변경할 그룹 이름\n  - DL 메일주소\n  - 변경 사유\n\n▸ 접수번호(가): REQ-A12582DF",
+      "response": "[분류] 1. DL 이름 편집/변경 요청 (확신도 100%)\n\nDL 이름 변경은 담당자가 임의로 수정하지 않고 기안(결재)으로 접수받아 처리합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.example.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 현재 그룹 이름\n  - 변경할 그룹 이름\n  - DL 메일주소\n  - 변경 사유\n\n▸ 접수번호(가): REQ-A12582DF",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: A(1.00) → 시나리오 1 [380ms]",
@@ -565,7 +565,7 @@
         "request_type": "dl_rename",
         "prefill": {}
       },
-      "response": "[분류] 1. DL 이름 편집/변경 요청 (확신도 90%)\n\nDL 이름 변경은 담당자가 임의로 수정하지 않고 기안(결재)으로 접수받아 처리합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 현재 그룹 이름\n  - 변경할 그룹 이름\n  - DL 메일주소\n  - 변경 사유\n\n▸ 접수번호(가): REQ-A12582DF",
+      "response": "[분류] 1. DL 이름 편집/변경 요청 (확신도 90%)\n\nDL 이름 변경은 담당자가 임의로 수정하지 않고 기안(결재)으로 접수받아 처리합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.example.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 현재 그룹 이름\n  - 변경할 그룹 이름\n  - DL 메일주소\n  - 변경 사유\n\n▸ 접수번호(가): REQ-A12582DF",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: A(0.90) → 시나리오 1 [377ms]",
@@ -605,7 +605,7 @@
         "request_type": "dl_rename",
         "prefill": {}
       },
-      "response": "[분류] 1. DL 이름 편집/변경 요청 (확신도 100%)\n\nDL 이름 변경은 담당자가 임의로 수정하지 않고 기안(결재)으로 접수받아 처리합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 현재 그룹 이름\n  - 변경할 그룹 이름\n  - DL 메일주소\n  - 변경 사유\n\n▸ 접수번호(가): REQ-A12582DF",
+      "response": "[분류] 1. DL 이름 편집/변경 요청 (확신도 100%)\n\nDL 이름 변경은 담당자가 임의로 수정하지 않고 기안(결재)으로 접수받아 처리합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.example.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 현재 그룹 이름\n  - 변경할 그룹 이름\n  - DL 메일주소\n  - 변경 사유\n\n▸ 접수번호(가): REQ-A12582DF",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: A(1.00) → 시나리오 1 [372ms]",
@@ -645,7 +645,7 @@
         "request_type": "dl_rename",
         "prefill": {}
       },
-      "response": "[분류] 1. DL 이름 편집/변경 요청 (확신도 100%)\n\nDL 이름 변경은 담당자가 임의로 수정하지 않고 기안(결재)으로 접수받아 처리합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 현재 그룹 이름\n  - 변경할 그룹 이름\n  - DL 메일주소\n  - 변경 사유\n\n▸ 접수번호(가): REQ-A12582DF",
+      "response": "[분류] 1. DL 이름 편집/변경 요청 (확신도 100%)\n\nDL 이름 변경은 담당자가 임의로 수정하지 않고 기안(결재)으로 접수받아 처리합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.example.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 현재 그룹 이름\n  - 변경할 그룹 이름\n  - DL 메일주소\n  - 변경 사유\n\n▸ 접수번호(가): REQ-A12582DF",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: A(1.00) → 시나리오 1 [376ms]",
@@ -685,7 +685,7 @@
         "request_type": "dl_rename",
         "prefill": {}
       },
-      "response": "[분류] 1. DL 이름 편집/변경 요청 (확신도 100%)\n\nDL 이름 변경은 담당자가 임의로 수정하지 않고 기안(결재)으로 접수받아 처리합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 현재 그룹 이름\n  - 변경할 그룹 이름\n  - DL 메일주소\n  - 변경 사유\n\n▸ 접수번호(가): REQ-A12582DF",
+      "response": "[분류] 1. DL 이름 편집/변경 요청 (확신도 100%)\n\nDL 이름 변경은 담당자가 임의로 수정하지 않고 기안(결재)으로 접수받아 처리합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.example.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 현재 그룹 이름\n  - 변경할 그룹 이름\n  - DL 메일주소\n  - 변경 사유\n\n▸ 접수번호(가): REQ-A12582DF",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: A(1.00) → 시나리오 1 [371ms]",
@@ -727,7 +727,7 @@
         "request_type": "dl_rename",
         "prefill": {}
       },
-      "response": "[분류] 1. DL 이름 편집/변경 요청 (확신도 100%)\n\nDL 이름 변경은 담당자가 임의로 수정하지 않고 기안(결재)으로 접수받아 처리합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 현재 그룹 이름\n  - 변경할 그룹 이름\n  - DL 메일주소\n  - 변경 사유\n\n▸ 접수번호(가): REQ-A12582DF",
+      "response": "[분류] 1. DL 이름 편집/변경 요청 (확신도 100%)\n\nDL 이름 변경은 담당자가 임의로 수정하지 않고 기안(결재)으로 접수받아 처리합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.example.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 현재 그룹 이름\n  - 변경할 그룹 이름\n  - DL 메일주소\n  - 변경 사유\n\n▸ 접수번호(가): REQ-A12582DF",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: A(1.00) → 시나리오 1 [371ms]",
@@ -762,7 +762,7 @@
       "actual_tools": [],
       "expected_args": {},
       "actual_args": {},
-      "response": "[분류] 2. 조직 DL 편집 문의 (확신도 100%)\n\n조직(부서) DL은 **인사정보를 기준으로 자동 생성·관리**되는 그룹이라, 관리자가 멤버를 직접 추가하거나 제외할 수 없습니다.\n\n파견직·계약직 제외 등 편집이 꼭 필요하시면 **소속 법인의 인사부서 담당자**에게 제외 요청을 해주셔야 합니다.\n\n⚠️ 조직 DL에서 제외되면 해당 DL과 연결된 WORKS 기능(드라이브 등) 접근이 불가해질 수 있어, 대상자에게 사전 고지한 뒤 진행됩니다.",
+      "response": "[분류] 2. 조직 DL 편집 문의 (확신도 100%)\n\n조직(부서) DL은 **인사정보를 기준으로 자동 생성·관리**되는 그룹이라, 관리자가 멤버를 직접 추가하거나 제외할 수 없습니다.\n\n파견직·계약직 제외 등 편집이 꼭 필요하시면 **소속 법인의 인사부서 담당자**에게 제외 요청을 해주셔야 합니다.\n\n⚠️ 조직 DL에서 제외되면 해당 DL과 연결된  기능(드라이브 등) 접근이 불가해질 수 있어, 대상자에게 사전 고지한 뒤 진행됩니다.",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: B(1.00) → 시나리오 2 [370ms]",
@@ -798,7 +798,7 @@
       "actual_tools": [],
       "expected_args": {},
       "actual_args": {},
-      "response": "[분류] 2. 조직 DL 편집 문의 (확신도 100%)\n\n조직(부서) DL은 **인사정보를 기준으로 자동 생성·관리**되는 그룹이라, 관리자가 멤버를 직접 추가하거나 제외할 수 없습니다.\n\n파견직·계약직 제외 등 편집이 꼭 필요하시면 **소속 법인의 인사부서 담당자**에게 제외 요청을 해주셔야 합니다.\n\n⚠️ 조직 DL에서 제외되면 해당 DL과 연결된 WORKS 기능(드라이브 등) 접근이 불가해질 수 있어, 대상자에게 사전 고지한 뒤 진행됩니다.",
+      "response": "[분류] 2. 조직 DL 편집 문의 (확신도 100%)\n\n조직(부서) DL은 **인사정보를 기준으로 자동 생성·관리**되는 그룹이라, 관리자가 멤버를 직접 추가하거나 제외할 수 없습니다.\n\n파견직·계약직 제외 등 편집이 꼭 필요하시면 **소속 법인의 인사부서 담당자**에게 제외 요청을 해주셔야 합니다.\n\n⚠️ 조직 DL에서 제외되면 해당 DL과 연결된  기능(드라이브 등) 접근이 불가해질 수 있어, 대상자에게 사전 고지한 뒤 진행됩니다.",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: B(1.00) → 시나리오 2 [374ms]",
@@ -834,7 +834,7 @@
       "actual_tools": [],
       "expected_args": {},
       "actual_args": {},
-      "response": "[분류] 2. 조직 DL 편집 문의 (확신도 100%)\n\n조직(부서) DL은 **인사정보를 기준으로 자동 생성·관리**되는 그룹이라, 관리자가 멤버를 직접 추가하거나 제외할 수 없습니다.\n\n파견직·계약직 제외 등 편집이 꼭 필요하시면 **소속 법인의 인사부서 담당자**에게 제외 요청을 해주셔야 합니다.\n\n⚠️ 조직 DL에서 제외되면 해당 DL과 연결된 WORKS 기능(드라이브 등) 접근이 불가해질 수 있어, 대상자에게 사전 고지한 뒤 진행됩니다.",
+      "response": "[분류] 2. 조직 DL 편집 문의 (확신도 100%)\n\n조직(부서) DL은 **인사정보를 기준으로 자동 생성·관리**되는 그룹이라, 관리자가 멤버를 직접 추가하거나 제외할 수 없습니다.\n\n파견직·계약직 제외 등 편집이 꼭 필요하시면 **소속 법인의 인사부서 담당자**에게 제외 요청을 해주셔야 합니다.\n\n⚠️ 조직 DL에서 제외되면 해당 DL과 연결된  기능(드라이브 등) 접근이 불가해질 수 있어, 대상자에게 사전 고지한 뒤 진행됩니다.",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: B(1.00) → 시나리오 2 [242ms]",
@@ -870,7 +870,7 @@
       "actual_tools": [],
       "expected_args": {},
       "actual_args": {},
-      "response": "[분류] 2. 조직 DL 편집 문의 (확신도 100%)\n\n조직(부서) DL은 **인사정보를 기준으로 자동 생성·관리**되는 그룹이라, 관리자가 멤버를 직접 추가하거나 제외할 수 없습니다.\n\n파견직·계약직 제외 등 편집이 꼭 필요하시면 **소속 법인의 인사부서 담당자**에게 제외 요청을 해주셔야 합니다.\n\n⚠️ 조직 DL에서 제외되면 해당 DL과 연결된 WORKS 기능(드라이브 등) 접근이 불가해질 수 있어, 대상자에게 사전 고지한 뒤 진행됩니다.",
+      "response": "[분류] 2. 조직 DL 편집 문의 (확신도 100%)\n\n조직(부서) DL은 **인사정보를 기준으로 자동 생성·관리**되는 그룹이라, 관리자가 멤버를 직접 추가하거나 제외할 수 없습니다.\n\n파견직·계약직 제외 등 편집이 꼭 필요하시면 **소속 법인의 인사부서 담당자**에게 제외 요청을 해주셔야 합니다.\n\n⚠️ 조직 DL에서 제외되면 해당 DL과 연결된  기능(드라이브 등) 접근이 불가해질 수 있어, 대상자에게 사전 고지한 뒤 진행됩니다.",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: B(1.00) → 시나리오 2 [379ms]",
@@ -906,7 +906,7 @@
       "actual_tools": [],
       "expected_args": {},
       "actual_args": {},
-      "response": "[분류] 2. 조직 DL 편집 문의 (확신도 94%)\n\n조직(부서) DL은 **인사정보를 기준으로 자동 생성·관리**되는 그룹이라, 관리자가 멤버를 직접 추가하거나 제외할 수 없습니다.\n\n파견직·계약직 제외 등 편집이 꼭 필요하시면 **소속 법인의 인사부서 담당자**에게 제외 요청을 해주셔야 합니다.\n\n⚠️ 조직 DL에서 제외되면 해당 DL과 연결된 WORKS 기능(드라이브 등) 접근이 불가해질 수 있어, 대상자에게 사전 고지한 뒤 진행됩니다.",
+      "response": "[분류] 2. 조직 DL 편집 문의 (확신도 94%)\n\n조직(부서) DL은 **인사정보를 기준으로 자동 생성·관리**되는 그룹이라, 관리자가 멤버를 직접 추가하거나 제외할 수 없습니다.\n\n파견직·계약직 제외 등 편집이 꼭 필요하시면 **소속 법인의 인사부서 담당자**에게 제외 요청을 해주셔야 합니다.\n\n⚠️ 조직 DL에서 제외되면 해당 DL과 연결된  기능(드라이브 등) 접근이 불가해질 수 있어, 대상자에게 사전 고지한 뒤 진행됩니다.",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: B(0.94) → 시나리오 2 [375ms]",
@@ -941,7 +941,7 @@
       "actual_tools": [],
       "expected_args": {},
       "actual_args": {},
-      "response": "[분류] 2. 조직 DL 편집 문의 (확신도 100%)\n\n조직(부서) DL은 **인사정보를 기준으로 자동 생성·관리**되는 그룹이라, 관리자가 멤버를 직접 추가하거나 제외할 수 없습니다.\n\n파견직·계약직 제외 등 편집이 꼭 필요하시면 **소속 법인의 인사부서 담당자**에게 제외 요청을 해주셔야 합니다.\n\n⚠️ 조직 DL에서 제외되면 해당 DL과 연결된 WORKS 기능(드라이브 등) 접근이 불가해질 수 있어, 대상자에게 사전 고지한 뒤 진행됩니다.",
+      "response": "[분류] 2. 조직 DL 편집 문의 (확신도 100%)\n\n조직(부서) DL은 **인사정보를 기준으로 자동 생성·관리**되는 그룹이라, 관리자가 멤버를 직접 추가하거나 제외할 수 없습니다.\n\n파견직·계약직 제외 등 편집이 꼭 필요하시면 **소속 법인의 인사부서 담당자**에게 제외 요청을 해주셔야 합니다.\n\n⚠️ 조직 DL에서 제외되면 해당 DL과 연결된  기능(드라이브 등) 접근이 불가해질 수 있어, 대상자에게 사전 고지한 뒤 진행됩니다.",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: B(1.00) → 시나리오 2 [376ms]",
@@ -977,7 +977,7 @@
       "actual_tools": [],
       "expected_args": {},
       "actual_args": {},
-      "response": "[분류] 2. 조직 DL 편집 문의 (확신도 100%)\n\n조직(부서) DL은 **인사정보를 기준으로 자동 생성·관리**되는 그룹이라, 관리자가 멤버를 직접 추가하거나 제외할 수 없습니다.\n\n파견직·계약직 제외 등 편집이 꼭 필요하시면 **소속 법인의 인사부서 담당자**에게 제외 요청을 해주셔야 합니다.\n\n⚠️ 조직 DL에서 제외되면 해당 DL과 연결된 WORKS 기능(드라이브 등) 접근이 불가해질 수 있어, 대상자에게 사전 고지한 뒤 진행됩니다.",
+      "response": "[분류] 2. 조직 DL 편집 문의 (확신도 100%)\n\n조직(부서) DL은 **인사정보를 기준으로 자동 생성·관리**되는 그룹이라, 관리자가 멤버를 직접 추가하거나 제외할 수 없습니다.\n\n파견직·계약직 제외 등 편집이 꼭 필요하시면 **소속 법인의 인사부서 담당자**에게 제외 요청을 해주셔야 합니다.\n\n⚠️ 조직 DL에서 제외되면 해당 DL과 연결된  기능(드라이브 등) 접근이 불가해질 수 있어, 대상자에게 사전 고지한 뒤 진행됩니다.",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: B(1.00) → 시나리오 2 [378ms]",
@@ -1012,7 +1012,7 @@
       "actual_tools": [],
       "expected_args": {},
       "actual_args": {},
-      "response": "[분류] 2. 조직 DL 편집 문의 (확신도 100%)\n\n조직(부서) DL은 **인사정보를 기준으로 자동 생성·관리**되는 그룹이라, 관리자가 멤버를 직접 추가하거나 제외할 수 없습니다.\n\n파견직·계약직 제외 등 편집이 꼭 필요하시면 **소속 법인의 인사부서 담당자**에게 제외 요청을 해주셔야 합니다.\n\n⚠️ 조직 DL에서 제외되면 해당 DL과 연결된 WORKS 기능(드라이브 등) 접근이 불가해질 수 있어, 대상자에게 사전 고지한 뒤 진행됩니다.",
+      "response": "[분류] 2. 조직 DL 편집 문의 (확신도 100%)\n\n조직(부서) DL은 **인사정보를 기준으로 자동 생성·관리**되는 그룹이라, 관리자가 멤버를 직접 추가하거나 제외할 수 없습니다.\n\n파견직·계약직 제외 등 편집이 꼭 필요하시면 **소속 법인의 인사부서 담당자**에게 제외 요청을 해주셔야 합니다.\n\n⚠️ 조직 DL에서 제외되면 해당 DL과 연결된  기능(드라이브 등) 접근이 불가해질 수 있어, 대상자에게 사전 고지한 뒤 진행됩니다.",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: B(1.00) → 시나리오 2 [376ms]",
@@ -1048,7 +1048,7 @@
       "actual_tools": [],
       "expected_args": {},
       "actual_args": {},
-      "response": "[분류] 2. 조직 DL 편집 문의 (확신도 100%)\n\n조직(부서) DL은 **인사정보를 기준으로 자동 생성·관리**되는 그룹이라, 관리자가 멤버를 직접 추가하거나 제외할 수 없습니다.\n\n파견직·계약직 제외 등 편집이 꼭 필요하시면 **소속 법인의 인사부서 담당자**에게 제외 요청을 해주셔야 합니다.\n\n⚠️ 조직 DL에서 제외되면 해당 DL과 연결된 WORKS 기능(드라이브 등) 접근이 불가해질 수 있어, 대상자에게 사전 고지한 뒤 진행됩니다.",
+      "response": "[분류] 2. 조직 DL 편집 문의 (확신도 100%)\n\n조직(부서) DL은 **인사정보를 기준으로 자동 생성·관리**되는 그룹이라, 관리자가 멤버를 직접 추가하거나 제외할 수 없습니다.\n\n파견직·계약직 제외 등 편집이 꼭 필요하시면 **소속 법인의 인사부서 담당자**에게 제외 요청을 해주셔야 합니다.\n\n⚠️ 조직 DL에서 제외되면 해당 DL과 연결된  기능(드라이브 등) 접근이 불가해질 수 있어, 대상자에게 사전 고지한 뒤 진행됩니다.",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: B(1.00) → 시나리오 2 [379ms]",
@@ -1089,7 +1089,7 @@
         "request_type": "dynamic_dl",
         "prefill": {}
       },
-      "response": "[분류] 8. 동적 DL 문의 (확신도 93%)\n\n법인·직급·재직형태 등 조건으로 멤버가 자동 관리되는 **동적 DL**은 기안(결재)으로 접수받아 등록해 드립니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 그룹 이름\n  - 메일주소\n  - 소속 법인\n  - 상세 연동 조건(법인/정규직 여부/겸직 여부/직급 등)\n\n▸ 접수번호(가): REQ-D2F59235",
+      "response": "[분류] 8. 동적 DL 문의 (확신도 93%)\n\n법인·직급·재직형태 등 조건으로 멤버가 자동 관리되는 **동적 DL**은 기안(결재)으로 접수받아 등록해 드립니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.example.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 그룹 이름\n  - 메일주소\n  - 소속 법인\n  - 상세 연동 조건(법인/정규직 여부/겸직 여부/직급 등)\n\n▸ 접수번호(가): REQ-D2F59235",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: H(0.93) → 시나리오 8 [381ms]",
@@ -1119,7 +1119,7 @@
       "actual_tools": [],
       "expected_args": {},
       "actual_args": {},
-      "response": "[분류] 3. 만료/삭제된 DL 복구 요청 (확신도 100%)\n\n삭제·만료된 메일링그룹은 **직접 복구하실 수 있습니다.**\n\n▸ DL 관리 화면 > [만료된 메일링그룹] 메뉴에서 대상 그룹을 찾아 복구\n▸ 단, **삭제 후 1개월 이내**의 그룹만 조회·복구가 가능합니다.\n\n1개월이 지난 경우에는\n  - 메일링그룹만 사용하셨다면 → 새로 생성해 주시면 됩니다.\n  - WORKS 드라이브 등 데이터 복구가 필요하다면 → DL_SystemManager@navercorp.com 로 문의해 주세요.",
+      "response": "[분류] 3. 만료/삭제된 DL 복구 요청 (확신도 100%)\n\n삭제·만료된 메일링그룹은 **직접 복구하실 수 있습니다.**\n\n▸ DL 관리 화면 > [만료된 메일링그룹] 메뉴에서 대상 그룹을 찾아 복구\n▸ 단, **삭제 후 1개월 이내**의 그룹만 조회·복구가 가능합니다.\n\n1개월이 지난 경우에는\n  - 메일링그룹만 사용하셨다면 → 새로 생성해 주시면 됩니다.\n  -  드라이브 등 데이터 복구가 필요하다면 → DL_SystemManager@example.com 로 문의해 주세요.",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: C(1.00) → 시나리오 3 [242ms]",
@@ -1151,7 +1151,7 @@
       "actual_tools": [],
       "expected_args": {},
       "actual_args": {},
-      "response": "[분류] 3. 만료/삭제된 DL 복구 요청 (확신도 100%)\n\n삭제·만료된 메일링그룹은 **직접 복구하실 수 있습니다.**\n\n▸ DL 관리 화면 > [만료된 메일링그룹] 메뉴에서 대상 그룹을 찾아 복구\n▸ 단, **삭제 후 1개월 이내**의 그룹만 조회·복구가 가능합니다.\n\n1개월이 지난 경우에는\n  - 메일링그룹만 사용하셨다면 → 새로 생성해 주시면 됩니다.\n  - WORKS 드라이브 등 데이터 복구가 필요하다면 → DL_SystemManager@navercorp.com 로 문의해 주세요.",
+      "response": "[분류] 3. 만료/삭제된 DL 복구 요청 (확신도 100%)\n\n삭제·만료된 메일링그룹은 **직접 복구하실 수 있습니다.**\n\n▸ DL 관리 화면 > [만료된 메일링그룹] 메뉴에서 대상 그룹을 찾아 복구\n▸ 단, **삭제 후 1개월 이내**의 그룹만 조회·복구가 가능합니다.\n\n1개월이 지난 경우에는\n  - 메일링그룹만 사용하셨다면 → 새로 생성해 주시면 됩니다.\n  -  드라이브 등 데이터 복구가 필요하다면 → DL_SystemManager@example.com 로 문의해 주세요.",
       "trace": [
         "ingest: 슬롯 sent_at=어제",
         "classify: C(1.00) → 시나리오 3 [235ms]",
@@ -1184,7 +1184,7 @@
       "actual_tools": [],
       "expected_args": {},
       "actual_args": {},
-      "response": "[분류] 3. 만료/삭제된 DL 복구 요청 (확신도 100%)\n\n삭제·만료된 메일링그룹은 **직접 복구하실 수 있습니다.**\n\n▸ DL 관리 화면 > [만료된 메일링그룹] 메뉴에서 대상 그룹을 찾아 복구\n▸ 단, **삭제 후 1개월 이내**의 그룹만 조회·복구가 가능합니다.\n\n1개월이 지난 경우에는\n  - 메일링그룹만 사용하셨다면 → 새로 생성해 주시면 됩니다.\n  - WORKS 드라이브 등 데이터 복구가 필요하다면 → DL_SystemManager@navercorp.com 로 문의해 주세요.",
+      "response": "[분류] 3. 만료/삭제된 DL 복구 요청 (확신도 100%)\n\n삭제·만료된 메일링그룹은 **직접 복구하실 수 있습니다.**\n\n▸ DL 관리 화면 > [만료된 메일링그룹] 메뉴에서 대상 그룹을 찾아 복구\n▸ 단, **삭제 후 1개월 이내**의 그룹만 조회·복구가 가능합니다.\n\n1개월이 지난 경우에는\n  - 메일링그룹만 사용하셨다면 → 새로 생성해 주시면 됩니다.\n  -  드라이브 등 데이터 복구가 필요하다면 → DL_SystemManager@example.com 로 문의해 주세요.",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: C(1.00) → 시나리오 3 [367ms]",
@@ -1218,7 +1218,7 @@
       "actual_tools": [],
       "expected_args": {},
       "actual_args": {},
-      "response": "[분류] 3. 만료/삭제된 DL 복구 요청 (확신도 100%)\n\n삭제·만료된 메일링그룹은 **직접 복구하실 수 있습니다.**\n\n▸ DL 관리 화면 > [만료된 메일링그룹] 메뉴에서 대상 그룹을 찾아 복구\n▸ 단, **삭제 후 1개월 이내**의 그룹만 조회·복구가 가능합니다.\n\n1개월이 지난 경우에는\n  - 메일링그룹만 사용하셨다면 → 새로 생성해 주시면 됩니다.\n  - WORKS 드라이브 등 데이터 복구가 필요하다면 → DL_SystemManager@navercorp.com 로 문의해 주세요.",
+      "response": "[분류] 3. 만료/삭제된 DL 복구 요청 (확신도 100%)\n\n삭제·만료된 메일링그룹은 **직접 복구하실 수 있습니다.**\n\n▸ DL 관리 화면 > [만료된 메일링그룹] 메뉴에서 대상 그룹을 찾아 복구\n▸ 단, **삭제 후 1개월 이내**의 그룹만 조회·복구가 가능합니다.\n\n1개월이 지난 경우에는\n  - 메일링그룹만 사용하셨다면 → 새로 생성해 주시면 됩니다.\n  -  드라이브 등 데이터 복구가 필요하다면 → DL_SystemManager@example.com 로 문의해 주세요.",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: C(1.00) → 시나리오 3 [362ms]",
@@ -1255,14 +1255,14 @@
       ],
       "expected_args": {},
       "actual_args": {
-        "to": "DL_SystemManager@navercorp.com",
+        "to": "DL_SystemManager@example.com",
         "scenario_name": "분류 불가 / 기타"
       },
-      "response": "[분류] 10. 분류 불가 / 기타 (확신도 100%)\n\n자동 분류 대상에 해당하지 않아 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
+      "response": "[분류] 10. 분류 불가 / 기타 (확신도 100%)\n\n자동 분류 대상에 해당하지 않아 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@example.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: J(1.00) → 시나리오 10 [375ms]",
-        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "tool: send_mail → DL_SystemManager@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": false
@@ -1291,7 +1291,7 @@
       "actual_tools": [],
       "expected_args": {},
       "actual_args": {},
-      "response": "[분류] 3. 만료/삭제된 DL 복구 요청 (확신도 100%)\n\n삭제·만료된 메일링그룹은 **직접 복구하실 수 있습니다.**\n\n▸ DL 관리 화면 > [만료된 메일링그룹] 메뉴에서 대상 그룹을 찾아 복구\n▸ 단, **삭제 후 1개월 이내**의 그룹만 조회·복구가 가능합니다.\n\n1개월이 지난 경우에는\n  - 메일링그룹만 사용하셨다면 → 새로 생성해 주시면 됩니다.\n  - WORKS 드라이브 등 데이터 복구가 필요하다면 → DL_SystemManager@navercorp.com 로 문의해 주세요.",
+      "response": "[분류] 3. 만료/삭제된 DL 복구 요청 (확신도 100%)\n\n삭제·만료된 메일링그룹은 **직접 복구하실 수 있습니다.**\n\n▸ DL 관리 화면 > [만료된 메일링그룹] 메뉴에서 대상 그룹을 찾아 복구\n▸ 단, **삭제 후 1개월 이내**의 그룹만 조회·복구가 가능합니다.\n\n1개월이 지난 경우에는\n  - 메일링그룹만 사용하셨다면 → 새로 생성해 주시면 됩니다.\n  -  드라이브 등 데이터 복구가 필요하다면 → DL_SystemManager@example.com 로 문의해 주세요.",
       "trace": [
         "ingest: 슬롯 dl_codes=['DL234567']",
         "classify: C(1.00) → 시나리오 3 [373ms]",
@@ -1327,14 +1327,14 @@
       ],
       "expected_args": {},
       "actual_args": {
-        "to": "DL_SystemManager@navercorp.com",
+        "to": "DL_SystemManager@example.com",
         "scenario_name": "분류 불가 / 기타"
       },
-      "response": "[분류] 10. 분류 불가 / 기타 (확신도 100%)\n\n자동 분류 대상에 해당하지 않아 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
+      "response": "[분류] 10. 분류 불가 / 기타 (확신도 100%)\n\n자동 분류 대상에 해당하지 않아 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@example.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: J(1.00) → 시나리오 10 [243ms]",
-        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "tool: send_mail → DL_SystemManager@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": false
@@ -1368,14 +1368,14 @@
       ],
       "expected_args": {},
       "actual_args": {
-        "to": "DL_SystemManager@navercorp.com",
+        "to": "DL_SystemManager@example.com",
         "scenario_name": "분류 불가 / 기타"
       },
-      "response": "[분류] 10. 분류 불가 / 기타 (확신도 100%)\n\n자동 분류 대상에 해당하지 않아 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
+      "response": "[분류] 10. 분류 불가 / 기타 (확신도 100%)\n\n자동 분류 대상에 해당하지 않아 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@example.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: J(1.00) → 시나리오 10 [376ms]",
-        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "tool: send_mail → DL_SystemManager@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": false
@@ -1407,7 +1407,7 @@
       "actual_tools": [],
       "expected_args": {},
       "actual_args": {},
-      "response": "[분류] 3. 만료/삭제된 DL 복구 요청 (확신도 100%)\n\n삭제·만료된 메일링그룹은 **직접 복구하실 수 있습니다.**\n\n▸ DL 관리 화면 > [만료된 메일링그룹] 메뉴에서 대상 그룹을 찾아 복구\n▸ 단, **삭제 후 1개월 이내**의 그룹만 조회·복구가 가능합니다.\n\n1개월이 지난 경우에는\n  - 메일링그룹만 사용하셨다면 → 새로 생성해 주시면 됩니다.\n  - WORKS 드라이브 등 데이터 복구가 필요하다면 → DL_SystemManager@navercorp.com 로 문의해 주세요.",
+      "response": "[분류] 3. 만료/삭제된 DL 복구 요청 (확신도 100%)\n\n삭제·만료된 메일링그룹은 **직접 복구하실 수 있습니다.**\n\n▸ DL 관리 화면 > [만료된 메일링그룹] 메뉴에서 대상 그룹을 찾아 복구\n▸ 단, **삭제 후 1개월 이내**의 그룹만 조회·복구가 가능합니다.\n\n1개월이 지난 경우에는\n  - 메일링그룹만 사용하셨다면 → 새로 생성해 주시면 됩니다.\n  -  드라이브 등 데이터 복구가 필요하다면 → DL_SystemManager@example.com 로 문의해 주세요.",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: C(1.00) → 시나리오 3 [377ms]",
@@ -1445,14 +1445,14 @@
       ],
       "expected_args": {},
       "actual_args": {
-        "to": "DL_SystemManager@navercorp.com",
+        "to": "DL_SystemManager@example.com",
         "scenario_name": "분류 불가 / 기타"
       },
-      "response": "[분류] 10. 분류 불가 / 기타 (확신도 71%)\n\n자동 분류 대상에 해당하지 않아 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
+      "response": "[분류] 10. 분류 불가 / 기타 (확신도 71%)\n\n자동 분류 대상에 해당하지 않아 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@example.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: J(0.71) → 시나리오 10 [374ms]",
-        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "tool: send_mail → DL_SystemManager@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": false
@@ -1479,7 +1479,7 @@
       "actual_tools": [],
       "expected_args": {},
       "actual_args": {},
-      "response": "[분류] 4. 외부(사외) 메일이 DL로 수신되지 않는 이슈 (확신도 100%)\n\n먼저 메일링그룹 상세 설정에서 **[외부메일 수신]** 값이 `허용`인지 확인해 주세요.\n\n`허용` 상태인데도 수신되지 않는다면 발신제한 설정 가능성이 있어 관리자 확인이 필요합니다.\n아래 정보를 담아 DL_SystemManager@navercorp.com 로 문의해 주세요.\n  - 발송자 메일주소\n  - 수신자(DL) 메일주소\n  - 발송 시간\n  - 메일 제목\n\n(현재 문의에서 확인되지 않은 항목: 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목)",
+      "response": "[분류] 4. 외부(사외) 메일이 DL로 수신되지 않는 이슈 (확신도 100%)\n\n먼저 메일링그룹 상세 설정에서 **[외부메일 수신]** 값이 `허용`인지 확인해 주세요.\n\n`허용` 상태인데도 수신되지 않는다면 발신제한 설정 가능성이 있어 관리자 확인이 필요합니다.\n아래 정보를 담아 DL_SystemManager@example.com 로 문의해 주세요.\n  - 발송자 메일주소\n  - 수신자(DL) 메일주소\n  - 발송 시간\n  - 메일 제목\n\n(현재 문의에서 확인되지 않은 항목: 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: D(1.00) → 시나리오 4 [372ms]",
@@ -1512,7 +1512,7 @@
       "actual_tools": [],
       "expected_args": {},
       "actual_args": {},
-      "response": "[분류] 4. 외부(사외) 메일이 DL로 수신되지 않는 이슈 (확신도 100%)\n\n먼저 메일링그룹 상세 설정에서 **[외부메일 수신]** 값이 `허용`인지 확인해 주세요.\n\n`허용` 상태인데도 수신되지 않는다면 발신제한 설정 가능성이 있어 관리자 확인이 필요합니다.\n아래 정보를 담아 DL_SystemManager@navercorp.com 로 문의해 주세요.\n  - 발송자 메일주소\n  - 수신자(DL) 메일주소\n  - 발송 시간\n  - 메일 제목\n\n(현재 문의에서 확인되지 않은 항목: 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목)",
+      "response": "[분류] 4. 외부(사외) 메일이 DL로 수신되지 않는 이슈 (확신도 100%)\n\n먼저 메일링그룹 상세 설정에서 **[외부메일 수신]** 값이 `허용`인지 확인해 주세요.\n\n`허용` 상태인데도 수신되지 않는다면 발신제한 설정 가능성이 있어 관리자 확인이 필요합니다.\n아래 정보를 담아 DL_SystemManager@example.com 로 문의해 주세요.\n  - 발송자 메일주소\n  - 수신자(DL) 메일주소\n  - 발송 시간\n  - 메일 제목\n\n(현재 문의에서 확인되지 않은 항목: 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: D(1.00) → 시나리오 4 [370ms]",
@@ -1542,7 +1542,7 @@
       "actual_tools": [],
       "expected_args": {},
       "actual_args": {},
-      "response": "[분류] 4. 외부(사외) 메일이 DL로 수신되지 않는 이슈 (확신도 100%)\n\n먼저 메일링그룹 상세 설정에서 **[외부메일 수신]** 값이 `허용`인지 확인해 주세요.\n\n`허용` 상태인데도 수신되지 않는다면 발신제한 설정 가능성이 있어 관리자 확인이 필요합니다.\n아래 정보를 담아 DL_SystemManager@navercorp.com 로 문의해 주세요.\n  - 발송자 메일주소\n  - 수신자(DL) 메일주소\n  - 발송 시간\n  - 메일 제목\n\n(현재 문의에서 확인되지 않은 항목: 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목)",
+      "response": "[분류] 4. 외부(사외) 메일이 DL로 수신되지 않는 이슈 (확신도 100%)\n\n먼저 메일링그룹 상세 설정에서 **[외부메일 수신]** 값이 `허용`인지 확인해 주세요.\n\n`허용` 상태인데도 수신되지 않는다면 발신제한 설정 가능성이 있어 관리자 확인이 필요합니다.\n아래 정보를 담아 DL_SystemManager@example.com 로 문의해 주세요.\n  - 발송자 메일주소\n  - 수신자(DL) 메일주소\n  - 발송 시간\n  - 메일 제목\n\n(현재 문의에서 확인되지 않은 항목: 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: D(1.00) → 시나리오 4 [371ms]",
@@ -1572,14 +1572,14 @@
       ],
       "expected_args": {},
       "actual_args": {
-        "to": "DL_SystemManager@navercorp.com",
+        "to": "DL_SystemManager@example.com",
         "scenario_name": "분류 불가 / 기타"
       },
-      "response": "[분류] 10. 분류 불가 / 기타 (확신도 62%)\n\n문의 내용만으로는 처리 유형을 확신하기 어려워 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
+      "response": "[분류] 10. 분류 불가 / 기타 (확신도 62%)\n\n문의 내용만으로는 처리 유형을 확신하기 어려워 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@example.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: E(0.62) → 확신 부족으로 기권, 시나리오 10 [374ms]",
-        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "tool: send_mail → DL_SystemManager@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": false
@@ -1587,7 +1587,7 @@
     {
       "id": "S04-10",
       "difficulty": "medium",
-      "text": "vendor@partner.co.kr 에서 platform-dl@navercorp.com 으로 8/28 14:20 에 보낸 메일이 수신되지 않았습니다. 제목은 '견적서 회신' 입니다.",
+      "text": "vendor@partner.co.kr 에서 platform-dl@example.com 으로 8/28 14:20 에 보낸 메일이 수신되지 않았습니다. 제목은 '견적서 회신' 입니다.",
       "gold": 4,
       "pred": 4,
       "raw_pred": 4,
@@ -1608,9 +1608,9 @@
       "actual_tools": [],
       "expected_args": {},
       "actual_args": {},
-      "response": "[분류] 4. 외부(사외) 메일이 DL로 수신되지 않는 이슈 (확신도 100%)\n\n먼저 메일링그룹 상세 설정에서 **[외부메일 수신]** 값이 `허용`인지 확인해 주세요.\n\n`허용` 상태인데도 수신되지 않는다면 발신제한 설정 가능성이 있어 관리자 확인이 필요합니다.\n아래 정보를 담아 DL_SystemManager@navercorp.com 로 문의해 주세요.\n  - 발송자 메일주소\n  - 수신자(DL) 메일주소\n  - 발송 시간\n  - 메일 제목",
+      "response": "[분류] 4. 외부(사외) 메일이 DL로 수신되지 않는 이슈 (확신도 100%)\n\n먼저 메일링그룹 상세 설정에서 **[외부메일 수신]** 값이 `허용`인지 확인해 주세요.\n\n`허용` 상태인데도 수신되지 않는다면 발신제한 설정 가능성이 있어 관리자 확인이 필요합니다.\n아래 정보를 담아 DL_SystemManager@example.com 로 문의해 주세요.\n  - 발송자 메일주소\n  - 수신자(DL) 메일주소\n  - 발송 시간\n  - 메일 제목",
       "trace": [
-        "ingest: 슬롯 emails=['vendor@partner.co.kr', 'platform-dl@navercorp.com'], dl_addresses=['platform-dl@navercorp.com'], sent_at=8/28 14:20, subject=은",
+        "ingest: 슬롯 emails=['vendor@partner.co.kr', 'platform-dl@example.com'], dl_addresses=['platform-dl@example.com'], sent_at=8/28 14:20, subject=은",
         "classify: D(1.00) → 시나리오 4 [511ms]",
         "act: 도구 호출 없이 고정 응답",
         "compose: 응답 조립 완료"
@@ -1639,7 +1639,7 @@
       "actual_tools": [],
       "expected_args": {},
       "actual_args": {},
-      "response": "[분류] 4. 외부(사외) 메일이 DL로 수신되지 않는 이슈 (확신도 100%)\n\n먼저 메일링그룹 상세 설정에서 **[외부메일 수신]** 값이 `허용`인지 확인해 주세요.\n\n`허용` 상태인데도 수신되지 않는다면 발신제한 설정 가능성이 있어 관리자 확인이 필요합니다.\n아래 정보를 담아 DL_SystemManager@navercorp.com 로 문의해 주세요.\n  - 발송자 메일주소\n  - 수신자(DL) 메일주소\n  - 발송 시간\n  - 메일 제목\n\n(현재 문의에서 확인되지 않은 항목: 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목)",
+      "response": "[분류] 4. 외부(사외) 메일이 DL로 수신되지 않는 이슈 (확신도 100%)\n\n먼저 메일링그룹 상세 설정에서 **[외부메일 수신]** 값이 `허용`인지 확인해 주세요.\n\n`허용` 상태인데도 수신되지 않는다면 발신제한 설정 가능성이 있어 관리자 확인이 필요합니다.\n아래 정보를 담아 DL_SystemManager@example.com 로 문의해 주세요.\n  - 발송자 메일주소\n  - 수신자(DL) 메일주소\n  - 발송 시간\n  - 메일 제목\n\n(현재 문의에서 확인되지 않은 항목: 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: D(1.00) → 시나리오 4 [378ms]",
@@ -1680,7 +1680,7 @@
       "actual_args": {
         "dl_code": "DL567890"
       },
-      "response": "[분류] 4. 외부(사외) 메일이 DL로 수신되지 않는 이슈 (확신도 100%)\n\n먼저 메일링그룹 상세 설정에서 **[외부메일 수신]** 값이 `허용`인지 확인해 주세요.\n\n▸ 조회 결과 (DL567890 / dl567890@navercorp.com): 외부메일 수신 = **차단** (DENY), 상태 ACTIVE, 멤버 22명\n\n외부메일 수신이 **차단**되어 있어 사외에서 보낸 메일이 반송된 것으로 보입니다. DL 관리 화면에서 [외부메일 수신]을 `허용`으로 변경해 주세요.",
+      "response": "[분류] 4. 외부(사외) 메일이 DL로 수신되지 않는 이슈 (확신도 100%)\n\n먼저 메일링그룹 상세 설정에서 **[외부메일 수신]** 값이 `허용`인지 확인해 주세요.\n\n▸ 조회 결과 (DL567890 / dl567890@example.com): 외부메일 수신 = **차단** (DENY), 상태 ACTIVE, 멤버 22명\n\n외부메일 수신이 **차단**되어 있어 사외에서 보낸 메일이 반송된 것으로 보입니다. DL 관리 화면에서 [외부메일 수신]을 `허용`으로 변경해 주세요.",
       "trace": [
         "ingest: 슬롯 dl_codes=['DL567890']",
         "classify: D(1.00) → 시나리오 4 [386ms]",
@@ -1710,7 +1710,7 @@
       "actual_tools": [],
       "expected_args": {},
       "actual_args": {},
-      "response": "[분류] 4. 외부(사외) 메일이 DL로 수신되지 않는 이슈 (확신도 100%)\n\n먼저 메일링그룹 상세 설정에서 **[외부메일 수신]** 값이 `허용`인지 확인해 주세요.\n\n`허용` 상태인데도 수신되지 않는다면 발신제한 설정 가능성이 있어 관리자 확인이 필요합니다.\n아래 정보를 담아 DL_SystemManager@navercorp.com 로 문의해 주세요.\n  - 발송자 메일주소\n  - 수신자(DL) 메일주소\n  - 발송 시간\n  - 메일 제목\n\n(현재 문의에서 확인되지 않은 항목: 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목)",
+      "response": "[분류] 4. 외부(사외) 메일이 DL로 수신되지 않는 이슈 (확신도 100%)\n\n먼저 메일링그룹 상세 설정에서 **[외부메일 수신]** 값이 `허용`인지 확인해 주세요.\n\n`허용` 상태인데도 수신되지 않는다면 발신제한 설정 가능성이 있어 관리자 확인이 필요합니다.\n아래 정보를 담아 DL_SystemManager@example.com 로 문의해 주세요.\n  - 발송자 메일주소\n  - 수신자(DL) 메일주소\n  - 발송 시간\n  - 메일 제목\n\n(현재 문의에서 확인되지 않은 항목: 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: D(1.00) → 시나리오 4 [381ms]",
@@ -1744,7 +1744,7 @@
       "actual_tools": [],
       "expected_args": {},
       "actual_args": {},
-      "response": "[분류] 4. 외부(사외) 메일이 DL로 수신되지 않는 이슈 (확신도 100%)\n\n먼저 메일링그룹 상세 설정에서 **[외부메일 수신]** 값이 `허용`인지 확인해 주세요.\n\n`허용` 상태인데도 수신되지 않는다면 발신제한 설정 가능성이 있어 관리자 확인이 필요합니다.\n아래 정보를 담아 DL_SystemManager@navercorp.com 로 문의해 주세요.\n  - 발송자 메일주소\n  - 수신자(DL) 메일주소\n  - 발송 시간\n  - 메일 제목\n\n(현재 문의에서 확인되지 않은 항목: 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목)",
+      "response": "[분류] 4. 외부(사외) 메일이 DL로 수신되지 않는 이슈 (확신도 100%)\n\n먼저 메일링그룹 상세 설정에서 **[외부메일 수신]** 값이 `허용`인지 확인해 주세요.\n\n`허용` 상태인데도 수신되지 않는다면 발신제한 설정 가능성이 있어 관리자 확인이 필요합니다.\n아래 정보를 담아 DL_SystemManager@example.com 로 문의해 주세요.\n  - 발송자 메일주소\n  - 수신자(DL) 메일주소\n  - 발송 시간\n  - 메일 제목\n\n(현재 문의에서 확인되지 않은 항목: 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: D(1.00) → 시나리오 4 [379ms]",
@@ -1775,7 +1775,7 @@
       "actual_tools": [],
       "expected_args": {},
       "actual_args": {},
-      "response": "[분류] 4. 외부(사외) 메일이 DL로 수신되지 않는 이슈 (확신도 100%)\n\n먼저 메일링그룹 상세 설정에서 **[외부메일 수신]** 값이 `허용`인지 확인해 주세요.\n\n`허용` 상태인데도 수신되지 않는다면 발신제한 설정 가능성이 있어 관리자 확인이 필요합니다.\n아래 정보를 담아 DL_SystemManager@navercorp.com 로 문의해 주세요.\n  - 발송자 메일주소\n  - 수신자(DL) 메일주소\n  - 발송 시간\n  - 메일 제목\n\n(현재 문의에서 확인되지 않은 항목: 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목)",
+      "response": "[분류] 4. 외부(사외) 메일이 DL로 수신되지 않는 이슈 (확신도 100%)\n\n먼저 메일링그룹 상세 설정에서 **[외부메일 수신]** 값이 `허용`인지 확인해 주세요.\n\n`허용` 상태인데도 수신되지 않는다면 발신제한 설정 가능성이 있어 관리자 확인이 필요합니다.\n아래 정보를 담아 DL_SystemManager@example.com 로 문의해 주세요.\n  - 발송자 메일주소\n  - 수신자(DL) 메일주소\n  - 발송 시간\n  - 메일 제목\n\n(현재 문의에서 확인되지 않은 항목: 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: D(1.00) → 시나리오 4 [373ms]",
@@ -1816,7 +1816,7 @@
       "actual_args": {
         "topic": "sender_permission"
       },
-      "response": "[분류] 5. DL 주소를 발신자로 지정하는 방법 (확신도 100%)\n\nDL 주소를 발신자(보내는 사람)로 지정하려면 해당 DL에 대한 **발송 권한**을 먼저 부여받아야 합니다.\n\n▸ 가이드: DL 명의로 메일 발송 권한 추가 방법\n  https://wiki.navercorp.com/spaces/Global/pages/361216242/DL%EB%AA%85%EC%9C%BC%EB%A1%9C+%EB%A9%94%EC%9D%BC+%EB%B0%9C%EC%86%A1+%EA%B6%8C%ED%95%9C+%EC%B6%94%EA%B0%80+%EB%B0%A9%EB%B2%95\n\n위키 문서의 절차대로 권한을 추가하시면 메일 작성 화면의 보내는사람에서 DL 주소를 선택하실 수 있습니다.",
+      "response": "[분류] 5. DL 주소를 발신자로 지정하는 방법 (확신도 100%)\n\nDL 주소를 발신자(보내는 사람)로 지정하려면 해당 DL에 대한 **발송 권한**을 먼저 부여받아야 합니다.\n\n▸ 가이드: DL 명의로 메일 발송 권한 추가 방법\n  https://wiki.example.com/spaces/Global/pages/361216242/DL%EB%AA%85%EC%9C%BC%EB%A1%9C+%EB%A9%94%EC%9D%BC+%EB%B0%9C%EC%86%A1+%EA%B6%8C%ED%95%9C+%EC%B6%94%EA%B0%80+%EB%B0%A9%EB%B2%95\n\n위키 문서의 절차대로 권한을 추가하시면 메일 작성 화면의 보내는사람에서 DL 주소를 선택하실 수 있습니다.",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: E(1.00) → 시나리오 5 [240ms]",
@@ -1855,7 +1855,7 @@
       "actual_args": {
         "topic": "sender_permission"
       },
-      "response": "[분류] 5. DL 주소를 발신자로 지정하는 방법 (확신도 100%)\n\nDL 주소를 발신자(보내는 사람)로 지정하려면 해당 DL에 대한 **발송 권한**을 먼저 부여받아야 합니다.\n\n▸ 가이드: DL 명의로 메일 발송 권한 추가 방법\n  https://wiki.navercorp.com/spaces/Global/pages/361216242/DL%EB%AA%85%EC%9C%BC%EB%A1%9C+%EB%A9%94%EC%9D%BC+%EB%B0%9C%EC%86%A1+%EA%B6%8C%ED%95%9C+%EC%B6%94%EA%B0%80+%EB%B0%A9%EB%B2%95\n\n위키 문서의 절차대로 권한을 추가하시면 메일 작성 화면의 보내는사람에서 DL 주소를 선택하실 수 있습니다.",
+      "response": "[분류] 5. DL 주소를 발신자로 지정하는 방법 (확신도 100%)\n\nDL 주소를 발신자(보내는 사람)로 지정하려면 해당 DL에 대한 **발송 권한**을 먼저 부여받아야 합니다.\n\n▸ 가이드: DL 명의로 메일 발송 권한 추가 방법\n  https://wiki.example.com/spaces/Global/pages/361216242/DL%EB%AA%85%EC%9C%BC%EB%A1%9C+%EB%A9%94%EC%9D%BC+%EB%B0%9C%EC%86%A1+%EA%B6%8C%ED%95%9C+%EC%B6%94%EA%B0%80+%EB%B0%A9%EB%B2%95\n\n위키 문서의 절차대로 권한을 추가하시면 메일 작성 화면의 보내는사람에서 DL 주소를 선택하실 수 있습니다.",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: E(1.00) → 시나리오 5 [371ms]",
@@ -1896,7 +1896,7 @@
       "actual_args": {
         "topic": "sender_permission"
       },
-      "response": "[분류] 5. DL 주소를 발신자로 지정하는 방법 (확신도 100%)\n\nDL 주소를 발신자(보내는 사람)로 지정하려면 해당 DL에 대한 **발송 권한**을 먼저 부여받아야 합니다.\n\n▸ 가이드: DL 명의로 메일 발송 권한 추가 방법\n  https://wiki.navercorp.com/spaces/Global/pages/361216242/DL%EB%AA%85%EC%9C%BC%EB%A1%9C+%EB%A9%94%EC%9D%BC+%EB%B0%9C%EC%86%A1+%EA%B6%8C%ED%95%9C+%EC%B6%94%EA%B0%80+%EB%B0%A9%EB%B2%95\n\n위키 문서의 절차대로 권한을 추가하시면 메일 작성 화면의 보내는사람에서 DL 주소를 선택하실 수 있습니다.",
+      "response": "[분류] 5. DL 주소를 발신자로 지정하는 방법 (확신도 100%)\n\nDL 주소를 발신자(보내는 사람)로 지정하려면 해당 DL에 대한 **발송 권한**을 먼저 부여받아야 합니다.\n\n▸ 가이드: DL 명의로 메일 발송 권한 추가 방법\n  https://wiki.example.com/spaces/Global/pages/361216242/DL%EB%AA%85%EC%9C%BC%EB%A1%9C+%EB%A9%94%EC%9D%BC+%EB%B0%9C%EC%86%A1+%EA%B6%8C%ED%95%9C+%EC%B6%94%EA%B0%80+%EB%B0%A9%EB%B2%95\n\n위키 문서의 절차대로 권한을 추가하시면 메일 작성 화면의 보내는사람에서 DL 주소를 선택하실 수 있습니다.",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: E(1.00) → 시나리오 5 [372ms]",
@@ -1929,14 +1929,14 @@
       ],
       "expected_args": {},
       "actual_args": {
-        "to": "DL_SystemManager@navercorp.com",
+        "to": "DL_SystemManager@example.com",
         "scenario_name": "분류 불가 / 기타"
       },
-      "response": "[분류] 10. 분류 불가 / 기타 (확신도 42%)\n\n문의 내용만으로는 처리 유형을 확신하기 어려워 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
+      "response": "[분류] 10. 분류 불가 / 기타 (확신도 42%)\n\n문의 내용만으로는 처리 유형을 확신하기 어려워 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@example.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: D(0.42) → 확신 부족으로 기권, 시나리오 10 [370ms]",
-        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "tool: send_mail → DL_SystemManager@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": false
@@ -1975,7 +1975,7 @@
         "request_type": "dynamic_dl",
         "prefill": {}
       },
-      "response": "[분류] 8. 동적 DL 문의 (확신도 81%)\n\n법인·직급·재직형태 등 조건으로 멤버가 자동 관리되는 **동적 DL**은 기안(결재)으로 접수받아 등록해 드립니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 그룹 이름\n  - 메일주소\n  - 소속 법인\n  - 상세 연동 조건(법인/정규직 여부/겸직 여부/직급 등)\n\n▸ 접수번호(가): REQ-D2F59235",
+      "response": "[분류] 8. 동적 DL 문의 (확신도 81%)\n\n법인·직급·재직형태 등 조건으로 멤버가 자동 관리되는 **동적 DL**은 기안(결재)으로 접수받아 등록해 드립니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.example.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 그룹 이름\n  - 메일주소\n  - 소속 법인\n  - 상세 연동 조건(법인/정규직 여부/겸직 여부/직급 등)\n\n▸ 접수번호(가): REQ-D2F59235",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: H(0.81) → 시나리오 8 [371ms]",
@@ -2013,14 +2013,14 @@
       ],
       "expected_args": {},
       "actual_args": {
-        "to": "DL_SystemManager@navercorp.com",
+        "to": "DL_SystemManager@example.com",
         "scenario_name": "분류 불가 / 기타"
       },
-      "response": "[분류] 10. 분류 불가 / 기타 (확신도 100%)\n\n자동 분류 대상에 해당하지 않아 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
+      "response": "[분류] 10. 분류 불가 / 기타 (확신도 100%)\n\n자동 분류 대상에 해당하지 않아 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@example.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: J(1.00) → 시나리오 10 [242ms]",
-        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "tool: send_mail → DL_SystemManager@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": false
@@ -2055,14 +2055,14 @@
       ],
       "expected_args": {},
       "actual_args": {
-        "to": "DL_SystemManager@navercorp.com",
+        "to": "DL_SystemManager@example.com",
         "scenario_name": "분류 불가 / 기타"
       },
-      "response": "[분류] 10. 분류 불가 / 기타 (확신도 91%)\n\n자동 분류 대상에 해당하지 않아 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
+      "response": "[분류] 10. 분류 불가 / 기타 (확신도 91%)\n\n자동 분류 대상에 해당하지 않아 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@example.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: J(0.91) → 시나리오 10 [370ms]",
-        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "tool: send_mail → DL_SystemManager@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": false
@@ -2098,7 +2098,7 @@
       "actual_args": {
         "topic": "sender_permission"
       },
-      "response": "[분류] 5. DL 주소를 발신자로 지정하는 방법 (확신도 100%)\n\nDL 주소를 발신자(보내는 사람)로 지정하려면 해당 DL에 대한 **발송 권한**을 먼저 부여받아야 합니다.\n\n▸ 가이드: DL 명의로 메일 발송 권한 추가 방법\n  https://wiki.navercorp.com/spaces/Global/pages/361216242/DL%EB%AA%85%EC%9C%BC%EB%A1%9C+%EB%A9%94%EC%9D%BC+%EB%B0%9C%EC%86%A1+%EA%B6%8C%ED%95%9C+%EC%B6%94%EA%B0%80+%EB%B0%A9%EB%B2%95\n\n위키 문서의 절차대로 권한을 추가하시면 메일 작성 화면의 보내는사람에서 DL 주소를 선택하실 수 있습니다.",
+      "response": "[분류] 5. DL 주소를 발신자로 지정하는 방법 (확신도 100%)\n\nDL 주소를 발신자(보내는 사람)로 지정하려면 해당 DL에 대한 **발송 권한**을 먼저 부여받아야 합니다.\n\n▸ 가이드: DL 명의로 메일 발송 권한 추가 방법\n  https://wiki.example.com/spaces/Global/pages/361216242/DL%EB%AA%85%EC%9C%BC%EB%A1%9C+%EB%A9%94%EC%9D%BC+%EB%B0%9C%EC%86%A1+%EA%B6%8C%ED%95%9C+%EC%B6%94%EA%B0%80+%EB%B0%A9%EB%B2%95\n\n위키 문서의 절차대로 권한을 추가하시면 메일 작성 화면의 보내는사람에서 DL 주소를 선택하실 수 있습니다.",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: E(1.00) → 시나리오 5 [376ms]",
@@ -2138,14 +2138,14 @@
       ],
       "expected_args": {},
       "actual_args": {
-        "to": "DL_SystemManager@navercorp.com",
+        "to": "DL_SystemManager@example.com",
         "scenario_name": "분류 불가 / 기타"
       },
-      "response": "[분류] 10. 분류 불가 / 기타 (확신도 65%)\n\n문의 내용만으로는 처리 유형을 확신하기 어려워 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
+      "response": "[분류] 10. 분류 불가 / 기타 (확신도 65%)\n\n문의 내용만으로는 처리 유형을 확신하기 어려워 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@example.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: E(0.65) → 확신 부족으로 기권, 시나리오 10 [382ms]",
-        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "tool: send_mail → DL_SystemManager@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": false
@@ -2180,14 +2180,14 @@
       ],
       "expected_args": {},
       "actual_args": {
-        "to": "DL_SystemManager@navercorp.com",
+        "to": "DL_SystemManager@example.com",
         "scenario_name": "분류 불가 / 기타"
       },
-      "response": "[분류] 10. 분류 불가 / 기타 (확신도 54%)\n\n문의 내용만으로는 처리 유형을 확신하기 어려워 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
+      "response": "[분류] 10. 분류 불가 / 기타 (확신도 54%)\n\n문의 내용만으로는 처리 유형을 확신하기 어려워 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@example.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: I(0.54) → 확신 부족으로 기권, 시나리오 10 [381ms]",
-        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "tool: send_mail → DL_SystemManager@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": false
@@ -2218,17 +2218,17 @@
         "send_mail"
       ],
       "expected_args": {
-        "to": "DL_SystemManager@navercorp.com"
+        "to": "DL_SystemManager@example.com"
       },
       "actual_args": {
-        "to": "DL_SystemManager@navercorp.com",
+        "to": "DL_SystemManager@example.com",
         "scenario_name": "'DL 전체 메일링그룹 조회' 메뉴 접근 권한 문의"
       },
-      "response": "[분류] 6. 'DL 전체 메일링그룹 조회' 메뉴 접근 권한 문의 (확신도 99%)\n\n'DL 전체 메일링그룹 조회' 메뉴는 별도 권한이 필요한 메뉴입니다.\n문의 내용을 **DL 시스템 관리자**에게 전달했으며, 권한 처리 결과를 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-BE61B80E@dl-agent.local>)",
+      "response": "[분류] 6. 'DL 전체 메일링그룹 조회' 메뉴 접근 권한 문의 (확신도 99%)\n\n'DL 전체 메일링그룹 조회' 메뉴는 별도 권한이 필요한 메뉴입니다.\n문의 내용을 **DL 시스템 관리자**에게 전달했으며, 권한 처리 결과를 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@example.com (메시지 ID <REQ-BE61B80E@dl-agent.local>)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: F(0.99) → 시나리오 6 [248ms]",
-        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "tool: send_mail → DL_SystemManager@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": true
@@ -2259,17 +2259,17 @@
         "send_mail"
       ],
       "expected_args": {
-        "to": "DL_SystemManager@navercorp.com"
+        "to": "DL_SystemManager@example.com"
       },
       "actual_args": {
-        "to": "DL_SystemManager@navercorp.com",
+        "to": "DL_SystemManager@example.com",
         "scenario_name": "'DL 전체 메일링그룹 조회' 메뉴 접근 권한 문의"
       },
-      "response": "[분류] 6. 'DL 전체 메일링그룹 조회' 메뉴 접근 권한 문의 (확신도 100%)\n\n'DL 전체 메일링그룹 조회' 메뉴는 별도 권한이 필요한 메뉴입니다.\n문의 내용을 **DL 시스템 관리자**에게 전달했으며, 권한 처리 결과를 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-BE61B80E@dl-agent.local>)",
+      "response": "[분류] 6. 'DL 전체 메일링그룹 조회' 메뉴 접근 권한 문의 (확신도 100%)\n\n'DL 전체 메일링그룹 조회' 메뉴는 별도 권한이 필요한 메뉴입니다.\n문의 내용을 **DL 시스템 관리자**에게 전달했으며, 권한 처리 결과를 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@example.com (메시지 ID <REQ-BE61B80E@dl-agent.local>)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: F(1.00) → 시나리오 6 [375ms]",
-        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "tool: send_mail → DL_SystemManager@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": true
@@ -2301,17 +2301,17 @@
         "send_mail"
       ],
       "expected_args": {
-        "to": "DL_SystemManager@navercorp.com"
+        "to": "DL_SystemManager@example.com"
       },
       "actual_args": {
-        "to": "DL_SystemManager@navercorp.com",
+        "to": "DL_SystemManager@example.com",
         "scenario_name": "'DL 전체 메일링그룹 조회' 메뉴 접근 권한 문의"
       },
-      "response": "[분류] 6. 'DL 전체 메일링그룹 조회' 메뉴 접근 권한 문의 (확신도 100%)\n\n'DL 전체 메일링그룹 조회' 메뉴는 별도 권한이 필요한 메뉴입니다.\n문의 내용을 **DL 시스템 관리자**에게 전달했으며, 권한 처리 결과를 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-BE61B80E@dl-agent.local>)",
+      "response": "[분류] 6. 'DL 전체 메일링그룹 조회' 메뉴 접근 권한 문의 (확신도 100%)\n\n'DL 전체 메일링그룹 조회' 메뉴는 별도 권한이 필요한 메뉴입니다.\n문의 내용을 **DL 시스템 관리자**에게 전달했으며, 권한 처리 결과를 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@example.com (메시지 ID <REQ-BE61B80E@dl-agent.local>)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: F(1.00) → 시나리오 6 [240ms]",
-        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "tool: send_mail → DL_SystemManager@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": true
@@ -2342,17 +2342,17 @@
         "send_mail"
       ],
       "expected_args": {
-        "to": "DL_SystemManager@navercorp.com"
+        "to": "DL_SystemManager@example.com"
       },
       "actual_args": {
-        "to": "DL_SystemManager@navercorp.com",
+        "to": "DL_SystemManager@example.com",
         "scenario_name": "'DL 전체 메일링그룹 조회' 메뉴 접근 권한 문의"
       },
-      "response": "[분류] 6. 'DL 전체 메일링그룹 조회' 메뉴 접근 권한 문의 (확신도 100%)\n\n'DL 전체 메일링그룹 조회' 메뉴는 별도 권한이 필요한 메뉴입니다.\n문의 내용을 **DL 시스템 관리자**에게 전달했으며, 권한 처리 결과를 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-BE61B80E@dl-agent.local>)",
+      "response": "[분류] 6. 'DL 전체 메일링그룹 조회' 메뉴 접근 권한 문의 (확신도 100%)\n\n'DL 전체 메일링그룹 조회' 메뉴는 별도 권한이 필요한 메뉴입니다.\n문의 내용을 **DL 시스템 관리자**에게 전달했으며, 권한 처리 결과를 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@example.com (메시지 ID <REQ-BE61B80E@dl-agent.local>)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: F(1.00) → 시나리오 6 [371ms]",
-        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "tool: send_mail → DL_SystemManager@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": true
@@ -2383,17 +2383,17 @@
         "send_mail"
       ],
       "expected_args": {
-        "to": "DL_SystemManager@navercorp.com"
+        "to": "DL_SystemManager@example.com"
       },
       "actual_args": {
-        "to": "DL_SystemManager@navercorp.com",
+        "to": "DL_SystemManager@example.com",
         "scenario_name": "'DL 전체 메일링그룹 조회' 메뉴 접근 권한 문의"
       },
-      "response": "[분류] 6. 'DL 전체 메일링그룹 조회' 메뉴 접근 권한 문의 (확신도 100%)\n\n'DL 전체 메일링그룹 조회' 메뉴는 별도 권한이 필요한 메뉴입니다.\n문의 내용을 **DL 시스템 관리자**에게 전달했으며, 권한 처리 결과를 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-BE61B80E@dl-agent.local>)",
+      "response": "[분류] 6. 'DL 전체 메일링그룹 조회' 메뉴 접근 권한 문의 (확신도 100%)\n\n'DL 전체 메일링그룹 조회' 메뉴는 별도 권한이 필요한 메뉴입니다.\n문의 내용을 **DL 시스템 관리자**에게 전달했으며, 권한 처리 결과를 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@example.com (메시지 ID <REQ-BE61B80E@dl-agent.local>)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: F(1.00) → 시나리오 6 [371ms]",
-        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "tool: send_mail → DL_SystemManager@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": true
@@ -2424,17 +2424,17 @@
         "send_mail"
       ],
       "expected_args": {
-        "to": "DL_SystemManager@navercorp.com"
+        "to": "DL_SystemManager@example.com"
       },
       "actual_args": {
-        "to": "DL_SystemManager@navercorp.com",
+        "to": "DL_SystemManager@example.com",
         "scenario_name": "'DL 전체 메일링그룹 조회' 메뉴 접근 권한 문의"
       },
-      "response": "[분류] 6. 'DL 전체 메일링그룹 조회' 메뉴 접근 권한 문의 (확신도 100%)\n\n'DL 전체 메일링그룹 조회' 메뉴는 별도 권한이 필요한 메뉴입니다.\n문의 내용을 **DL 시스템 관리자**에게 전달했으며, 권한 처리 결과를 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-BE61B80E@dl-agent.local>)",
+      "response": "[분류] 6. 'DL 전체 메일링그룹 조회' 메뉴 접근 권한 문의 (확신도 100%)\n\n'DL 전체 메일링그룹 조회' 메뉴는 별도 권한이 필요한 메뉴입니다.\n문의 내용을 **DL 시스템 관리자**에게 전달했으며, 권한 처리 결과를 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@example.com (메시지 ID <REQ-BE61B80E@dl-agent.local>)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: F(1.00) → 시나리오 6 [369ms]",
-        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "tool: send_mail → DL_SystemManager@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": true
@@ -2468,17 +2468,17 @@
         "send_mail"
       ],
       "expected_args": {
-        "to": "DL_SystemManager@navercorp.com"
+        "to": "DL_SystemManager@example.com"
       },
       "actual_args": {
-        "to": "DL_SystemManager@navercorp.com",
+        "to": "DL_SystemManager@example.com",
         "scenario_name": "'DL 전체 메일링그룹 조회' 메뉴 접근 권한 문의"
       },
-      "response": "[분류] 6. 'DL 전체 메일링그룹 조회' 메뉴 접근 권한 문의 (확신도 80%)\n\n'DL 전체 메일링그룹 조회' 메뉴는 별도 권한이 필요한 메뉴입니다.\n문의 내용을 **DL 시스템 관리자**에게 전달했으며, 권한 처리 결과를 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-BE61B80E@dl-agent.local>)",
+      "response": "[분류] 6. 'DL 전체 메일링그룹 조회' 메뉴 접근 권한 문의 (확신도 80%)\n\n'DL 전체 메일링그룹 조회' 메뉴는 별도 권한이 필요한 메뉴입니다.\n문의 내용을 **DL 시스템 관리자**에게 전달했으며, 권한 처리 결과를 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@example.com (메시지 ID <REQ-BE61B80E@dl-agent.local>)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: F(0.80) → 시나리오 6 [241ms]",
-        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "tool: send_mail → DL_SystemManager@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": true
@@ -2513,17 +2513,17 @@
         "send_mail"
       ],
       "expected_args": {
-        "to": "DL_SystemManager@navercorp.com"
+        "to": "DL_SystemManager@example.com"
       },
       "actual_args": {
-        "to": "DL_SystemManager@navercorp.com",
+        "to": "DL_SystemManager@example.com",
         "scenario_name": "분류 불가 / 기타"
       },
-      "response": "[분류] 10. 분류 불가 / 기타 (확신도 100%)\n\n자동 분류 대상에 해당하지 않아 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
+      "response": "[분류] 10. 분류 불가 / 기타 (확신도 100%)\n\n자동 분류 대상에 해당하지 않아 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@example.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: J(1.00) → 시나리오 10 [378ms]",
-        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "tool: send_mail → DL_SystemManager@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": false
@@ -2555,17 +2555,17 @@
         "send_mail"
       ],
       "expected_args": {
-        "to": "DL_SystemManager@navercorp.com"
+        "to": "DL_SystemManager@example.com"
       },
       "actual_args": {
-        "to": "DL_SystemManager@navercorp.com",
+        "to": "DL_SystemManager@example.com",
         "scenario_name": "'DL 전체 메일링그룹 조회' 메뉴 접근 권한 문의"
       },
-      "response": "[분류] 6. 'DL 전체 메일링그룹 조회' 메뉴 접근 권한 문의 (확신도 100%)\n\n'DL 전체 메일링그룹 조회' 메뉴는 별도 권한이 필요한 메뉴입니다.\n문의 내용을 **DL 시스템 관리자**에게 전달했으며, 권한 처리 결과를 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-BE61B80E@dl-agent.local>)",
+      "response": "[분류] 6. 'DL 전체 메일링그룹 조회' 메뉴 접근 권한 문의 (확신도 100%)\n\n'DL 전체 메일링그룹 조회' 메뉴는 별도 권한이 필요한 메뉴입니다.\n문의 내용을 **DL 시스템 관리자**에게 전달했으며, 권한 처리 결과를 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@example.com (메시지 ID <REQ-BE61B80E@dl-agent.local>)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: F(1.00) → 시나리오 6 [371ms]",
-        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "tool: send_mail → DL_SystemManager@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": true
@@ -2599,17 +2599,17 @@
         "send_mail"
       ],
       "expected_args": {
-        "to": "DL_SystemManager@navercorp.com"
+        "to": "DL_SystemManager@example.com"
       },
       "actual_args": {
-        "to": "DL_SystemManager@navercorp.com",
+        "to": "DL_SystemManager@example.com",
         "scenario_name": "'DL 전체 메일링그룹 조회' 메뉴 접근 권한 문의"
       },
-      "response": "[분류] 6. 'DL 전체 메일링그룹 조회' 메뉴 접근 권한 문의 (확신도 97%)\n\n'DL 전체 메일링그룹 조회' 메뉴는 별도 권한이 필요한 메뉴입니다.\n문의 내용을 **DL 시스템 관리자**에게 전달했으며, 권한 처리 결과를 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-BE61B80E@dl-agent.local>)",
+      "response": "[분류] 6. 'DL 전체 메일링그룹 조회' 메뉴 접근 권한 문의 (확신도 97%)\n\n'DL 전체 메일링그룹 조회' 메뉴는 별도 권한이 필요한 메뉴입니다.\n문의 내용을 **DL 시스템 관리자**에게 전달했으며, 권한 처리 결과를 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@example.com (메시지 ID <REQ-BE61B80E@dl-agent.local>)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: F(0.97) → 시나리오 6 [373ms]",
-        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "tool: send_mail → DL_SystemManager@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": true
@@ -2637,17 +2637,17 @@
         "send_mail"
       ],
       "expected_args": {
-        "to": "works_cs@navercorp.com"
+        "to": "_cs@example.com"
       },
       "actual_args": {
-        "to": "DL_SystemManager@navercorp.com",
+        "to": "DL_SystemManager@example.com",
         "scenario_name": "분류 불가 / 기타"
       },
-      "response": "[분류] 10. 분류 불가 / 기타 (확신도 70%)\n\n문의 내용만으로는 처리 유형을 확신하기 어려워 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
+      "response": "[분류] 10. 분류 불가 / 기타 (확신도 70%)\n\n문의 내용만으로는 처리 유형을 확신하기 어려워 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@example.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: J(0.70) → 확신 부족으로 기권, 시나리오 10 [235ms]",
-        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "tool: send_mail → DL_SystemManager@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": false
@@ -2681,21 +2681,21 @@
         "send_mail"
       ],
       "expected_args": {
-        "to": "works_cs@navercorp.com"
+        "to": "_cs@example.com"
       },
       "actual_args": {
-        "to": "works_cs@navercorp.com",
+        "to": "_cs@example.com",
         "missing": [
           "발송자 메일주소",
           "수신자 메일주소",
           "메일 제목"
         ]
       },
-      "response": "[분류] 7. 일반 메일 송수신 문제 (DL 설정과 무관) (확신도 97%)\n\n말씀하신 증상은 DL 설정과는 무관한 사내 메일 송수신 문제로 보입니다.\n**WORKS 메일 담당(CS)** 으로 문의를 전달했습니다. (works_cs@navercorp.com)\n\n▸ 전달 완료: works_cs@navercorp.com (메시지 ID <REQ-607BEE97@dl-agent.local>)\n\n빠른 확인을 위해 아래 정보를 회신해 주세요.\n  - 발송자 메일주소, 수신자 메일주소, 메일 제목",
+      "response": "[분류] 7. 일반 메일 송수신 문제 (DL 설정과 무관) (확신도 97%)\n\n말씀하신 증상은 DL 설정과는 무관한 사내 메일 송수신 문제로 보입니다.\n** 메일 담당(CS)** 으로 문의를 전달했습니다. (_cs@example.com)\n\n▸ 전달 완료: _cs@example.com (메시지 ID <REQ-607BEE97@dl-agent.local>)\n\n빠른 확인을 위해 아래 정보를 회신해 주세요.\n  - 발송자 메일주소, 수신자 메일주소, 메일 제목",
       "trace": [
         "ingest: 슬롯 sent_at=오늘 오전",
         "classify: G(0.97) → 시나리오 7 [242ms]",
-        "tool: send_mail → works_cs@navercorp.com",
+        "tool: send_mail → _cs@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": true
@@ -2727,10 +2727,10 @@
         "send_mail"
       ],
       "expected_args": {
-        "to": "works_cs@navercorp.com"
+        "to": "_cs@example.com"
       },
       "actual_args": {
-        "to": "works_cs@navercorp.com",
+        "to": "_cs@example.com",
         "missing": [
           "발송자 메일주소",
           "수신자 메일주소",
@@ -2738,11 +2738,11 @@
           "메일 제목"
         ]
       },
-      "response": "[분류] 7. 일반 메일 송수신 문제 (DL 설정과 무관) (확신도 100%)\n\n말씀하신 증상은 DL 설정과는 무관한 사내 메일 송수신 문제로 보입니다.\n**WORKS 메일 담당(CS)** 으로 문의를 전달했습니다. (works_cs@navercorp.com)\n\n▸ 전달 완료: works_cs@navercorp.com (메시지 ID <REQ-607BEE97@dl-agent.local>)\n\n빠른 확인을 위해 아래 정보를 회신해 주세요.\n  - 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목",
+      "response": "[분류] 7. 일반 메일 송수신 문제 (DL 설정과 무관) (확신도 100%)\n\n말씀하신 증상은 DL 설정과는 무관한 사내 메일 송수신 문제로 보입니다.\n** 메일 담당(CS)** 으로 문의를 전달했습니다. (_cs@example.com)\n\n▸ 전달 완료: _cs@example.com (메시지 ID <REQ-607BEE97@dl-agent.local>)\n\n빠른 확인을 위해 아래 정보를 회신해 주세요.\n  - 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: G(1.00) → 시나리오 7 [375ms]",
-        "tool: send_mail → works_cs@navercorp.com",
+        "tool: send_mail → _cs@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": true
@@ -2771,10 +2771,10 @@
       ],
       "actual_tools": [],
       "expected_args": {
-        "to": "works_cs@navercorp.com"
+        "to": "_cs@example.com"
       },
       "actual_args": {},
-      "response": "[분류] 4. 외부(사외) 메일이 DL로 수신되지 않는 이슈 (확신도 100%)\n\n먼저 메일링그룹 상세 설정에서 **[외부메일 수신]** 값이 `허용`인지 확인해 주세요.\n\n`허용` 상태인데도 수신되지 않는다면 발신제한 설정 가능성이 있어 관리자 확인이 필요합니다.\n아래 정보를 담아 DL_SystemManager@navercorp.com 로 문의해 주세요.\n  - 발송자 메일주소\n  - 수신자(DL) 메일주소\n  - 발송 시간\n  - 메일 제목\n\n(현재 문의에서 확인되지 않은 항목: 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목)",
+      "response": "[분류] 4. 외부(사외) 메일이 DL로 수신되지 않는 이슈 (확신도 100%)\n\n먼저 메일링그룹 상세 설정에서 **[외부메일 수신]** 값이 `허용`인지 확인해 주세요.\n\n`허용` 상태인데도 수신되지 않는다면 발신제한 설정 가능성이 있어 관리자 확인이 필요합니다.\n아래 정보를 담아 DL_SystemManager@example.com 로 문의해 주세요.\n  - 발송자 메일주소\n  - 수신자(DL) 메일주소\n  - 발송 시간\n  - 메일 제목\n\n(현재 문의에서 확인되지 않은 항목: 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: D(1.00) → 시나리오 4 [374ms]",
@@ -2811,10 +2811,10 @@
         "send_mail"
       ],
       "expected_args": {
-        "to": "works_cs@navercorp.com"
+        "to": "_cs@example.com"
       },
       "actual_args": {
-        "to": "works_cs@navercorp.com",
+        "to": "_cs@example.com",
         "missing": [
           "발송자 메일주소",
           "수신자 메일주소",
@@ -2822,11 +2822,11 @@
           "메일 제목"
         ]
       },
-      "response": "[분류] 7. 일반 메일 송수신 문제 (DL 설정과 무관) (확신도 100%)\n\n말씀하신 증상은 DL 설정과는 무관한 사내 메일 송수신 문제로 보입니다.\n**WORKS 메일 담당(CS)** 으로 문의를 전달했습니다. (works_cs@navercorp.com)\n\n▸ 전달 완료: works_cs@navercorp.com (메시지 ID <REQ-607BEE97@dl-agent.local>)\n\n빠른 확인을 위해 아래 정보를 회신해 주세요.\n  - 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목",
+      "response": "[분류] 7. 일반 메일 송수신 문제 (DL 설정과 무관) (확신도 100%)\n\n말씀하신 증상은 DL 설정과는 무관한 사내 메일 송수신 문제로 보입니다.\n** 메일 담당(CS)** 으로 문의를 전달했습니다. (_cs@example.com)\n\n▸ 전달 완료: _cs@example.com (메시지 ID <REQ-607BEE97@dl-agent.local>)\n\n빠른 확인을 위해 아래 정보를 회신해 주세요.\n  - 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: G(1.00) → 시나리오 7 [240ms]",
-        "tool: send_mail → works_cs@navercorp.com",
+        "tool: send_mail → _cs@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": true
@@ -2859,10 +2859,10 @@
         "send_mail"
       ],
       "expected_args": {
-        "to": "works_cs@navercorp.com"
+        "to": "_cs@example.com"
       },
       "actual_args": {
-        "to": "works_cs@navercorp.com",
+        "to": "_cs@example.com",
         "missing": [
           "발송자 메일주소",
           "수신자 메일주소",
@@ -2870,11 +2870,11 @@
           "메일 제목"
         ]
       },
-      "response": "[분류] 7. 일반 메일 송수신 문제 (DL 설정과 무관) (확신도 100%)\n\n말씀하신 증상은 DL 설정과는 무관한 사내 메일 송수신 문제로 보입니다.\n**WORKS 메일 담당(CS)** 으로 문의를 전달했습니다. (works_cs@navercorp.com)\n\n▸ 전달 완료: works_cs@navercorp.com (메시지 ID <REQ-607BEE97@dl-agent.local>)\n\n빠른 확인을 위해 아래 정보를 회신해 주세요.\n  - 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목",
+      "response": "[분류] 7. 일반 메일 송수신 문제 (DL 설정과 무관) (확신도 100%)\n\n말씀하신 증상은 DL 설정과는 무관한 사내 메일 송수신 문제로 보입니다.\n** 메일 담당(CS)** 으로 문의를 전달했습니다. (_cs@example.com)\n\n▸ 전달 완료: _cs@example.com (메시지 ID <REQ-607BEE97@dl-agent.local>)\n\n빠른 확인을 위해 아래 정보를 회신해 주세요.\n  - 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: G(1.00) → 시나리오 7 [375ms]",
-        "tool: send_mail → works_cs@navercorp.com",
+        "tool: send_mail → _cs@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": true
@@ -2902,17 +2902,17 @@
         "send_mail"
       ],
       "expected_args": {
-        "to": "works_cs@navercorp.com"
+        "to": "_cs@example.com"
       },
       "actual_args": {
-        "to": "DL_SystemManager@navercorp.com",
+        "to": "DL_SystemManager@example.com",
         "scenario_name": "분류 불가 / 기타"
       },
-      "response": "[분류] 10. 분류 불가 / 기타 (확신도 86%)\n\n자동 분류 대상에 해당하지 않아 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
+      "response": "[분류] 10. 분류 불가 / 기타 (확신도 86%)\n\n자동 분류 대상에 해당하지 않아 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@example.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: J(0.86) → 시나리오 10 [242ms]",
-        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "tool: send_mail → DL_SystemManager@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": false
@@ -2943,10 +2943,10 @@
         "send_mail"
       ],
       "expected_args": {
-        "to": "works_cs@navercorp.com"
+        "to": "_cs@example.com"
       },
       "actual_args": {
-        "to": "works_cs@navercorp.com",
+        "to": "_cs@example.com",
         "missing": [
           "발송자 메일주소",
           "수신자 메일주소",
@@ -2954,11 +2954,11 @@
           "메일 제목"
         ]
       },
-      "response": "[분류] 7. 일반 메일 송수신 문제 (DL 설정과 무관) (확신도 100%)\n\n말씀하신 증상은 DL 설정과는 무관한 사내 메일 송수신 문제로 보입니다.\n**WORKS 메일 담당(CS)** 으로 문의를 전달했습니다. (works_cs@navercorp.com)\n\n▸ 전달 완료: works_cs@navercorp.com (메시지 ID <REQ-607BEE97@dl-agent.local>)\n\n빠른 확인을 위해 아래 정보를 회신해 주세요.\n  - 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목",
+      "response": "[분류] 7. 일반 메일 송수신 문제 (DL 설정과 무관) (확신도 100%)\n\n말씀하신 증상은 DL 설정과는 무관한 사내 메일 송수신 문제로 보입니다.\n** 메일 담당(CS)** 으로 문의를 전달했습니다. (_cs@example.com)\n\n▸ 전달 완료: _cs@example.com (메시지 ID <REQ-607BEE97@dl-agent.local>)\n\n빠른 확인을 위해 아래 정보를 회신해 주세요.\n  - 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: G(1.00) → 시나리오 7 [377ms]",
-        "tool: send_mail → works_cs@navercorp.com",
+        "tool: send_mail → _cs@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": true
@@ -2988,21 +2988,21 @@
         "send_mail"
       ],
       "expected_args": {
-        "to": "works_cs@navercorp.com"
+        "to": "_cs@example.com"
       },
       "actual_args": {
-        "to": "works_cs@navercorp.com",
+        "to": "_cs@example.com",
         "missing": [
           "발송자 메일주소",
           "수신자 메일주소",
           "메일 제목"
         ]
       },
-      "response": "[분류] 7. 일반 메일 송수신 문제 (DL 설정과 무관) (확신도 100%)\n\n말씀하신 증상은 DL 설정과는 무관한 사내 메일 송수신 문제로 보입니다.\n**WORKS 메일 담당(CS)** 으로 문의를 전달했습니다. (works_cs@navercorp.com)\n\n▸ 전달 완료: works_cs@navercorp.com (메시지 ID <REQ-607BEE97@dl-agent.local>)\n\n빠른 확인을 위해 아래 정보를 회신해 주세요.\n  - 발송자 메일주소, 수신자 메일주소, 메일 제목",
+      "response": "[분류] 7. 일반 메일 송수신 문제 (DL 설정과 무관) (확신도 100%)\n\n말씀하신 증상은 DL 설정과는 무관한 사내 메일 송수신 문제로 보입니다.\n** 메일 담당(CS)** 으로 문의를 전달했습니다. (_cs@example.com)\n\n▸ 전달 완료: _cs@example.com (메시지 ID <REQ-607BEE97@dl-agent.local>)\n\n빠른 확인을 위해 아래 정보를 회신해 주세요.\n  - 발송자 메일주소, 수신자 메일주소, 메일 제목",
       "trace": [
         "ingest: 슬롯 sent_at=어제 오후",
         "classify: G(1.00) → 시나리오 7 [377ms]",
-        "tool: send_mail → works_cs@navercorp.com",
+        "tool: send_mail → _cs@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": true
@@ -3030,10 +3030,10 @@
         "send_mail"
       ],
       "expected_args": {
-        "to": "works_cs@navercorp.com"
+        "to": "_cs@example.com"
       },
       "actual_args": {
-        "to": "works_cs@navercorp.com",
+        "to": "_cs@example.com",
         "missing": [
           "발송자 메일주소",
           "수신자 메일주소",
@@ -3041,11 +3041,11 @@
           "메일 제목"
         ]
       },
-      "response": "[분류] 7. 일반 메일 송수신 문제 (DL 설정과 무관) (확신도 100%)\n\n말씀하신 증상은 DL 설정과는 무관한 사내 메일 송수신 문제로 보입니다.\n**WORKS 메일 담당(CS)** 으로 문의를 전달했습니다. (works_cs@navercorp.com)\n\n▸ 전달 완료: works_cs@navercorp.com (메시지 ID <REQ-607BEE97@dl-agent.local>)\n\n빠른 확인을 위해 아래 정보를 회신해 주세요.\n  - 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목",
+      "response": "[분류] 7. 일반 메일 송수신 문제 (DL 설정과 무관) (확신도 100%)\n\n말씀하신 증상은 DL 설정과는 무관한 사내 메일 송수신 문제로 보입니다.\n** 메일 담당(CS)** 으로 문의를 전달했습니다. (_cs@example.com)\n\n▸ 전달 완료: _cs@example.com (메시지 ID <REQ-607BEE97@dl-agent.local>)\n\n빠른 확인을 위해 아래 정보를 회신해 주세요.\n  - 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: G(1.00) → 시나리오 7 [241ms]",
-        "tool: send_mail → works_cs@navercorp.com",
+        "tool: send_mail → _cs@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": true
@@ -3075,14 +3075,14 @@
         "request_type": "dynamic_dl"
       },
       "actual_args": {
-        "to": "DL_SystemManager@navercorp.com",
+        "to": "DL_SystemManager@example.com",
         "scenario_name": "분류 불가 / 기타"
       },
-      "response": "[분류] 10. 분류 불가 / 기타 (확신도 69%)\n\n문의 내용만으로는 처리 유형을 확신하기 어려워 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
+      "response": "[분류] 10. 분류 불가 / 기타 (확신도 69%)\n\n문의 내용만으로는 처리 유형을 확신하기 어려워 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@example.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: I(0.69) → 확신 부족으로 기권, 시나리오 10 [374ms]",
-        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "tool: send_mail → DL_SystemManager@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": false
@@ -3114,7 +3114,7 @@
         "request_type": "dynamic_dl",
         "prefill": {}
       },
-      "response": "[분류] 8. 동적 DL 문의 (확신도 100%)\n\n법인·직급·재직형태 등 조건으로 멤버가 자동 관리되는 **동적 DL**은 기안(결재)으로 접수받아 등록해 드립니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 그룹 이름\n  - 메일주소\n  - 소속 법인\n  - 상세 연동 조건(법인/정규직 여부/겸직 여부/직급 등)\n\n▸ 접수번호(가): REQ-D2F59235",
+      "response": "[분류] 8. 동적 DL 문의 (확신도 100%)\n\n법인·직급·재직형태 등 조건으로 멤버가 자동 관리되는 **동적 DL**은 기안(결재)으로 접수받아 등록해 드립니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.example.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 그룹 이름\n  - 메일주소\n  - 소속 법인\n  - 상세 연동 조건(법인/정규직 여부/겸직 여부/직급 등)\n\n▸ 접수번호(가): REQ-D2F59235",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: H(1.00) → 시나리오 8 [242ms]",
@@ -3158,7 +3158,7 @@
         "request_type": "dl_api_acl",
         "prefill": {}
       },
-      "response": "[분류] 9. DL API 사용 문의 (open API 연동, ACL 신청) (확신도 100%)\n\nDL open API는 아래 위키에 스펙과 신청 방법이 정리되어 있습니다.\n\n▸ 위키: https://wiki.navercorp.com/spaces/oapi/pages/552115497/%EB%A9%94%EC%9D%BC%EB%A7%81%EA%B7%B8%EB%A3%B9+REST+API\n\n▸ API URL\n  - 개발: http://dldev.navercorp.com/api/\n  - 운영: https://dl.navercorp.com/api/\n\n▸ 제공 기능: 메일링그룹 생성/수정/삭제, 정보 조회, 멤버 등록/조회/삭제, 특정 사번 소속 DL 조회, 메일주소·이름 중복 확인, Groups 연동\n\n**운영 적용을 위한 ACL 등록**은 기안(결재)으로 신청해 주셔야 합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 사용 서비스 명\n  - 사용 서비스 도메인\n  - API 사용 목적\n  - 호출 서버 IP (N3R Egress IP 포함)\n  - 사용하려는 API 명\n  - 대략적인 호출 빈도\n\n▸ 접수번호(가): REQ-E94BF014",
+      "response": "[분류] 9. DL API 사용 문의 (open API 연동, ACL 신청) (확신도 100%)\n\nDL open API는 아래 위키에 스펙과 신청 방법이 정리되어 있습니다.\n\n▸ 위키: https://wiki.example.com/spaces/oapi/pages/552115497/%EB%A9%94%EC%9D%BC%EB%A7%81%EA%B7%B8%EB%A3%B9+REST+API\n\n▸ API URL\n  - 개발: http://dldev.example.com/api/\n  - 운영: https://dl.example.com/api/\n\n▸ 제공 기능: 메일링그룹 생성/수정/삭제, 정보 조회, 멤버 등록/조회/삭제, 특정 사번 소속 DL 조회, 메일주소·이름 중복 확인, Groups 연동\n\n**운영 적용을 위한 ACL 등록**은 기안(결재)으로 신청해 주셔야 합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.example.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 사용 서비스 명\n  - 사용 서비스 도메인\n  - API 사용 목적\n  - 호출 서버 IP (pod Egress IP 포함)\n  - 사용하려는 API 명\n  - 대략적인 호출 빈도\n\n▸ 접수번호(가): REQ-E94BF014",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: I(1.00) → 시나리오 9 [237ms]",
@@ -3197,7 +3197,7 @@
         "request_type": "dynamic_dl",
         "prefill": {}
       },
-      "response": "[분류] 8. 동적 DL 문의 (확신도 100%)\n\n법인·직급·재직형태 등 조건으로 멤버가 자동 관리되는 **동적 DL**은 기안(결재)으로 접수받아 등록해 드립니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 그룹 이름\n  - 메일주소\n  - 소속 법인\n  - 상세 연동 조건(법인/정규직 여부/겸직 여부/직급 등)\n\n▸ 접수번호(가): REQ-D2F59235",
+      "response": "[분류] 8. 동적 DL 문의 (확신도 100%)\n\n법인·직급·재직형태 등 조건으로 멤버가 자동 관리되는 **동적 DL**은 기안(결재)으로 접수받아 등록해 드립니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.example.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 그룹 이름\n  - 메일주소\n  - 소속 법인\n  - 상세 연동 조건(법인/정규직 여부/겸직 여부/직급 등)\n\n▸ 접수번호(가): REQ-D2F59235",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: H(1.00) → 시나리오 8 [370ms]",
@@ -3236,7 +3236,7 @@
         "request_type": "dynamic_dl",
         "prefill": {}
       },
-      "response": "[분류] 8. 동적 DL 문의 (확신도 100%)\n\n법인·직급·재직형태 등 조건으로 멤버가 자동 관리되는 **동적 DL**은 기안(결재)으로 접수받아 등록해 드립니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 그룹 이름\n  - 메일주소\n  - 소속 법인\n  - 상세 연동 조건(법인/정규직 여부/겸직 여부/직급 등)\n\n▸ 접수번호(가): REQ-D2F59235",
+      "response": "[분류] 8. 동적 DL 문의 (확신도 100%)\n\n법인·직급·재직형태 등 조건으로 멤버가 자동 관리되는 **동적 DL**은 기안(결재)으로 접수받아 등록해 드립니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.example.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 그룹 이름\n  - 메일주소\n  - 소속 법인\n  - 상세 연동 조건(법인/정규직 여부/겸직 여부/직급 등)\n\n▸ 접수번호(가): REQ-D2F59235",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: H(1.00) → 시나리오 8 [371ms]",
@@ -3270,14 +3270,14 @@
         "request_type": "dynamic_dl"
       },
       "actual_args": {
-        "to": "DL_SystemManager@navercorp.com",
+        "to": "DL_SystemManager@example.com",
         "scenario_name": "분류 불가 / 기타"
       },
-      "response": "[분류] 10. 분류 불가 / 기타 (확신도 61%)\n\n문의 내용만으로는 처리 유형을 확신하기 어려워 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
+      "response": "[분류] 10. 분류 불가 / 기타 (확신도 61%)\n\n문의 내용만으로는 처리 유형을 확신하기 어려워 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@example.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: I(0.61) → 확신 부족으로 기권, 시나리오 10 [242ms]",
-        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "tool: send_mail → DL_SystemManager@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": false
@@ -3314,7 +3314,7 @@
         "request_type": "dynamic_dl",
         "prefill": {}
       },
-      "response": "[분류] 8. 동적 DL 문의 (확신도 100%)\n\n법인·직급·재직형태 등 조건으로 멤버가 자동 관리되는 **동적 DL**은 기안(결재)으로 접수받아 등록해 드립니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 그룹 이름\n  - 메일주소\n  - 소속 법인\n  - 상세 연동 조건(법인/정규직 여부/겸직 여부/직급 등)\n\n▸ 접수번호(가): REQ-D2F59235",
+      "response": "[분류] 8. 동적 DL 문의 (확신도 100%)\n\n법인·직급·재직형태 등 조건으로 멤버가 자동 관리되는 **동적 DL**은 기안(결재)으로 접수받아 등록해 드립니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.example.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 그룹 이름\n  - 메일주소\n  - 소속 법인\n  - 상세 연동 조건(법인/정규직 여부/겸직 여부/직급 등)\n\n▸ 접수번호(가): REQ-D2F59235",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: H(1.00) → 시나리오 8 [371ms]",
@@ -3353,7 +3353,7 @@
         "request_type": "dynamic_dl",
         "prefill": {}
       },
-      "response": "[분류] 8. 동적 DL 문의 (확신도 100%)\n\n법인·직급·재직형태 등 조건으로 멤버가 자동 관리되는 **동적 DL**은 기안(결재)으로 접수받아 등록해 드립니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 그룹 이름\n  - 메일주소\n  - 소속 법인\n  - 상세 연동 조건(법인/정규직 여부/겸직 여부/직급 등)\n\n▸ 접수번호(가): REQ-D2F59235",
+      "response": "[분류] 8. 동적 DL 문의 (확신도 100%)\n\n법인·직급·재직형태 등 조건으로 멤버가 자동 관리되는 **동적 DL**은 기안(결재)으로 접수받아 등록해 드립니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.example.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 그룹 이름\n  - 메일주소\n  - 소속 법인\n  - 상세 연동 조건(법인/정규직 여부/겸직 여부/직급 등)\n\n▸ 접수번호(가): REQ-D2F59235",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: H(1.00) → 시나리오 8 [375ms]",
@@ -3389,7 +3389,7 @@
         "request_type": "dynamic_dl",
         "prefill": {}
       },
-      "response": "[분류] 8. 동적 DL 문의 (확신도 100%)\n\n법인·직급·재직형태 등 조건으로 멤버가 자동 관리되는 **동적 DL**은 기안(결재)으로 접수받아 등록해 드립니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 그룹 이름\n  - 메일주소\n  - 소속 법인\n  - 상세 연동 조건(법인/정규직 여부/겸직 여부/직급 등)\n\n▸ 접수번호(가): REQ-D2F59235",
+      "response": "[분류] 8. 동적 DL 문의 (확신도 100%)\n\n법인·직급·재직형태 등 조건으로 멤버가 자동 관리되는 **동적 DL**은 기안(결재)으로 접수받아 등록해 드립니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.example.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 그룹 이름\n  - 메일주소\n  - 소속 법인\n  - 상세 연동 조건(법인/정규직 여부/겸직 여부/직급 등)\n\n▸ 접수번호(가): REQ-D2F59235",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: H(1.00) → 시나리오 8 [376ms]",
@@ -3427,7 +3427,7 @@
         "request_type": "dynamic_dl",
         "prefill": {}
       },
-      "response": "[분류] 8. 동적 DL 문의 (확신도 100%)\n\n법인·직급·재직형태 등 조건으로 멤버가 자동 관리되는 **동적 DL**은 기안(결재)으로 접수받아 등록해 드립니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 그룹 이름\n  - 메일주소\n  - 소속 법인\n  - 상세 연동 조건(법인/정규직 여부/겸직 여부/직급 등)\n\n▸ 접수번호(가): REQ-D2F59235",
+      "response": "[분류] 8. 동적 DL 문의 (확신도 100%)\n\n법인·직급·재직형태 등 조건으로 멤버가 자동 관리되는 **동적 DL**은 기안(결재)으로 접수받아 등록해 드립니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.example.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 그룹 이름\n  - 메일주소\n  - 소속 법인\n  - 상세 연동 조건(법인/정규직 여부/겸직 여부/직급 등)\n\n▸ 접수번호(가): REQ-D2F59235",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: H(1.00) → 시나리오 8 [369ms]",
@@ -3467,7 +3467,7 @@
         "request_type": "dl_api_acl",
         "prefill": {}
       },
-      "response": "[분류] 9. DL API 사용 문의 (open API 연동, ACL 신청) (확신도 100%)\n\nDL open API는 아래 위키에 스펙과 신청 방법이 정리되어 있습니다.\n\n▸ 위키: https://wiki.navercorp.com/spaces/oapi/pages/552115497/%EB%A9%94%EC%9D%BC%EB%A7%81%EA%B7%B8%EB%A3%B9+REST+API\n\n▸ API URL\n  - 개발: http://dldev.navercorp.com/api/\n  - 운영: https://dl.navercorp.com/api/\n\n▸ 제공 기능: 메일링그룹 생성/수정/삭제, 정보 조회, 멤버 등록/조회/삭제, 특정 사번 소속 DL 조회, 메일주소·이름 중복 확인, Groups 연동\n\n**운영 적용을 위한 ACL 등록**은 기안(결재)으로 신청해 주셔야 합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 사용 서비스 명\n  - 사용 서비스 도메인\n  - API 사용 목적\n  - 호출 서버 IP (N3R Egress IP 포함)\n  - 사용하려는 API 명\n  - 대략적인 호출 빈도\n\n▸ 접수번호(가): REQ-E94BF014",
+      "response": "[분류] 9. DL API 사용 문의 (open API 연동, ACL 신청) (확신도 100%)\n\nDL open API는 아래 위키에 스펙과 신청 방법이 정리되어 있습니다.\n\n▸ 위키: https://wiki.example.com/spaces/oapi/pages/552115497/%EB%A9%94%EC%9D%BC%EB%A7%81%EA%B7%B8%EB%A3%B9+REST+API\n\n▸ API URL\n  - 개발: http://dldev.example.com/api/\n  - 운영: https://dl.example.com/api/\n\n▸ 제공 기능: 메일링그룹 생성/수정/삭제, 정보 조회, 멤버 등록/조회/삭제, 특정 사번 소속 DL 조회, 메일주소·이름 중복 확인, Groups 연동\n\n**운영 적용을 위한 ACL 등록**은 기안(결재)으로 신청해 주셔야 합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.example.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 사용 서비스 명\n  - 사용 서비스 도메인\n  - API 사용 목적\n  - 호출 서버 IP (pod Egress IP 포함)\n  - 사용하려는 API 명\n  - 대략적인 호출 빈도\n\n▸ 접수번호(가): REQ-E94BF014",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: I(1.00) → 시나리오 9 [240ms]",
@@ -3509,7 +3509,7 @@
         "request_type": "dl_api_acl",
         "prefill": {}
       },
-      "response": "[분류] 9. DL API 사용 문의 (open API 연동, ACL 신청) (확신도 100%)\n\nDL open API는 아래 위키에 스펙과 신청 방법이 정리되어 있습니다.\n\n▸ 위키: https://wiki.navercorp.com/spaces/oapi/pages/552115497/%EB%A9%94%EC%9D%BC%EB%A7%81%EA%B7%B8%EB%A3%B9+REST+API\n\n▸ API URL\n  - 개발: http://dldev.navercorp.com/api/\n  - 운영: https://dl.navercorp.com/api/\n\n▸ 제공 기능: 메일링그룹 생성/수정/삭제, 정보 조회, 멤버 등록/조회/삭제, 특정 사번 소속 DL 조회, 메일주소·이름 중복 확인, Groups 연동\n\n**운영 적용을 위한 ACL 등록**은 기안(결재)으로 신청해 주셔야 합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 사용 서비스 명\n  - 사용 서비스 도메인\n  - API 사용 목적\n  - 호출 서버 IP (N3R Egress IP 포함)\n  - 사용하려는 API 명\n  - 대략적인 호출 빈도\n\n▸ 접수번호(가): REQ-E94BF014",
+      "response": "[분류] 9. DL API 사용 문의 (open API 연동, ACL 신청) (확신도 100%)\n\nDL open API는 아래 위키에 스펙과 신청 방법이 정리되어 있습니다.\n\n▸ 위키: https://wiki.example.com/spaces/oapi/pages/552115497/%EB%A9%94%EC%9D%BC%EB%A7%81%EA%B7%B8%EB%A3%B9+REST+API\n\n▸ API URL\n  - 개발: http://dldev.example.com/api/\n  - 운영: https://dl.example.com/api/\n\n▸ 제공 기능: 메일링그룹 생성/수정/삭제, 정보 조회, 멤버 등록/조회/삭제, 특정 사번 소속 DL 조회, 메일주소·이름 중복 확인, Groups 연동\n\n**운영 적용을 위한 ACL 등록**은 기안(결재)으로 신청해 주셔야 합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.example.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 사용 서비스 명\n  - 사용 서비스 도메인\n  - API 사용 목적\n  - 호출 서버 IP (pod Egress IP 포함)\n  - 사용하려는 API 명\n  - 대략적인 호출 빈도\n\n▸ 접수번호(가): REQ-E94BF014",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: I(1.00) → 시나리오 9 [239ms]",
@@ -3553,7 +3553,7 @@
         "request_type": "dl_api_acl",
         "prefill": {}
       },
-      "response": "[분류] 9. DL API 사용 문의 (open API 연동, ACL 신청) (확신도 100%)\n\nDL open API는 아래 위키에 스펙과 신청 방법이 정리되어 있습니다.\n\n▸ 위키: https://wiki.navercorp.com/spaces/oapi/pages/552115497/%EB%A9%94%EC%9D%BC%EB%A7%81%EA%B7%B8%EB%A3%B9+REST+API\n\n▸ API URL\n  - 개발: http://dldev.navercorp.com/api/\n  - 운영: https://dl.navercorp.com/api/\n\n▸ 제공 기능: 메일링그룹 생성/수정/삭제, 정보 조회, 멤버 등록/조회/삭제, 특정 사번 소속 DL 조회, 메일주소·이름 중복 확인, Groups 연동\n\n**운영 적용을 위한 ACL 등록**은 기안(결재)으로 신청해 주셔야 합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 사용 서비스 명\n  - 사용 서비스 도메인\n  - API 사용 목적\n  - 호출 서버 IP (N3R Egress IP 포함)\n  - 사용하려는 API 명\n  - 대략적인 호출 빈도\n\n▸ 접수번호(가): REQ-E94BF014",
+      "response": "[분류] 9. DL API 사용 문의 (open API 연동, ACL 신청) (확신도 100%)\n\nDL open API는 아래 위키에 스펙과 신청 방법이 정리되어 있습니다.\n\n▸ 위키: https://wiki.example.com/spaces/oapi/pages/552115497/%EB%A9%94%EC%9D%BC%EB%A7%81%EA%B7%B8%EB%A3%B9+REST+API\n\n▸ API URL\n  - 개발: http://dldev.example.com/api/\n  - 운영: https://dl.example.com/api/\n\n▸ 제공 기능: 메일링그룹 생성/수정/삭제, 정보 조회, 멤버 등록/조회/삭제, 특정 사번 소속 DL 조회, 메일주소·이름 중복 확인, Groups 연동\n\n**운영 적용을 위한 ACL 등록**은 기안(결재)으로 신청해 주셔야 합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.example.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 사용 서비스 명\n  - 사용 서비스 도메인\n  - API 사용 목적\n  - 호출 서버 IP (pod Egress IP 포함)\n  - 사용하려는 API 명\n  - 대략적인 호출 빈도\n\n▸ 접수번호(가): REQ-E94BF014",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: I(1.00) → 시나리오 9 [370ms]",
@@ -3594,7 +3594,7 @@
         "request_type": "dynamic_dl",
         "prefill": {}
       },
-      "response": "[분류] 8. 동적 DL 문의 (확신도 99%)\n\n법인·직급·재직형태 등 조건으로 멤버가 자동 관리되는 **동적 DL**은 기안(결재)으로 접수받아 등록해 드립니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 그룹 이름\n  - 메일주소\n  - 소속 법인\n  - 상세 연동 조건(법인/정규직 여부/겸직 여부/직급 등)\n\n▸ 접수번호(가): REQ-D2F59235",
+      "response": "[분류] 8. 동적 DL 문의 (확신도 99%)\n\n법인·직급·재직형태 등 조건으로 멤버가 자동 관리되는 **동적 DL**은 기안(결재)으로 접수받아 등록해 드립니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.example.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 그룹 이름\n  - 메일주소\n  - 소속 법인\n  - 상세 연동 조건(법인/정규직 여부/겸직 여부/직급 등)\n\n▸ 접수번호(가): REQ-D2F59235",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: H(0.99) → 시나리오 8 [241ms]",
@@ -3637,14 +3637,14 @@
         "request_type": "dl_api_acl"
       },
       "actual_args": {
-        "to": "DL_SystemManager@navercorp.com",
+        "to": "DL_SystemManager@example.com",
         "scenario_name": "분류 불가 / 기타"
       },
-      "response": "[분류] 10. 분류 불가 / 기타 (확신도 64%)\n\n문의 내용만으로는 처리 유형을 확신하기 어려워 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
+      "response": "[분류] 10. 분류 불가 / 기타 (확신도 64%)\n\n문의 내용만으로는 처리 유형을 확신하기 어려워 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@example.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: D(0.64) → 확신 부족으로 기권, 시나리오 10 [374ms]",
-        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "tool: send_mail → DL_SystemManager@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": false
@@ -3681,7 +3681,7 @@
         "request_type": "dl_api_acl",
         "prefill": {}
       },
-      "response": "[분류] 9. DL API 사용 문의 (open API 연동, ACL 신청) (확신도 100%)\n\nDL open API는 아래 위키에 스펙과 신청 방법이 정리되어 있습니다.\n\n▸ 위키: https://wiki.navercorp.com/spaces/oapi/pages/552115497/%EB%A9%94%EC%9D%BC%EB%A7%81%EA%B7%B8%EB%A3%B9+REST+API\n\n▸ API URL\n  - 개발: http://dldev.navercorp.com/api/\n  - 운영: https://dl.navercorp.com/api/\n\n▸ 제공 기능: 메일링그룹 생성/수정/삭제, 정보 조회, 멤버 등록/조회/삭제, 특정 사번 소속 DL 조회, 메일주소·이름 중복 확인, Groups 연동\n\n**운영 적용을 위한 ACL 등록**은 기안(결재)으로 신청해 주셔야 합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 사용 서비스 명\n  - 사용 서비스 도메인\n  - API 사용 목적\n  - 호출 서버 IP (N3R Egress IP 포함)\n  - 사용하려는 API 명\n  - 대략적인 호출 빈도\n\n▸ 접수번호(가): REQ-E94BF014",
+      "response": "[분류] 9. DL API 사용 문의 (open API 연동, ACL 신청) (확신도 100%)\n\nDL open API는 아래 위키에 스펙과 신청 방법이 정리되어 있습니다.\n\n▸ 위키: https://wiki.example.com/spaces/oapi/pages/552115497/%EB%A9%94%EC%9D%BC%EB%A7%81%EA%B7%B8%EB%A3%B9+REST+API\n\n▸ API URL\n  - 개발: http://dldev.example.com/api/\n  - 운영: https://dl.example.com/api/\n\n▸ 제공 기능: 메일링그룹 생성/수정/삭제, 정보 조회, 멤버 등록/조회/삭제, 특정 사번 소속 DL 조회, 메일주소·이름 중복 확인, Groups 연동\n\n**운영 적용을 위한 ACL 등록**은 기안(결재)으로 신청해 주셔야 합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.example.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 사용 서비스 명\n  - 사용 서비스 도메인\n  - API 사용 목적\n  - 호출 서버 IP (pod Egress IP 포함)\n  - 사용하려는 API 명\n  - 대략적인 호출 빈도\n\n▸ 접수번호(가): REQ-E94BF014",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: I(1.00) → 시나리오 9 [379ms]",
@@ -3724,7 +3724,7 @@
         "request_type": "dl_api_acl",
         "prefill": {}
       },
-      "response": "[분류] 9. DL API 사용 문의 (open API 연동, ACL 신청) (확신도 100%)\n\nDL open API는 아래 위키에 스펙과 신청 방법이 정리되어 있습니다.\n\n▸ 위키: https://wiki.navercorp.com/spaces/oapi/pages/552115497/%EB%A9%94%EC%9D%BC%EB%A7%81%EA%B7%B8%EB%A3%B9+REST+API\n\n▸ API URL\n  - 개발: http://dldev.navercorp.com/api/\n  - 운영: https://dl.navercorp.com/api/\n\n▸ 제공 기능: 메일링그룹 생성/수정/삭제, 정보 조회, 멤버 등록/조회/삭제, 특정 사번 소속 DL 조회, 메일주소·이름 중복 확인, Groups 연동\n\n**운영 적용을 위한 ACL 등록**은 기안(결재)으로 신청해 주셔야 합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 사용 서비스 명\n  - 사용 서비스 도메인\n  - API 사용 목적\n  - 호출 서버 IP (N3R Egress IP 포함)\n  - 사용하려는 API 명\n  - 대략적인 호출 빈도\n\n▸ 접수번호(가): REQ-E94BF014",
+      "response": "[분류] 9. DL API 사용 문의 (open API 연동, ACL 신청) (확신도 100%)\n\nDL open API는 아래 위키에 스펙과 신청 방법이 정리되어 있습니다.\n\n▸ 위키: https://wiki.example.com/spaces/oapi/pages/552115497/%EB%A9%94%EC%9D%BC%EB%A7%81%EA%B7%B8%EB%A3%B9+REST+API\n\n▸ API URL\n  - 개발: http://dldev.example.com/api/\n  - 운영: https://dl.example.com/api/\n\n▸ 제공 기능: 메일링그룹 생성/수정/삭제, 정보 조회, 멤버 등록/조회/삭제, 특정 사번 소속 DL 조회, 메일주소·이름 중복 확인, Groups 연동\n\n**운영 적용을 위한 ACL 등록**은 기안(결재)으로 신청해 주셔야 합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.example.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 사용 서비스 명\n  - 사용 서비스 도메인\n  - API 사용 목적\n  - 호출 서버 IP (pod Egress IP 포함)\n  - 사용하려는 API 명\n  - 대략적인 호출 빈도\n\n▸ 접수번호(가): REQ-E94BF014",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: I(1.00) → 시나리오 9 [243ms]",
@@ -3764,7 +3764,7 @@
         "request_type": "dynamic_dl",
         "prefill": {}
       },
-      "response": "[분류] 8. 동적 DL 문의 (확신도 100%)\n\n법인·직급·재직형태 등 조건으로 멤버가 자동 관리되는 **동적 DL**은 기안(결재)으로 접수받아 등록해 드립니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 그룹 이름\n  - 메일주소\n  - 소속 법인\n  - 상세 연동 조건(법인/정규직 여부/겸직 여부/직급 등)\n\n▸ 접수번호(가): REQ-D2F59235",
+      "response": "[분류] 8. 동적 DL 문의 (확신도 100%)\n\n법인·직급·재직형태 등 조건으로 멤버가 자동 관리되는 **동적 DL**은 기안(결재)으로 접수받아 등록해 드립니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.example.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 그룹 이름\n  - 메일주소\n  - 소속 법인\n  - 상세 연동 조건(법인/정규직 여부/겸직 여부/직급 등)\n\n▸ 접수번호(가): REQ-D2F59235",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: H(1.00) → 시나리오 8 [379ms]",
@@ -3809,7 +3809,7 @@
         "request_type": "dl_api_acl",
         "prefill": {}
       },
-      "response": "[분류] 9. DL API 사용 문의 (open API 연동, ACL 신청) (확신도 100%)\n\nDL open API는 아래 위키에 스펙과 신청 방법이 정리되어 있습니다.\n\n▸ 위키: https://wiki.navercorp.com/spaces/oapi/pages/552115497/%EB%A9%94%EC%9D%BC%EB%A7%81%EA%B7%B8%EB%A3%B9+REST+API\n\n▸ API URL\n  - 개발: http://dldev.navercorp.com/api/\n  - 운영: https://dl.navercorp.com/api/\n\n▸ 제공 기능: 메일링그룹 생성/수정/삭제, 정보 조회, 멤버 등록/조회/삭제, 특정 사번 소속 DL 조회, 메일주소·이름 중복 확인, Groups 연동\n\n**운영 적용을 위한 ACL 등록**은 기안(결재)으로 신청해 주셔야 합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 사용 서비스 명\n  - 사용 서비스 도메인\n  - API 사용 목적\n  - 호출 서버 IP (N3R Egress IP 포함)\n  - 사용하려는 API 명\n  - 대략적인 호출 빈도\n\n▸ 접수번호(가): REQ-E94BF014",
+      "response": "[분류] 9. DL API 사용 문의 (open API 연동, ACL 신청) (확신도 100%)\n\nDL open API는 아래 위키에 스펙과 신청 방법이 정리되어 있습니다.\n\n▸ 위키: https://wiki.example.com/spaces/oapi/pages/552115497/%EB%A9%94%EC%9D%BC%EB%A7%81%EA%B7%B8%EB%A3%B9+REST+API\n\n▸ API URL\n  - 개발: http://dldev.example.com/api/\n  - 운영: https://dl.example.com/api/\n\n▸ 제공 기능: 메일링그룹 생성/수정/삭제, 정보 조회, 멤버 등록/조회/삭제, 특정 사번 소속 DL 조회, 메일주소·이름 중복 확인, Groups 연동\n\n**운영 적용을 위한 ACL 등록**은 기안(결재)으로 신청해 주셔야 합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.example.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 사용 서비스 명\n  - 사용 서비스 도메인\n  - API 사용 목적\n  - 호출 서버 IP (pod Egress IP 포함)\n  - 사용하려는 API 명\n  - 대략적인 호출 빈도\n\n▸ 접수번호(가): REQ-E94BF014",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: I(1.00) → 시나리오 9 [372ms]",
@@ -3851,14 +3851,14 @@
         "request_type": "dl_api_acl"
       },
       "actual_args": {
-        "to": "DL_SystemManager@navercorp.com",
+        "to": "DL_SystemManager@example.com",
         "scenario_name": "분류 불가 / 기타"
       },
-      "response": "[분류] 10. 분류 불가 / 기타 (확신도 96%)\n\n자동 분류 대상에 해당하지 않아 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
+      "response": "[분류] 10. 분류 불가 / 기타 (확신도 96%)\n\n자동 분류 대상에 해당하지 않아 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@example.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: J(0.96) → 시나리오 10 [378ms]",
-        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "tool: send_mail → DL_SystemManager@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": false
@@ -3884,17 +3884,17 @@
         "send_mail"
       ],
       "expected_args": {
-        "to": "DL_SystemManager@navercorp.com"
+        "to": "DL_SystemManager@example.com"
       },
       "actual_args": {
-        "to": "DL_SystemManager@navercorp.com",
+        "to": "DL_SystemManager@example.com",
         "scenario_name": "분류 불가 / 기타"
       },
-      "response": "[분류] 10. 분류 불가 / 기타 (확신도 100%)\n\n자동 분류 대상에 해당하지 않아 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
+      "response": "[분류] 10. 분류 불가 / 기타 (확신도 100%)\n\n자동 분류 대상에 해당하지 않아 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@example.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: J(1.00) → 시나리오 10 [236ms]",
-        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "tool: send_mail → DL_SystemManager@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": true
@@ -3921,17 +3921,17 @@
         "send_mail"
       ],
       "expected_args": {
-        "to": "DL_SystemManager@navercorp.com"
+        "to": "DL_SystemManager@example.com"
       },
       "actual_args": {
-        "to": "DL_SystemManager@navercorp.com",
+        "to": "DL_SystemManager@example.com",
         "scenario_name": "분류 불가 / 기타"
       },
-      "response": "[분류] 10. 분류 불가 / 기타 (확신도 51%)\n\n문의 내용만으로는 처리 유형을 확신하기 어려워 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
+      "response": "[분류] 10. 분류 불가 / 기타 (확신도 51%)\n\n문의 내용만으로는 처리 유형을 확신하기 어려워 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@example.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: G(0.51) → 확신 부족으로 기권, 시나리오 10 [234ms]",
-        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "tool: send_mail → DL_SystemManager@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": true
@@ -3957,17 +3957,17 @@
         "send_mail"
       ],
       "expected_args": {
-        "to": "DL_SystemManager@navercorp.com"
+        "to": "DL_SystemManager@example.com"
       },
       "actual_args": {
-        "to": "DL_SystemManager@navercorp.com",
+        "to": "DL_SystemManager@example.com",
         "scenario_name": "분류 불가 / 기타"
       },
-      "response": "[분류] 10. 분류 불가 / 기타 (확신도 100%)\n\n자동 분류 대상에 해당하지 않아 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
+      "response": "[분류] 10. 분류 불가 / 기타 (확신도 100%)\n\n자동 분류 대상에 해당하지 않아 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@example.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: J(1.00) → 시나리오 10 [244ms]",
-        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "tool: send_mail → DL_SystemManager@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": true
@@ -4000,17 +4000,17 @@
         "send_mail"
       ],
       "expected_args": {
-        "to": "DL_SystemManager@navercorp.com"
+        "to": "DL_SystemManager@example.com"
       },
       "actual_args": {
-        "to": "DL_SystemManager@navercorp.com",
+        "to": "DL_SystemManager@example.com",
         "scenario_name": "분류 불가 / 기타"
       },
-      "response": "[분류] 10. 분류 불가 / 기타 (확신도 100%)\n\n자동 분류 대상에 해당하지 않아 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
+      "response": "[분류] 10. 분류 불가 / 기타 (확신도 100%)\n\n자동 분류 대상에 해당하지 않아 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@example.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: J(1.00) → 시나리오 10 [238ms]",
-        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "tool: send_mail → DL_SystemManager@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": true
@@ -4036,17 +4036,17 @@
         "send_mail"
       ],
       "expected_args": {
-        "to": "DL_SystemManager@navercorp.com"
+        "to": "DL_SystemManager@example.com"
       },
       "actual_args": {
-        "to": "DL_SystemManager@navercorp.com",
+        "to": "DL_SystemManager@example.com",
         "scenario_name": "분류 불가 / 기타"
       },
-      "response": "[분류] 10. 분류 불가 / 기타 (확신도 100%)\n\n자동 분류 대상에 해당하지 않아 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
+      "response": "[분류] 10. 분류 불가 / 기타 (확신도 100%)\n\n자동 분류 대상에 해당하지 않아 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@example.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: J(1.00) → 시나리오 10 [364ms]",
-        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "tool: send_mail → DL_SystemManager@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": true
@@ -4074,10 +4074,10 @@
         "send_mail"
       ],
       "expected_args": {
-        "to": "DL_SystemManager@navercorp.com"
+        "to": "DL_SystemManager@example.com"
       },
       "actual_args": {
-        "to": "works_cs@navercorp.com",
+        "to": "_cs@example.com",
         "missing": [
           "발송자 메일주소",
           "수신자 메일주소",
@@ -4085,11 +4085,11 @@
           "메일 제목"
         ]
       },
-      "response": "[분류] 7. 일반 메일 송수신 문제 (DL 설정과 무관) (확신도 77%)\n\n말씀하신 증상은 DL 설정과는 무관한 사내 메일 송수신 문제로 보입니다.\n**WORKS 메일 담당(CS)** 으로 문의를 전달했습니다. (works_cs@navercorp.com)\n\n▸ 전달 완료: works_cs@navercorp.com (메시지 ID <REQ-607BEE97@dl-agent.local>)\n\n빠른 확인을 위해 아래 정보를 회신해 주세요.\n  - 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목",
+      "response": "[분류] 7. 일반 메일 송수신 문제 (DL 설정과 무관) (확신도 77%)\n\n말씀하신 증상은 DL 설정과는 무관한 사내 메일 송수신 문제로 보입니다.\n** 메일 담당(CS)** 으로 문의를 전달했습니다. (_cs@example.com)\n\n▸ 전달 완료: _cs@example.com (메시지 ID <REQ-607BEE97@dl-agent.local>)\n\n빠른 확인을 위해 아래 정보를 회신해 주세요.\n  - 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: G(0.77) → 시나리오 7 [240ms]",
-        "tool: send_mail → works_cs@navercorp.com",
+        "tool: send_mail → _cs@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": false
@@ -4116,10 +4116,10 @@
         "send_mail"
       ],
       "expected_args": {
-        "to": "DL_SystemManager@navercorp.com"
+        "to": "DL_SystemManager@example.com"
       },
       "actual_args": {
-        "to": "works_cs@navercorp.com",
+        "to": "_cs@example.com",
         "missing": [
           "발송자 메일주소",
           "수신자 메일주소",
@@ -4127,11 +4127,11 @@
           "메일 제목"
         ]
       },
-      "response": "[분류] 7. 일반 메일 송수신 문제 (DL 설정과 무관) (확신도 100%)\n\n말씀하신 증상은 DL 설정과는 무관한 사내 메일 송수신 문제로 보입니다.\n**WORKS 메일 담당(CS)** 으로 문의를 전달했습니다. (works_cs@navercorp.com)\n\n▸ 전달 완료: works_cs@navercorp.com (메시지 ID <REQ-607BEE97@dl-agent.local>)\n\n빠른 확인을 위해 아래 정보를 회신해 주세요.\n  - 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목",
+      "response": "[분류] 7. 일반 메일 송수신 문제 (DL 설정과 무관) (확신도 100%)\n\n말씀하신 증상은 DL 설정과는 무관한 사내 메일 송수신 문제로 보입니다.\n** 메일 담당(CS)** 으로 문의를 전달했습니다. (_cs@example.com)\n\n▸ 전달 완료: _cs@example.com (메시지 ID <REQ-607BEE97@dl-agent.local>)\n\n빠른 확인을 위해 아래 정보를 회신해 주세요.\n  - 발송자 메일주소, 수신자 메일주소, 발송 시간, 메일 제목",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: G(1.00) → 시나리오 7 [234ms]",
-        "tool: send_mail → works_cs@navercorp.com",
+        "tool: send_mail → _cs@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": false
@@ -4161,14 +4161,14 @@
         "open_draft_form"
       ],
       "expected_args": {
-        "to": "DL_SystemManager@navercorp.com"
+        "to": "DL_SystemManager@example.com"
       },
       "actual_args": {
         "topic": "rest_api",
         "request_type": "dl_api_acl",
         "prefill": {}
       },
-      "response": "[분류] 9. DL API 사용 문의 (open API 연동, ACL 신청) (확신도 95%)\n\nDL open API는 아래 위키에 스펙과 신청 방법이 정리되어 있습니다.\n\n▸ 위키: https://wiki.navercorp.com/spaces/oapi/pages/552115497/%EB%A9%94%EC%9D%BC%EB%A7%81%EA%B7%B8%EB%A3%B9+REST+API\n\n▸ API URL\n  - 개발: http://dldev.navercorp.com/api/\n  - 운영: https://dl.navercorp.com/api/\n\n▸ 제공 기능: 메일링그룹 생성/수정/삭제, 정보 조회, 멤버 등록/조회/삭제, 특정 사번 소속 DL 조회, 메일주소·이름 중복 확인, Groups 연동\n\n**운영 적용을 위한 ACL 등록**은 기안(결재)으로 신청해 주셔야 합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 사용 서비스 명\n  - 사용 서비스 도메인\n  - API 사용 목적\n  - 호출 서버 IP (N3R Egress IP 포함)\n  - 사용하려는 API 명\n  - 대략적인 호출 빈도\n\n▸ 접수번호(가): REQ-E94BF014",
+      "response": "[분류] 9. DL API 사용 문의 (open API 연동, ACL 신청) (확신도 95%)\n\nDL open API는 아래 위키에 스펙과 신청 방법이 정리되어 있습니다.\n\n▸ 위키: https://wiki.example.com/spaces/oapi/pages/552115497/%EB%A9%94%EC%9D%BC%EB%A7%81%EA%B7%B8%EB%A3%B9+REST+API\n\n▸ API URL\n  - 개발: http://dldev.example.com/api/\n  - 운영: https://dl.example.com/api/\n\n▸ 제공 기능: 메일링그룹 생성/수정/삭제, 정보 조회, 멤버 등록/조회/삭제, 특정 사번 소속 DL 조회, 메일주소·이름 중복 확인, Groups 연동\n\n**운영 적용을 위한 ACL 등록**은 기안(결재)으로 신청해 주셔야 합니다.\n\n아래 기안 서식으로 요청해 주시면 접수 후 처리해 드립니다.\n\n▸ 기안 서식: https://apms.example.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0\n\n▸ 서식에 기재해 주실 항목\n  - 사용 서비스 명\n  - 사용 서비스 도메인\n  - API 사용 목적\n  - 호출 서버 IP (pod Egress IP 포함)\n  - 사용하려는 API 명\n  - 대략적인 호출 빈도\n\n▸ 접수번호(가): REQ-E94BF014",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: I(0.95) → 시나리오 9 [363ms]",
@@ -4202,17 +4202,17 @@
         "send_mail"
       ],
       "expected_args": {
-        "to": "DL_SystemManager@navercorp.com"
+        "to": "DL_SystemManager@example.com"
       },
       "actual_args": {
-        "to": "DL_SystemManager@navercorp.com",
+        "to": "DL_SystemManager@example.com",
         "scenario_name": "분류 불가 / 기타"
       },
-      "response": "[분류] 10. 분류 불가 / 기타 (확신도 61%)\n\n문의 내용만으로는 처리 유형을 확신하기 어려워 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
+      "response": "[분류] 10. 분류 불가 / 기타 (확신도 61%)\n\n문의 내용만으로는 처리 유형을 확신하기 어려워 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@example.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: I(0.61) → 확신 부족으로 기권, 시나리오 10 [373ms]",
-        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "tool: send_mail → DL_SystemManager@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": true
@@ -4246,17 +4246,17 @@
         "send_mail"
       ],
       "expected_args": {
-        "to": "DL_SystemManager@navercorp.com"
+        "to": "DL_SystemManager@example.com"
       },
       "actual_args": {
-        "to": "DL_SystemManager@navercorp.com",
+        "to": "DL_SystemManager@example.com",
         "scenario_name": "분류 불가 / 기타"
       },
-      "response": "[분류] 10. 분류 불가 / 기타 (확신도 100%)\n\n자동 분류 대상에 해당하지 않아 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@navercorp.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
+      "response": "[분류] 10. 분류 불가 / 기타 (확신도 100%)\n\n자동 분류 대상에 해당하지 않아 **DL 시스템 관리자**에게 문의를 전달했습니다.\n담당자가 내용을 확인한 뒤 회신드리겠습니다.\n\n▸ 전달 완료: DL_SystemManager@example.com (메시지 ID <REQ-ABBBDE4E@dl-agent.local>)",
       "trace": [
         "ingest: 슬롯 없음",
         "classify: J(1.00) → 시나리오 10 [247ms]",
-        "tool: send_mail → DL_SystemManager@navercorp.com",
+        "tool: send_mail → DL_SystemManager@example.com",
         "compose: 응답 조립 완료"
       ],
       "e2e_ok": true

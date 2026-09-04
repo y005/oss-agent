@@ -7,14 +7,14 @@
 
 | 용도 | 링크 |
 |---|---|
-| 업무의뢰 기안 서식 (사내정보시스템 > 메일링그룹(DL)) | <https://apms.navercorp.com/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0> |
-| DL 명의 메일 발송 권한 추가 가이드 (위키) | <https://wiki.navercorp.com/spaces/Global/pages/361216242/DL%EB%AA%85%EC%9C%BC%EB%A1%9C+%EB%A9%94%EC%9D%BC+%EB%B0%9C%EC%86%A1+%EA%B6%8C%ED%95%9C+%EC%B6%94%EA%B0%80+%EB%B0%A9%EB%B2%95> |
-| 메일링그룹 REST API 스펙 / ACL 신청 (위키) | <https://wiki.navercorp.com/spaces/oapi/pages/552115497/%EB%A9%94%EC%9D%BC%EB%A7%81%EA%B7%B8%EB%A3%B9+REST+API> |
+| 업무의뢰 기안 서식 (사내정보시스템 > 메일링그룹(DL)) | <https://example_url/aprvDoc/draft/E016?req_service=29&req_system=79&req_type=0> |
+| DL 명의 메일 발송 권한 추가 가이드 (위키) | <https://example_url/spaces/Global/pages/361216242> |
+| 메일링그룹 REST API 스펙 / ACL 신청 (위키) | <https://example_url/spaces/oapi/pages/552115497> |
 
 | 담당 채널 | 주소 |
 |---|---|
-| DL 시스템 관리자 | `DL_SystemManager@navercorp.com` |
-| WORKS 메일 CS | `works_cs@navercorp.com` |
+| DL 시스템 관리자 | `DL_SystemManager@example.com` |
+|  메일 CS | `cs@example.com` |
 
 ---
 
@@ -35,7 +35,7 @@
 - **처리 방식**: 고정 응답 안내
 - 조직 DL은 **인사정보 기반으로 자동 관리**되므로 관리자가 직접 멤버를 수정할 수 없습니다.
 - 파견직·계약직 제외 등 편집이 꼭 필요한 경우, **소속 법인의 인사부서 담당자**에게 제외 요청을 하도록 안내합니다.
-- ⚠️ 제외 처리 시 해당 DL과 연결된 WORKS 기능(드라이브 등) 접근이 불가해질 수 있으므로 **사전 고지 후 진행**됩니다.
+- ⚠️ 제외 처리 시 해당 DL과 연결된  기능(드라이브 등) 접근이 불가해질 수 있으므로 **사전 고지 후 진행**됩니다.
 
 ### 3. 만료/삭제된 DL 복구 요청
 
@@ -46,7 +46,7 @@
 - 단, **삭제 후 1개월 이내**의 그룹만 조회·복구 가능합니다.
 - 1개월 경과 시:
   - 메일링그룹만 사용했다면 → 새로 생성
-  - WORKS 드라이브 등 데이터 복구가 필요하면 → 관리자에게 문의
+  -  드라이브 등 데이터 복구가 필요하면 → 관리자에게 문의
 
 ### 4. 외부(사외) 메일이 DL로 수신되지 않는 이슈
 
@@ -79,8 +79,8 @@
 
 > 예: "보낸 메일이 도착을 안 했대요", "사내 메일 수신이 지연돼요"
 
-- **처리 방식**: WORKS 메일 CS 전달
-- DL 설정과 무관해 보이는 사내 메일 미수신, 발송 실패, 반송 등의 문제는 **WORKS 메일 담당(CS)** 으로 전달합니다.
+- **처리 방식**:  메일 CS 전달
+- DL 설정과 무관해 보이는 사내 메일 미수신, 발송 실패, 반송 등의 문제는 ** 메일 담당(CS)** 으로 전달합니다.
 - 빠른 확인을 위해 다음 정보를 함께 요청합니다: 발송자/수신자 메일주소, 발송 시간, 메일 제목
 
 ### 8. 동적 DL 문의
@@ -103,13 +103,13 @@
 - API 스펙과 사용 신청 방법은 **메일링그룹 REST API 위키 문서**를 안내합니다.
 - 제공 API: 메일링그룹 생성/수정/삭제, 정보 조회, 멤버 등록/조회/삭제, 특정 사번 소속 DL 조회, 메일주소/이름 중복 확인, Groups 연동 등
 - API URL:
-  - 개발: `http://dldev.navercorp.com/api/`
-  - 운영: `https://dl.navercorp.com/api/`
+  - 개발: `http://dev.example.com/api/`
+  - 운영: `https://example.com/api/`
 - **운영 적용 시 ACL 등록**은 [사내정보시스템 업무의뢰 > 메일링그룹(DL)] 서식으로 아래 항목을 기재하여 기안(결재)으로 신청합니다.
   1. 사용 서비스 명
   2. 사용 서비스 도메인
   3. API 사용 목적
-  4. 호출 서버 IP (N3R의 Egress IP 사용 시 Egress IP 기재)
+  4. 호출 서버 IP (pod의 Egress IP 사용 시 Egress IP 기재)
   5. 사용하려는 API 명
   6. 대략적인 호출 빈도
 
@@ -132,7 +132,7 @@
 | 4 | 외부 메일 수신 이슈 | 고정 응답 (+ DL API 설정 조회) |
 | 5 | DL 발신자 지정 | 고정 응답 (위키 가이드 링크) |
 | 6 | 전체 조회 메뉴 권한 | 관리자 메일 전달 |
-| 7 | 일반 송수신 문제 | WORKS CS 메일 전달 |
+| 7 | 일반 송수신 문제 |  CS 메일 전달 |
 | 8 | 동적 DL 등록/수정 | 기안 결재 접수 |
 | 9 | DL API / ACL 신청 | 위키 안내 + 기안 결재 접수 |
 | 10 | 분류 불가 / 기타 | 관리자 메일 전달 |

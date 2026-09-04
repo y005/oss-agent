@@ -67,7 +67,7 @@
 {"id": "S04-07", "scenario": 4, "difficulty": "easy", "text": "DL456789 외부 수신 허용으로 되어 있는지 조회해 주세요."}
 {"id": "S04-08", "scenario": 4, "difficulty": "easy", "text": "메일링그룹으로 오는 외부 메일만 유독 안 옵니다."}
 {"id": "S04-09", "scenario": 4, "difficulty": "medium", "text": "사내에서 그룹 주소로 보내면 잘 오는데 사외에서 보내면 안 옵니다. 뭐가 문제일까요?"}
-{"id": "S04-10", "scenario": 4, "difficulty": "medium", "text": "vendor@partner.co.kr 에서 platform-dl@navercorp.com 으로 8/28 14:20 에 보낸 메일이 수신되지 않았습니다. 제목은 '견적서 회신' 입니다."}
+{"id": "S04-10", "scenario": 4, "difficulty": "medium", "text": "vendor@partner.co.kr 에서 platform-dl@example.com 으로 8/28 14:20 에 보낸 메일이 수신되지 않았습니다. 제목은 '견적서 회신' 입니다."}
 {"id": "S04-11", "scenario": 4, "difficulty": "medium", "text": "외부 발신자가 우리 DL에 메일 보내면 550 에러가 난다고 하는데 확인 가능할까요?"}
 {"id": "S04-12", "scenario": 4, "difficulty": "medium", "text": "DL 상세 설정에 외부메일 수신 항목이 있던데 이게 꺼져 있으면 사외 메일이 다 막히나요? 저희 그룹은 DL567890 입니다."}
 {"id": "S04-13", "scenario": 4, "difficulty": "medium", "text": "메일링그룹으로 뉴스레터 구독을 걸어놨는데 발송사에서 오는 메일이 하나도 안 들어옵니다."}
@@ -126,7 +126,7 @@
 {"id": "S07-06", "scenario": 7, "difficulty": "easy", "text": "메일함에 특정 발신자 메일만 안 보입니다."}
 {"id": "S07-07", "scenario": 7, "difficulty": "easy", "text": "첨부파일이 큰 메일을 보내면 전송이 안 됩니다."}
 {"id": "S07-08", "scenario": 7, "difficulty": "easy", "text": "메일 전송 후 몇 시간 뒤에 도착한다는 얘기를 들었습니다. 확인 가능할까요?"}
-{"id": "S07-09", "scenario": 7, "difficulty": "medium", "text": "hong@navercorp.com 이 kim@navercorp.com 에게 8/29 09:15 에 보낸 '주간보고' 메일이 수신되지 않았습니다."}
+{"id": "S07-09", "scenario": 7, "difficulty": "medium", "text": "hong@example.com 이 kim@example.com 에게 8/29 09:15 에 보낸 '주간보고' 메일이 수신되지 않았습니다."}
 {"id": "S07-10", "scenario": 7, "difficulty": "medium", "text": "외부 메일 계정으로 보낸 메일이 반송되는데 원인 확인 부탁드립니다."}
 {"id": "S07-11", "scenario": 7, "difficulty": "medium", "text": "메일 검색이 안 되고 예전 메일이 사라진 것처럼 보입니다."}
 {"id": "S07-12", "scenario": 7, "difficulty": "medium", "text": "특정 도메인으로 보내는 메일만 계속 실패합니다."}
@@ -168,9 +168,9 @@
 {"id": "S09-08", "scenario": 9, "difficulty": "easy", "text": "DL open API ACL 등록 기안 어떻게 올리나요?"}
 {"id": "S09-09", "scenario": 9, "difficulty": "medium", "text": "저희 서비스에서 사번으로 소속 DL을 조회하는 기능을 붙이려고 합니다. 연동 절차 문의드려요."}
 {"id": "S09-10", "scenario": 9, "difficulty": "medium", "text": "API로 메일링그룹을 자동 생성하는 게 가능한가요? 가능하면 신청 방법도 알려주세요."}
-{"id": "S09-11", "scenario": 9, "difficulty": "medium", "text": "N3R 환경에서 호출할 건데 Egress IP를 어디에 적어야 하나요?"}
+{"id": "S09-11", "scenario": 9, "difficulty": "medium", "text": "pod 환경에서 호출할 건데 Egress IP를 어디에 적어야 하나요?"}
 {"id": "S09-12", "scenario": 9, "difficulty": "medium", "text": "메일주소 중복 확인을 API로 하고 싶습니다. 스펙 확인할 수 있는 문서가 있을까요?"}
-{"id": "S09-13", "scenario": 9, "difficulty": "medium", "text": "dldev 주소로는 호출이 되는데 운영 주소로는 403이 납니다."}
+{"id": "S09-13", "scenario": 9, "difficulty": "medium", "text": "dev 주소로는 호출이 되는데 운영 주소로는 403이 납니다."}
 {"id": "S09-14", "scenario": 9, "difficulty": "medium", "text": "API 호출 빈도도 신청서에 적어야 하나요? 대략 하루 500건 정도 예상합니다."}
 {"id": "S09-15", "scenario": 9, "difficulty": "medium", "text": "Groups 연동 API도 제공되는지 궁금합니다."}
 {"id": "S09-16", "scenario": 9, "difficulty": "hard", "text": "사내 포털에 메일링그룹 검색 기능을 붙이려고 하는데 어떤 절차를 밟아야 하는지 정리해 주실 수 있나요?"}

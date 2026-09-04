@@ -186,7 +186,7 @@ def act_forward(state: AgentState) -> dict[str, Any]:
         from .extract import missing_for_mail_triage
 
         missing = missing_for_mail_triage(state.get("slots") or {})
-        result = tools.forward_to_works_cs(inquiry, missing)
+        result = tools.forward_to__cs(inquiry, missing)
         args = {"to": result["to"], "missing": missing}
     else:
         result = tools.forward_to_admin(inquiry, BY_ID[scenario_id].name)

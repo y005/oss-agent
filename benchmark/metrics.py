@@ -89,9 +89,9 @@ def action_report(gold: Sequence[int], pred: Sequence[int]) -> dict[str, Any]:
 DRAFT_TYPE = {1: "dl_rename", 8: "dynamic_dl", 9: "dl_api_acl"}
 WIKI_TOPIC = {5: "sender_permission", 9: "rest_api"}
 MAIL_TO = {
-    6: "DL_SystemManager@navercorp.com",
-    7: "works_cs@navercorp.com",
-    10: "DL_SystemManager@navercorp.com",
+    6: "DL_SystemManager@example.com",
+    7: "cs@example.com",
+    10: "DL_SystemManager@example.com",
 }
 
 

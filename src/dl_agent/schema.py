@@ -16,7 +16,7 @@ class ActionType(str, Enum):
 
     FIXED_RESPONSE = "fixed_response"  # 고정 응답 안내
     DRAFT_APPROVAL = "draft_approval"  # 기안(결재) 페이지 호출
-    FORWARD_MAIL = "forward_mail"  # 관리자 / WORKS CS 메일 전달
+    FORWARD_MAIL = "forward_mail"  # 관리자 /  CS 메일 전달
 
 
 @dataclass(frozen=True)
@@ -110,20 +110,20 @@ FALLBACK_SCENARIO_ID = 10
 
 # --- 담당 채널 -------------------------------------------------------------
 
-ADMIN_MAIL = "DL_SystemManager@navercorp.com"
-WORKS_CS_MAIL = "works_cs@navercorp.com"
+ADMIN_MAIL = "DL_SystemManager@example.com"
+_CS_MAIL = "_cs@example.com"
 
 DRAFT_FORM_URL = (
-    "https://apms.navercorp.com/aprvDoc/draft/E016"
+    "https://apms.example.com/aprvDoc/draft/E016"
     "?req_service=29&req_system=79&req_type=0"
 )
 WIKI_SENDER_GUIDE = (
-    "https://wiki.navercorp.com/spaces/Global/pages/361216242/"
+    "https://wiki.example.com/spaces/Global/pages/361216242/"
     "DL%EB%AA%85%EC%9C%BC%EB%A1%9C+%EB%A9%94%EC%9D%BC+%EB%B0%9C%EC%86%A1"
     "+%EA%B6%8C%ED%95%9C+%EC%B6%94%EA%B0%80+%EB%B0%A9%EB%B2%95"
 )
 WIKI_REST_API = (
-    "https://wiki.navercorp.com/spaces/oapi/pages/552115497/"
+    "https://wiki.example.com/spaces/oapi/pages/552115497/"
     "%EB%A9%94%EC%9D%BC%EB%A7%81%EA%B7%B8%EB%A3%B9+REST+API"
 )
 
